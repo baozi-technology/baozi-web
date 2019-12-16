@@ -1,0 +1,17 @@
+.userLinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 15px 0;
+    font-size:36px;
+}
+
+.userLinks > div {
+    margin: 5px 15px;
+}
+// .contentContainer{
+//     flex-basis: 25%;
+// }

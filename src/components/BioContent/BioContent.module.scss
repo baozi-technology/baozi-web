@@ -1,0 +1,54 @@
+.baozi{
+    padding: 0;
+    border: none;
+    font: inherit;
+    font-style: italic;
+    color: black;
+    background-color: transparent;
+    /* show a hand cursor on hover; some argue that we
+    should keep the default arrow cursor for buttons */
+    cursor: pointer;
+}
+
+.baozi:hover{
+    color:black; 
+}
+
+.baozi:focus{
+    outline: none !important;
+}
+
+.baozi{
+    font-style:italic;
+    color:#555;
+    text-decoration:underline;
+}
+
+.avatar{
+    border-radius: 100%;
+    height: 340px;
+}
+
+.bioContentContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+    line-height:1.6em;
+    flex-wrap:wrap;
+}
+
+.avatarContainer{
+    margin-right:10px;
+}
+
+.bioContainer{
+    flex-basis:50%;
+    margin-left:10px;
+}
+
+.arrow{
+    font-size: 1.5em;
+}
+

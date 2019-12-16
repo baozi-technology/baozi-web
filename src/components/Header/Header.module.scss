@@ -1,0 +1,85 @@
+.heightSet {
+    height: 103px;
+}
+
+// https://stackoverflow.com/questions/10989238/center-image-horizontally-within-a-div
+// Center image within link
+.logoContainer a img{
+    display:block;
+    margin:auto;
+}
+
+.header {
+
+    font-size: 1.6em;
+    line-height:1.7em;
+
+    padding:10px;
+    
+    .headerContainer{ 
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    a {
+        text-decoration:none;
+        font-style:normal;
+        color:#555;
+    }
+
+    ul {
+        list-style: none;
+        font-weight: bold;
+        a:hover {
+            color: black;
+        }
+        .linkActive {
+            font-weight: normal;
+        }
+    }
+
+    li {
+        margin: 0 1em;
+        display: inline-block;
+      }
+}
+
+.toggleMenuContainer{
+    display:none;
+}
+
+@media only screen and (max-width: 1150px) and (min-width:481px) {
+    .toggleMenuContainer{
+        display:flex;
+    }
+
+    .navContainer{
+        display:none;
+    }
+
+    .heightSet {
+        height:70px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .heightSet {
+        height:50px;
+    }
+        
+    .header {
+        padding:5px;
+    }
+
+    .toggleMenuContainer{
+        display:flex;
+    }
+
+    .navContainer{
+        display:none;
+    }
+
+
+
+}

@@ -1,0 +1,60 @@
+.drawerContainer {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fefefe;
+    overflow-x: hidden;
+    overflow-y:auto;
+    transition: width 0.5s, opacity 0.5s;
+    display:flex;
+    flex-direction:column;
+    // padding-bottom:1rem;
+    // padding-top:1rem;
+  }
+
+  // https://stackoverflow.com/questions/33454533/cant-scroll-to-top-of-flex-item-that-is-overflowing-container
+  // instead of center for justify-content and align-items
+  .drawerChild{
+    margin: auto;
+  }
+
+  .drawerContainer a {
+    color: #555;
+    font-weight:bold;
+    font-size: 1.5rem;
+  }
+
+  // https://css-tricks.com/flexbox-truncated-text/
+  // Text is truncated smoothly instead of being horribly rescaled as width decrease/increase
+  .drawerChild > a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .drawerContainer a:hover {
+    color: black;
+  }
+
+  .drawerContainer .linkActive {
+    font-weight: normal;
+  }
+
+  .icon{
+    cursor: pointer;
+  }
+
+  
+  // @media screen and (max-height: 480px) {
+  //   .drawerContainer a {font-size: 18px;}
+  // }
+
+  .drawerOverlay{
+    position:absolute;
+    top:0px; 
+    left:0px;
+    background-color:rgba(85,85,85,0.4);
+  }
