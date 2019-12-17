@@ -3,6 +3,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "gatsby";
 import styles from "./Drawer.module.scss"
+import UserLinks from "../UserLinks/UserLinks";
 
 // see https://www.w3schools.com/howto/howto_js_sidenav.asp
 export default class Drawer extends React.Component {
@@ -28,7 +29,7 @@ export default class Drawer extends React.Component {
     document.getElementById("drawerID").style.opacity = 1;
     document.getElementById("drawerOverlay").style.width = "100%";
     document.getElementById("drawerOverlay").style.height = "100%";
-    document.body.style.overscrollBehavior = "auto";
+    document.getElementById("contentAndFooterContainer").style.overscrollBehavior = "auto";
   }
 
   closeDrawer(e) {
@@ -39,7 +40,7 @@ export default class Drawer extends React.Component {
     document.getElementById("drawerID").style.opacity = 0;
     document.getElementById("drawerOverlay").style.width = "0px";
     document.getElementById("drawerOverlay").style.height = "0px";
-    document.body.style.overscrollBehavior = "none";
+    document.getElementById("contentAndFooterContainer").overscrollBehavior = "none";
   }
 
   render() {
@@ -62,8 +63,8 @@ export default class Drawer extends React.Component {
           <div className={styles.drawerChild}>
             <Link className={styles.link} activeClassName={styles.linkActive} to="/about">About</Link>
           </div>
-          <div className={styles.drawerChild}>
-            <a className={styles.link} title="nicolas.gimenez@baozi.technology" href="mailto:nicolas.gimenez@baozi.technology">Message me</a>
+          <div> 
+            <UserLinks/>
           </div>
         </div>
         <FontAwesomeIcon className={styles.icon} onClick={this.openDrawer} icon={faBars}/>
