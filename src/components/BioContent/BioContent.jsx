@@ -51,8 +51,7 @@ const BioContent = (props) => {
   const isLink = props.isLink;
   var bio = (
     <span>Hi! I’m Nicolas – French backend software engineer with fullstack experience. 
-        My main area of expertise is concurrent servers that deal with various non-standard protocols. 
-        I believe that visual programming is underrated. Pragmatic Free Software advocate, I promote the contributor-friendly "Robin Hood" social contract/business model. 
+        My main area of expertise is concurrent servers that deal with various non-standard protocols.  
         My passions are solving complex problems using technology and {baozi}.
     </span>
   );

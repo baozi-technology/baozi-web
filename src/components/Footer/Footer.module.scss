@@ -24,6 +24,10 @@
     margin: 0;
 } */
 
+.footer{
+    padding-top: 1.5em;
+}
+
 .footerContainer{
     display:flex;
     justify-content: center;
@@ -39,10 +43,6 @@
     flex-wrap:wrap;
 }
 
-.title{
-    font-size:20px;
-}
-
 .coreElementContainer{
     flex-basis: 500px;
     display: flex;
@@ -56,8 +56,7 @@
 }
 
 .reduceParagraphGap {
-    line-height:20px;
-    margin-bottom:7px;
+    margin-bottom:1em;
 }
 
 a {

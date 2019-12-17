@@ -83,6 +83,12 @@ module.exports = {
         icon: "static/logos/baozi-only-logo-grey-square.png",
       }
     },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
     "gatsby-plugin-offline",
     "gatsby-plugin-sass",
     // {

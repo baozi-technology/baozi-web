@@ -36,7 +36,7 @@ const Footer = () => {
             <div className={styles.coreContentContainer}>
               <div className={styles.coreElementContainer}>
                 <div className={styles.titleContainer}>
-                  <h1 className={styles.title}>{config.copyright}</h1>
+                  <h5 className={styles.title}>{config.copyright}</h5>
                 </div>
                 <div>
                   <p className={styles.reduceParagraphGap}>"BAOZI", "BAOZI TECHNOLOGY" and the logos are registered trademarks of Baozi Technology SAS.</p>
@@ -49,7 +49,7 @@ const Footer = () => {
               </div>
               <div className={styles.coreElementContainer}>
                 <div className={styles.titleContainer}>
-                  <h1 className={styles.title}>DISCLAIMER</h1>
+                  <h5 className={styles.title}>DISCLAIMER</h5>
                 </div>
                 <div>
                   <p className={styles.reduceParagraphGap}>This work mostly exposes my personal opinions on various topics and may not reflect views from any entity I was, am now or will be affiliated with.</p>
@@ -58,7 +58,7 @@ const Footer = () => {
               </div>
               <div className={styles.coreElementContainer}>
                 <div className={styles.titleContainer}>
-                  <h1 className={styles.title}>THANKS</h1>
+                  <h5 className={styles.title}>THANKS</h5>
                 </div>
                 <div>
                   <p className={styles.reduceParagraphGap}>I made this website using{" "} 
