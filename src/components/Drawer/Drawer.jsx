@@ -14,6 +14,7 @@ export default class Drawer extends React.Component {
     this.toggleDrawer = this.toggleDrawer.bind(this)
     this.openDrawer = this.openDrawer.bind(this)
     this.closeDrawer = this.closeDrawer.bind(this)
+    this.preventScrolling = this.preventScrolling.bind(this)
   }
 
   toggleDrawer = () => event => {
@@ -29,7 +30,12 @@ export default class Drawer extends React.Component {
     document.getElementById("drawerID").style.opacity = 1;
     document.getElementById("drawerOverlay").style.width = "100%";
     document.getElementById("drawerOverlay").style.height = "100%";
-    document.getElementById("contentAndFooterContainer").style.overscrollBehavior = "auto";
+  }
+
+  preventScrolling(e){
+    if(e != undefined) {
+      e.preventDefault()
+    }
   }
 
   closeDrawer(e) {
@@ -40,7 +46,6 @@ export default class Drawer extends React.Component {
     document.getElementById("drawerID").style.opacity = 0;
     document.getElementById("drawerOverlay").style.width = "0px";
     document.getElementById("drawerOverlay").style.height = "0px";
-    document.getElementById("contentAndFooterContainer").overscrollBehavior = "none";
   }
 
   render() {
@@ -50,7 +55,8 @@ export default class Drawer extends React.Component {
         id="drawerOverlay"
         className={styles.drawerOverlay}
         onClick={this.toggleDrawer()}
-        onKeyDown={this.toggleDrawer()}/>
+        onKeyDown={this.toggleDrawer()}
+        onScroll={this.preventScrolling()}/>
         <div 
         id="drawerID" 
         className={styles.drawerContainer}>
@@ -63,7 +69,7 @@ export default class Drawer extends React.Component {
           <div className={styles.drawerChild}>
             <Link className={styles.link} activeClassName={styles.linkActive} to="/about">About</Link>
           </div>
-          <div> 
+          <div className={styles.drawerChild}> 
             <UserLinks/>
           </div>
         </div>

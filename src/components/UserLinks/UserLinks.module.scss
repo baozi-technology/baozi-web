@@ -1,7 +1,7 @@
 .userLinks {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -12,6 +12,3 @@
 .userLinks > div {
     margin: 5px 15px;
 }
-// .contentContainer{
-//     flex-basis: 25%;
-// }
