@@ -2,7 +2,7 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 11;
     top: 0;
     right: 0;
     background-color: #fefefe;
@@ -55,7 +55,8 @@
   // }
 
   .drawerOverlay{
-    position:absolute;
+    z-index:10;
+    position:fixed; // not absolute, because not child of body or it will create problem when scrolling on smartphone https://tympanus.net/codrops/2013/11/07/css-overlay-techniques/
     top:0px; 
     left:0px;
     background-color:rgba(85,85,85,0.4);
