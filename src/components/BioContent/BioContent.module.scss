@@ -26,7 +26,11 @@
 
 @media only screen and (max-width:480px) {
     .avatar{
-        height:136px;
+        height:170px;
+    }
+
+    .bioContentContainer{
+        font-size: 1.0rem;
     }
 }
 
