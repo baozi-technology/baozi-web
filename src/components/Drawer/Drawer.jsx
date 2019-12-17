@@ -28,7 +28,7 @@ export default class Drawer extends React.Component {
     document.getElementById("drawerID").style.opacity = 1;
     document.getElementById("drawerOverlay").style.width = "100%";
     document.getElementById("drawerOverlay").style.height = "100%";
-    document.getElementById("contentAndFooterContainer").style.overflowY = "hidden";
+    document.body.style.overscrollBehavior = "auto";
   }
 
   closeDrawer(e) {
@@ -39,7 +39,7 @@ export default class Drawer extends React.Component {
     document.getElementById("drawerID").style.opacity = 0;
     document.getElementById("drawerOverlay").style.width = "0px";
     document.getElementById("drawerOverlay").style.height = "0px";
-    document.getElementById("contentAndFooterContainer").style.overflowY = "auto";
+    document.body.style.overscrollBehavior = "none";
   }
 
   render() {

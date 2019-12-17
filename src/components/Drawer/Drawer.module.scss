@@ -11,15 +11,17 @@
     transition: width 0.5s, opacity 0.5s;
     display:flex;
     flex-direction:column;
+    justify-content: flex-start;
+    align-content: center;
     // padding-bottom:1rem;
     // padding-top:1rem;
   }
 
   // https://stackoverflow.com/questions/33454533/cant-scroll-to-top-of-flex-item-that-is-overflowing-container
   // instead of center for justify-content and align-items
-  .drawerChild{
-    margin: auto;
-  }
+  // .drawerChild{
+  //   margin: auto;
+  // }
 
   .drawerContainer a {
     color: #555;
