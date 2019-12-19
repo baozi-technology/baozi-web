@@ -36,6 +36,7 @@
 .postContainer{
     width: 100%;
     min-width: 1px;
+    max-width: 700px;
     margin:10px;  /* and that, will result in a 10px gap */
 }
 
@@ -87,11 +88,5 @@
 @media only screen and (max-width:480px) {
     .cover{
         width:100px;
-    }
-}
-
-@media only screen and (min-width:800px) {
-    .postContainer{
-        max-width:50%;
     }
 }
