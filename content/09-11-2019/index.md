@@ -33,9 +33,9 @@ This essay is long because it is beginner-friendly. You do not need any backgrou
 
 I'll start by a few definitions. If you are in tech, while it may appear trivial I encourage you NOT to skip that section, especially if you consider yourself as a junior/mid-level developer, but it also applies to many senior developers. I've read too many mischaracterizations and misunderstandings on the very meaning of Free Software, Open Source and the different licenses to know that you're probably very confused about these notions - maybe without realizing it. It's not your fault, lots of tech/business articles happily make these confusions everyday. Nothing to be ashamed of, until recently I was just like you ;). 
 
-# Definitions
+# I. Definitions and context
 
-## Free Software
+## I.1. Free Software
 
 Free Software is a term invented by Richard Stallman.
 It was invented at a time when almost every piece of software was proprietary. No one was ever sharing source code. The software industry was following the same principle as the other industries: you make a product inside your company, you sell it and you keep your recipe ultra secret. A business model around selling ultra-expensive perpetual licenses.
@@ -59,7 +59,7 @@ You can read on Business Insider a recent example of misrepresentation of the Fr
 
 There are hundreds of similar example of mischaracterization since the start of the movement.
 
-## The GNU Project and the Linux Kernel
+## I.2. The GNU Project and the Linux Kernel
 
 In particular the FSF was raising funds from donations to hire developers to work on making a Free Operating System. It is the GNU Project.
 
@@ -68,7 +68,7 @@ Linus Torvalds had already created a kernel (a hardcore chunk of software) that 
 Linux was used in the GNU OS and the GNU OS was finally released under the name "Linux" or "GNU/Linux". There is a [controversy on the name of the OS](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy): the FSF encourages people to use "GNU/Linux".
 
 
-## Copyright and software licensing
+## I.3. Copyright and software licensing
 
 First of all, as creator of a software, you hold the full copyright over your work. You can distribute it under any license, and you're NOT legally entitled to follow the license you are choosing to distribute your software to, because you hold the copyright of the software. That's something many people are confused about.
 
@@ -79,7 +79,7 @@ As such, you may not have the right to do anything you want with their contribut
 
 However, there is a way to make external contributors hand-over their copyrights to you: the [Contributor License Agreement (CLA)](https://en.wikipedia.org/wiki/Contributor_License_Agreement). You can force them to sign this document before accepting their pull-request. There are many types of CLA, it is rather complex so I won't dive into it just yet.
 
-## GNU GPL
+## I.4. GNU GPL
 
 In order to enforce the 4 Freedoms of Free Software, Stallman created the [GNU General Public License (GPL)](https://www.gnu.org/licenses/quick-guide-gplv3.html).
 
@@ -105,7 +105,7 @@ At this stage you may think, but how the heck can you control that nobody breach
 Well, that's a real issue. [The FSF gives legal support](https://www.gnu.org/licenses/gpl-violation.en.html) to anyone witnessing a GNU GPL infrigement.
 Sadly, many companies seem  to embrace GPL violations, as with [this 3D Printer](https://www.youtube.com/watch?v=I6FRig3LUkw&t) or [many Android-based OS](https://www.youtube.com/watch?v=-BhGJz2yPt4&t).
 
-## Open-Source
+## I.5. Open-Source
 
 Open-Source is a very different notion. It appeared later. 
 
@@ -128,7 +128,7 @@ Open-Source movement does not see any harm in combining proprietary and "open-so
 
 FLOSS is Free(Libre) Open-Source Software and refers to both Open-Source and Free Software indistinctively.
 
-## Source-available
+## I.6. Source-available
 
 A software is called "Open-Source" if and only if its source code is distributed to the public under a license validated by the Open Source Initiative. There are [many criterias](https://opensource.org/osd-annotated) for a license to be accepted as being an "Open-Source" license.
 
@@ -136,11 +136,10 @@ A software which source code is distributed to the public under a license that i
 
 An open-source software is automatically source-available but a source-available software is not necessarily open-source.
 
-## Permissive vs Copyleft open-source licenses
-
+## 1.7. Permissive vs Copyleft open-source licenses
 There are many kind of software licenses accepted by the Open Source Initiative as "open-source". We can divide them between copyleft and permissive licenses.
 
-### Copyleft licenses
+### I.7.1. Copyleft licenses
 
 In the "open-source" world, copyleft is often understood as follows:
 - all or a part of the modified work of the copyleft-licensed software have to abide by the same license
@@ -168,7 +167,7 @@ However, the LGPL is more suitable for people embracing the spirit of the Free S
 
 More on the difference on [my answer to this StackExchange question](https://softwareengineering.stackexchange.com/questions/221365/mozilla-public-license-mpl-2-0-vs-lesser-gnu-general-public-license-lgpl-3-0).
 
-### Permissive licenses
+### I.7.2. Permissive licenses
 
 There are a bunch of them, the most famous being the:
 - [Apache License (v2)](https://en.wikipedia.org/wiki/Apache_License)
@@ -184,7 +183,7 @@ We haven't talked about that earlier. It's a very complex matter. There is a [hu
 
 So if you have to choose one permissive license, go for Apache v2 ;).
 
-## License compatibility
+## I.8. License compatibility
 
 The Free licenses have all in common to be completely or partially incompatible with proprietary softwares (because of the copyleft effect).
 
@@ -199,7 +198,11 @@ The following image summarizes the license compatibilities. It was extracted fro
 
 That being said, all the latest versions of the modern most-used OSS licenses are compatible with each other. The real (voluntary) "issue" is the compatibility of copyleft licenses with proprietary softwares. 
 
-# Why the Free Software philosophy matters
+# II. Thoughts on the meaning and purpose of the FLOSS movement
+
+What are the important values Free Software and Open-Source carry, and do they complement each other?
+
+## II.1. Why the Free Software philosophy matters
 
 The Freedom for the users to control what their software is doing is particularly important nowadays. The debate around data pricacy is raising. With the ubiquity of devices, the problem becomes more and more important. Can users simply rely on the ethical values of a privately-own for-profit company? Surely not. Especially in these days of tensions between big nations, war becomes mainly a war of information systems. Let's face it, it is highly probable spywares are everywhere from your computer to your phone and your IoT device. Some of which are probably installed by the infrastructure vendor itself.
 
@@ -221,7 +224,7 @@ I say "dimishes" because the only way to be _sure_ that you don't run a malware 
 
 That is why I am proud to publicly support the cause of Free Software.
 
-# Why the Open-Source movement matters
+## II.2. Why the Open-Source movement matters
 
 Technically speaking, software made in the open are, as opposed to closed-source software:
 - less likely to be thrown away 1 month later.
@@ -246,7 +249,7 @@ In practice I am still using plenty, plenty of closed-source sofware and I won't
 - a Free Software or a software promoting Free Software if I can find a valid business model to support the project
 - Else, if I can sustain the project better by engaging into proprietary softwares, I will at least make the source code available to my users, even with extreme limitation that only enable users to see the code - and/or I will ask third-party security experts to verify that my source code is doing what it is supposed to (like 1Password does). 
 
-# The Free Software movement tends to ignore business issues and be too political
+## II.3. The Free Software movement tends to ignore business issues and be too political
 
 The Free Software movement is very politically engaged. I do not agree with Stallman's views that ["owners" should be placed at the same level as anyone else](https://www.gnu.org/philosophy/shouldbefree.html). "Owners" deserves credits and retribution for their work.
 
@@ -294,7 +297,7 @@ But it is obviously NOT the case today.
 Things go well if ALL softwares are freed. But if even one single entity in the market have the right to make proprietary softwares, it changes the whole game. It becomes unfair.
 That's why finding the right business model to support the development of your software matters. Finding one that's both ethical and financially sustainable is a huge challenge. That's what I called "a pragmatic approach to the Free Software ideology".
 
-# Business models
+# III. Business models
 
 How do we financially sustain the developement of a FLOSS? 
 
@@ -309,7 +312,7 @@ There are plenty of initiatives these days to pay the open-source developers, na
 
 We'll see which are the business models available while giving you my two cents along the way.
 
-## Selling the software as is
+## III.1. Selling the software as is
 
 Free standalone Softwares may be sold the same way as proprietary softwares. As said earlier [nothing forbid it](https://www.gnu.org/philosophy/selling.en.html). And in fact, Free Softwares are and have always been sold the same way as proprietary softwares. Ex: copies of the GNU Emacs back at the time was [sold by Richard Stallman](https://www.oreilly.com/openbook/opensources/book/stallman.html). More recently, the WordPress plugin are all released under the GPL and are still distributed against a price. The source code is available but it doesn't mean that the service around providing binaries, installation packages and such are to be given away for free.
 
@@ -325,7 +328,7 @@ Generally, this strategy does not work if the software is 100% free (as in freed
 
 One counter-example could the so-called ["premium" WordPress plugins](https://www.wpstuffs.com/3-best-places-buy-premium-wordpress-plugins/) which are free softwares (licensed under the GNU GPL), but the service of bundling the binaries together and providing the service to download and install those plugins comes with a price.
 
-## Support, training and donations
+## III.2. Support, training and donations
 
 Most people distribute FLOSS (library or standalone software) for free (without a price tag), and make end-users pay for advanced support, specific training or simply ask for generous donations.
 
@@ -382,7 +385,7 @@ In general, FLOSS are a lot more complicated and complex than proprietary softwa
 
 Another problem with relying solely on support (and to some extent, training) is that the more your software is great, the more the documentation is great the less people will need your training/support and therefore it creates an unhealthy paradoxical vicious loop: the more you get money, the more you can improve your product and the less you will get money...
 
-## Open-core
+## III.3. Open-core
 
 The fundamental idea is: the core of the product is open-source, but more advanced, "entreprise-grade" features is proprietary pay-to-use software.
 
@@ -402,7 +405,7 @@ This sort of business model is not really possible if you don't go find business
 
 A counter-example could be [GitLab](https://about.gitlab.com/pricing/licensing-faq/), an open-core alternative to GitHub that is [relatively well supported by the Free Software community](https://about.gitlab.com/blog/2015/05/20/gitlab-gitorious-free-software/). It seems like the [Debian community is contributing to the Community Edition of GitLab](https://about.gitlab.com/blog/2017/11/01/gitlab-switches-to-dco-license/).
 
-## SaaS
+## III.4. SaaS
 
 SaaS stands out for Software as a Service and is a practice of hosting a Software behind a Web Server for a user for a fee.
 The Free Software Foundation does not recommend anyone to use a SaaS because [they take away fundamental freedoms from the users](https://www.gnu.org/philosophy/who-does-that-server-really-serve.en.html).
@@ -478,11 +481,7 @@ In fact, I see retribution by money as part of the Freedom necessary for softwar
 
 I feel like asking for donations can _sometimes_ be a confession for being unable to successfully find meaningful and ethical business model around your activity, that engage more people than just you and eventually a few other core contributors. It _can be_ a confession for lack of business creativity. (I emphasize on "sometimes", because for some, like for foundations but not only, it is a solution that has been seriously reflected on.)
 
-There is one last fairly common and often misrepresented business model we haven't talked about, that is central to my vision on how to achieve creating a community around a true Free Software philosophy, while making money and redistributing the money to the developers, and pay designers to improve the product.
-
-The business model I am talking about lies around selling exceptions to an AGPL licensed library - but with key tricks that makes it more fair and ethical for the contributors.
-
-## Selling exceptions to the AGPL and the Robin Hood business model
+## III.5. Dual licensing
 
 Dual/Multi Licensing consists in:
 - releasing a software under a strong copyleft license such as GPL or AGPL
@@ -504,11 +503,9 @@ MySQL business models worked pretty well until the Cloud became a thing and they
 This [talk from MySQL's founder](https://www.youtube.com/watch?v=krcKkiKBKms) is very insightful on why they engaged into this business model. They make it clear that solely relying on selling services around the product is difficult financially. Dual licensing seems to potentially bring quite good revenue stream.
 
 [MongoDB says upfront that their drivers are licensed under the Apache License v2](https://www.mongodb.com/community/licensing) so that you do not need to license your own code under any specific terms when using MongoDB, but still - companies feel the need to buy a "Commercial" License, maybe because their lawyer said so.
-
 MongoDB AGPL/SSPL library was chosen as a protection against big cloud vendors, not to enforce dual licensing or to promote Free Softwares.
 
 Qt is [less clear](https://www.qt.io/licensing/). Most of their library are using LGPL so using them is no problem, but they seem to [confuse people a lot](https://www.quora.com/Can-I-use-the-free-QT-for-c++-commercially).
-
 Qt used to be full GPL so there were more incentive to buy a "Proprietary License". Weak copyleft is not really enough to push people to buy a license.
 
 In fact, Qt, [MySQL](https://www.quora.com/What-is-the-number-of-MySQL-contributors) and MongoDB codebase are maintained at 99% by their employees. There is no fundamental difference with open-core+SaaS vendors like Redis/Neo4j/Elasticsearch.
@@ -517,6 +514,11 @@ They are all ex proprietary-only software vendors trying to leverage open-source
 Dual licensing is sometimes referred by its detractor as ["having your cake and eating it too"](https://www.linuxinsider.com/story/38172.html). For some, it creates ["a weird asymmetry and might be a strong deterrent to any community contribution"](https://opensource.stackexchange.com/questions/4092/how-to-accept-contributions-for-agpl-proprietary-dual-licensed-projects). Pieter Hintjens also [despised such practice](http://hintjens.com/blog:68). Some say that dual licensing are unfriendly to startups.
 
 However, [this StackExchange answer from the founder of iText](https://opensource.stackexchange.com/questions/88/how-can-large-open-source-projects-be-monetized) explains well why dual licensing is the only pragmatic way to support financially the developers of Free Software libraries.
+
+But how to make it more ethical and contributor-friendly?
+
+## III.6. Selling exceptions to the AGPL and the Robin Hood business model
+
 Suprisingly for some, Richard Stallman makes a [difference between selling Proprietary Licenses and selling exceptions to the (A)GPL](https://www.fsf.org/blogs/rms/selling-exceptions) and pledge for companies which engage in such practice as being a strategy towards the Free Software goal.
 
 The fundamental difference between selling exceptions and dual licensing, that many people don't get, is that you only give away the possibility to incorporate your library in a proprietary software. But your library itself will always remain free. 
@@ -578,7 +580,7 @@ The customer will always have to come to you if he wants to avoid the "constrain
 Using the Robin Hood business model doesn't mean you can't engage into the other business models exposed earlier like providing a SaaS, support, training or receiving donations.
 You can mix them all.
 
-### Hey! But if you systematically pay contributors, what's the difference with projects in which 99% of contributors are employees?
+### III.6.1. Hey! But if you systematically pay contributors, what's the difference with projects in which 99% of contributors are employees?
 
 I can hear you guys! "By adding money concerns, you are pouring dirt to the beautiful selfless craft of open-source!".
 
@@ -598,11 +600,11 @@ Even Hintjens was advising to hire your first contributors.
 I'd say, hire your first contributors and then keep paying the non-employees. Eventually hire them later. Or not. Paying them is also one more way to encourage contributions, in a world where developer workforce is scarce. It can be a cool way to attract potential employees/freelance without having to rely on the headhunters of LinkedIn ;).
 It's also a great way to grow slowly, but surely, without necessarily having to rely on raising funds.
 
-### Robin Hood and third-party libraries
+### III.6.2. Robin Hood and third-party libraries
 
 When you build you whole new software library, that you wish to monetize using Robin Hood, you _will_, as a matter of fact using other people's work to support it. You might be tempted to use a GPLv2 or AGPLv3 library for example. But then the copyleft effect of these license will apply to your whole code and you will not be able to sell exceptions. Sadly, unless you manage to convince the group of people that make the GPL/AGPL library you rely on to sell you a MPLv2-like license, you cannot use these libraries if you want to engage into selling exceptions.
 
-### Risk of combining C4 and selling exceptions
+### III.6.3. Risk of combining C4 and selling exceptions
 
 Because you sell licenses, you need to be 100% sure that the contributors have full copyright over the the code they push to your repository otherwise your CLA worths nothing. It means that this cannot be copied from another copyleft or proprietary project. It must be either completely new code, or taken from a permissive licensed repository. Otherwise you are doing something illegal. And also potential buyers' lawyer will just run away if they don't have some kind of assurance that you do control contributions in some way. 
 
@@ -629,7 +631,7 @@ I feel like it's part of the reason why individual entrepeneurs usually go for s
 
 However, I still believe that by being so repelled by business strategies, we, FLOSS developers, are missing a large part of the cake we deserve.
 
-### Robin Hood and C4: what about the forks?
+### III.6.4. Robin Hood and C4: what about the forks?
 
 In C4, you only work in the master branch in the main repository. Everybody forks the project and send pull-requests.
 C4 embraces forks as a way to experiment. But for us, it can be a danger. Pull-request to the main project can only be accepted if the person that asks for it holds the full copyright over the change.
@@ -650,7 +652,7 @@ In fact if the people who fork you apply the Robin Hood model as well, they woul
 And if they don't... be it! Their forks have to be AGPL anyway. If people start using AGPL software and not need exceptions, then it's great :).
 However, most likely - a pure AGPL fork will not have as much success as yours, considering how deterrent the license is for lots of companies (sadly).
 
-### How to make the Robin Hood social contract more official?
+### III.6.5. How to make the Robin Hood social contract more official?
 
 I can't help thinking that the Robin Hood business model is still _just a moral contract_. Nothing prevent you (or the company that buy yours) from changing entirely of direction, considering you hold the full copyrights to that library. That alone could be a strong deterrent to creating a community. 
 
@@ -658,7 +660,7 @@ That's actually [why Pieter Hintjens was always for sharing copyrights](http://h
 
 Regarding this matter, I'd need to talk with a professional lawyer familiar with the software licenses and contracts. 
 
-### When is using the Robin Hood business model inappropriate?
+### III.6.6. When is using the Robin Hood business model inappropriate?
 
 If you are making a standalone product, not just a library that is aimed to be embedded by another developer to his own code, then dual licensing/selling exceptions and Robin Hood is not relevant. A standalone product is used by an end-user "as is". He does not need to modify it to make it work. Therefore, the free license becomes an advantage for him indeed, rather than a constraint. No need to buy a proprietary license, it would be absurd. However, you may sell exceptions to the AGPL to other developers for the individual _librairies_ that constitute your standalone free software - in order to support your project. It may or may not be enough. You can also use the other business models exposed earlier, sell support, receive donations to make new functionalities and maintain the software...etc.
 
@@ -668,14 +670,11 @@ If you don't truly believe that every software should be freed, then obviously t
 
 If you don't want to monetize your software and your number one concern is to create a community behind your project, and getting it used, you should forget about Robin Hood and go for the Pieter Hintjens' strategy: use a weak copyleft license for libraries, or strong for standalone product and embrace forks.
 
-# Conclusion
+# IV. Conclusion
 
 As you can see, the world of FLOSS is extremely wide. I'd say it is easier to make a great software than to come up with a great business model supporting it.
-
 I'm preparing an ambitous project for which I am thinking of engaging into the Robin Hood business model/social contract - because every software should be freed!
-
 More about this project later ;).
-
 In the meantime, let me know in the comments what you think. Which business model would you use to support your next big project, and why?
 
 Thanks for reading this article, I hope it helped!
