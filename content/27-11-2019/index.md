@@ -123,7 +123,7 @@ But you can - up to you. At this point it doesn't really matter anymore.
 1. Click on "preview". It should open your browser and the jpeg should look good. 
 1. Click on "Save".
 
-# Embed it within your website
+# 5th step: Embed it within your website
 
 I may make another article eventually (or edit this one) to explain how I implemented this behaviour in Gatsby and React JS.
 But there are many solutions you can find on the web, including some that do not require JS. My implementation is nothing fancy.
