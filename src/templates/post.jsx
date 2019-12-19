@@ -28,7 +28,7 @@ export default class PostTemplate extends React.Component {
     var articleContent;
     if(post.cover) {
       articleContent =
-      (<ArticleContent cover={post.cover.childImageSharp.fixed}/>);
+      (<ArticleContent cover={post.cover.childImageSharp.fluid}/>);
     } else {
       articleContent =
       (<ArticleContent/>);     
@@ -77,8 +77,8 @@ export const pageQuery = graphql`
         cover {
           relativePath
           childImageSharp {
-            fixed(height: 250) {
-              ...GatsbyImageSharpFixed
+            fluid(maxWidth: 700) {
+              ...GatsbyImageSharpFluid
             }
           }
         }

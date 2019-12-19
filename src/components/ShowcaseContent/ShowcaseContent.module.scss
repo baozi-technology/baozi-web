@@ -21,11 +21,6 @@
 //     justify-content: center;
 // }
 
-.titleContainer{
-    // flex: 0 0 33%;
-    font-size:1.4em;
-}
-
 .innerTitleContainer{
     display: flex;
     flex-direction: row;
@@ -34,7 +29,6 @@
 }
 
 .title{
-    // flex:0 0 100%;
     max-width: 700px;
 }
 

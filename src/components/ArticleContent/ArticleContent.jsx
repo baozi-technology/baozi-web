@@ -18,7 +18,7 @@ const ArticleContent = (props) => {
                 </div>
                 <div className={styles.coverContainer}>
                     <Img className={styles.cover}        
-                    fixed={cover}
+                    fluid={cover}
                     />
                 </div>
             </div>
@@ -40,7 +40,7 @@ const ArticleContent = (props) => {
         <div>
             <div className={styles.coverContainer}>
                 <Img className={styles.cover}        
-                fixed={cover}
+                fluid={cover}
                 />
             </div>
         </div>);

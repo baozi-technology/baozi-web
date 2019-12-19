@@ -6,7 +6,27 @@
 // }
 
 .subTitle{
-    font-size:1.4em;
-    line-height:1.7em;
     max-width: 700px;
+}
+
+.cover{
+    width:400px;
+}
+
+@media only screen and (max-width: 1450px) and (min-width:1001px) {
+    .cover {
+        width:300px;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width:481px) {
+    .cover{
+        width:200px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .cover{
+        width:100px;
+    }
 }
