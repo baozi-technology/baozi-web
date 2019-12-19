@@ -36,7 +36,6 @@
 .postContainer{
     width: 100%;
     min-width: 1px;
-    max-width: 50%;
     margin:10px;  /* and that, will result in a 10px gap */
 }
 
@@ -51,26 +50,48 @@
 
 .coverContainer{
     align-self:center;
+    margin-bottom:1em;
 }
 
 .title{
-    margin-bottom:0px;
+    margin-bottom:0.1em;
     font-size:1.4em;
 }
 
 .dateAuthor{
     margin-bottom:0px;
-    margin-top:-2px;
+    margin-top:0px;
     font-style:italic;
     font-size:0.8em;
 }
 
 .category{
-    margin-top: -10px;
+    margin-top: 0px;
+    // margin-bottom:0px;
     font-style:italic;
     font-size:0.8em;
 }
 
-// .titleAndDateContainer{
-//     align-self:flex-start;
-// }
+@media only screen and (max-width: 1450px) and (min-width:1001px) {
+    .cover {
+        width:300px;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width:481px) {
+    .cover{
+        width:200px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .cover{
+        width:100px;
+    }
+}
+
+@media only screen and (min-width:800px) {
+    .postContainer{
+        max-width:50%;
+    }
+}
