@@ -50,20 +50,18 @@ const Header = () => {
         </div>
         <div className={styles.navContainer}>
           <nav className={styles.siteNav}>
-            <ul>
-              <li>
-                <Link activeClassName={styles.linkActive} to="/">Home</Link>
-              </li>
-              <li>
-                <Link activeClassName={styles.linkActive} to="/ranch-under-the-hood">Ranch doc</Link>
-              </li>
-              <li>
-                <Link activeClassName={styles.linkActive} to="/about">About</Link>
-              </li>
-              <li>
-                <a title="nicolas.gimenez@baozi.technology" href="mailto:nicolas.gimenez@baozi.technology">Message me</a>
-              </li>
-            </ul>
+            <div className={styles.siteNavItemFirst}>
+              <Link activeClassName={styles.linkActive} to="/">Home</Link>
+            </div>
+            <div className={styles.siteNavItemMiddle}>
+              <Link activeClassName={styles.linkActive} to="/ranch-under-the-hood">Ranch doc</Link>
+            </div>
+            <div className={styles.siteNavItemMiddle}>
+              <Link activeClassName={styles.linkActive} to="/about">About</Link>
+            </div>
+            <div className={styles.siteNavItemLast}>
+              <a title="nicolas.gimenez@baozi.technology" href="mailto:nicolas.gimenez@baozi.technology">Message me</a>
+            </div>
           </nav>
         </div>
       </div>
