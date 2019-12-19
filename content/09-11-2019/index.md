@@ -200,7 +200,7 @@ That being said, all the latest versions of the modern most-used OSS licenses ar
 
 # II. Thoughts on the meaning and purpose of the FLOSS movement
 
-What are the important values Free Software and Open-Source carry, and do they complement each other?
+What are the important values Free Software and Open-Source carry, and how do they complement each other?
 
 ## II.1. Why the Free Software philosophy matters
 
