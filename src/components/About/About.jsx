@@ -29,7 +29,7 @@ class About extends Component {
         <div className={[styles.whyBaoziContainer, styles.maxWidth].join(' ')}>
           <h2>Why Baozi?</h2>
           <p>Because it is so damn tasty! What a question! And also because it appears simple
-            but is internally extremely complex like all piece of software ;). More about this flawless analogy Soon™ on this blog.</p>
+            but it is internally extremely complex like all pieces of software ;). More about this flawless analogy Soon™ on this blog.</p>
           <p>Baozi Technology SAS registered in France is my company under which I operate on freelance basis.</p>
           <h2>I can help</h2>
           <p>As of now, I am engaged in a full-time contract with a client. 
