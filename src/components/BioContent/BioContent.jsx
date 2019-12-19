@@ -50,7 +50,7 @@ const BioContent = (props) => {
   }
   const isLink = props.isLink;
   var bio = (
-    <span>Hi! I’m Nicolas – fullstack software engineer based in France. 
+    <span>Hi! I’m Nicolas – freelance fullstack software engineer based in France. 
         My main area of expertise is concurrent backend services dealing with various non-standard protocols.  
         My passions are solving complex problems using technology and {baozi}.
     </span>
