@@ -52,7 +52,8 @@ const BioContent = (props) => {
   function handleBaoziClick(e) {
     if(avatar != meEatingBaozi) {
       setAvatar(meEatingBaozi);
-      setTimeout(setBackNormalAvatar, 2500)
+      const timer = setTimeout(() => setBackNormalAvatar, 2500);
+      return () => clearTimeout(timer); // https://upmostly.com/tutorials/settimeout-in-react-components-using-hooks
     }
   }
   function setBackNormalAvatar(){
