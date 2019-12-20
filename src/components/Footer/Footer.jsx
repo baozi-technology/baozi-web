@@ -27,6 +27,16 @@ const Footer = () => {
       logoPng=edge.node.relativePath;
     }
   });
+
+  // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
+  componentDidMount(logoGif);
+  componentDidMount(logoPng);
+
+  function componentDidMount(imgFileName) {
+    const img = new Image();
+    img.src = imgFileName;
+  }
+
   const [logo, setLogo] = useState(logoPng);
 
   return (
