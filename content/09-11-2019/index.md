@@ -606,7 +606,7 @@ When you build you whole new software library, that you wish to monetize using R
 
 ### III.6.3. Risk of combining C4 and selling exceptions
 
-Because you sell licenses, you need to be 100% sure that the contributors have full copyright over the the code they push to your repository otherwise your CLA worths nothing. It means that this cannot be copied from another copyleft or proprietary project. It must be either completely new code, or taken from a permissive licensed repository. Otherwise you are doing something illegal. And also potential buyers' lawyer will just run away if they don't have some kind of assurance that you do control contributions in some way. 
+Because you sell licenses, you need to be 100% sure that the contributors have full copyright over the the code they push to your repository otherwise your CLA worths nothing. It means that the contribution cannot be a bare copy from another copyleft or proprietary project. It must be either completely new code, or being taken from a permissively licensed repository. Otherwise you are doing something illegal. And also potential buyers' lawyer will just run away if they don't have some kind of assurance that you do control contributions in some way. 
 
 [SQLite makes sure this doesn't happen by being very restrictive about who contributes to the source code](https://sqlite.org/copyright.html) - but we can't apply this technique as the whole point of use of [C4](https://rfc.zeromq.org/spec:22/C4/) in the Robin Hood business model/social contract is to build a community around the project.
 
