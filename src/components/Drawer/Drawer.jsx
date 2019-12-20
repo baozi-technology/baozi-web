@@ -73,7 +73,7 @@ export default class Drawer extends React.Component {
             <UserLinks/>
           </div>
         </div>
-        <FontAwesomeIcon className={styles.icon} onClick={this.openDrawer} icon={faBars}/>
+        <FontAwesomeIcon className={styles.icon} color="#555" onClick={this.openDrawer} icon={faBars}/>
       </div>
     );
   }
