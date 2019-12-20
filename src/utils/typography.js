@@ -1,9 +1,11 @@
 import Typography from "typography";
 import irving from 'typography-theme-irving'
-irving.bodyGray = '33';
-irving.overrideThemeStyles = ({ rhythm }, options) => ({
+irving.overrideThemeStyles = () => ({
     'html': {
         overflowY: 'initial',
+    },
+    'body': {
+      color:'#555',
     }
   })
   const typography = new Typography(irving);

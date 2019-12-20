@@ -13,14 +13,6 @@
     justify-content: center;
 }
 
-// .titleContainer{
-
-//     // width:33%;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-// }
-
 .innerTitleContainer{
     display: flex;
     flex-direction: row;
@@ -30,17 +22,4 @@
 
 .title{
     max-width: 700px;
-}
-
-.showcaseContent a {
-    font-style: italic;
-    color:#555;
-}
-
-.showcaseContent a:visited{
-    color:black;
-}
-
-.showcaseContent a:hover{
-    color: black;
 }
