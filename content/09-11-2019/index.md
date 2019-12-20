@@ -602,7 +602,7 @@ It's also a great way to grow slowly, but surely, without necessarily having to 
 
 ### III.6.2. Robin Hood and third-party libraries
 
-When you build you whole new software library, that you wish to monetize using Robin Hood, you _will_, as a matter of fact using other people's work to support it. You might be tempted to use a GPLv2 or AGPLv3 library for example. But then the copyleft effect of these license will apply to your whole code and you will not be able to sell exceptions. Sadly, unless you manage to convince the group of people that make the GPL/AGPL library you rely on to sell you a MPLv2-like license, you cannot use these libraries if you want to engage into selling exceptions.
+When you build you whole new software library, that you wish to monetize using Robin Hood, you _will_, as a matter of fact be using other people's work to support it. You might be tempted to use a GPLv2 or AGPLv3 library for example. But then the copyleft effect of these license will apply to your whole code and you will not be able to sell exceptions. Sadly, unless you manage to convince the group of people that make the GPL/AGPL library you rely on to sell you a MPLv2-like license, you cannot use these libraries if you want to engage into selling exceptions.
 
 ### III.6.3. Risk of combining C4 and selling exceptions
 
