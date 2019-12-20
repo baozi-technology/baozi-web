@@ -17,20 +17,34 @@ const BioContent = (props) => {
     }
   }
   `)
-  var meEatingBaoziPath;
-  var meNormalPath;
+  var meEatingBaozi;
+  var meNormal;
   data.allFile.edges.forEach(edge => {
     if(edge.node.extension == "gif") {
-      meEatingBaoziPath=edge.node.relativePath;
+      meEatingBaozi=edge.node.relativePath;
     } else {
-      meNormalPath=edge.node.relativePath;
+      meNormal=edge.node.relativePath;
     }
   });
-  const meNormal  = (<img className={styles.avatar} src={meNormalPath}/>);
-  const meEatingBaozi  = (<img className={styles.avatar} src={meEatingBaoziPath}/>);
+
+  // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
+  componentDidMount(meEatingBaozi);
+  componentDidMount(meNormal);
+
+  function componentDidMount(imgFileName) {
+    const img = new Image();
+    img.src = imgFileName;
+  }
+
   const [avatar, setAvatar] = useState(meNormal);
 
-  const baozi = (<button 
+  var avatarImage = (
+    <img 
+      className={styles.avatar}
+      src={avatar}
+    />
+  );
+  var baozi = (<button 
     className={styles.baozi}
     onClick={handleBaoziClick}>
       eating baozi
@@ -45,7 +59,7 @@ const BioContent = (props) => {
     setAvatar(meNormal);
   }
   const isLink = props.isLink;
-  const bio = (
+  var bio = (
     <span>Hi! I’m Nicolas – freelance fullstack software engineer based in France. 
         My main area of expertise is concurrent backend services dealing with various non-standard protocols.  
         My passions are solving complex problems using technology and {baozi}.
@@ -69,7 +83,7 @@ const BioContent = (props) => {
   return (
     <div className={styles.bioContentContainer}>
       <div className={styles.avatarContainer}>
-        {avatar}
+        {avatarImage}
       </div>
       <div className={styles.bioContainer}>
         {content}

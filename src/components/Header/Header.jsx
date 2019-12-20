@@ -16,18 +16,25 @@ const Header = () => {
     }
   }
   `);
-  var logoGifPath;
-  var logoPngPath;
+  var logoGif;
+  var logoPng;
   data.allFile.edges.forEach(edge => {
     if(edge.node.extension == "gif") {
-      logoGifPath=edge.node.relativePath;
+      logoGif=edge.node.relativePath;
     } else {
-      logoPngPath=edge.node.relativePath;
+      logoPng=edge.node.relativePath;
     }
   });
 
-  const logoPng  = (<img className={styles.heightSet} src={logoPngPath}/>);
-  const logoGif  = (<img className={styles.heightSet} src={logoGifPath}/>);
+  // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
+  componentDidMount(logoGif);
+  componentDidMount(logoPng);
+
+  function componentDidMount(imgFileName) {
+    const img = new Image();
+    img.src = imgFileName;
+  }
+
   const [logo, setLogo] = useState(logoPng);
 
   return (
@@ -42,7 +49,10 @@ const Header = () => {
               setLogo(logoPng)
             }}        
             to="/">
-              {logo}
+                <img 
+                className={styles.heightSet}
+                src={logo}
+              />
           </Link>
         </div>
         <div className={styles.toggleMenuContainer}>

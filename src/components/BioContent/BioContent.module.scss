@@ -60,13 +60,14 @@
 
 .bioContainer{
     margin-left:10px;
+    max-width: 410px;
 }
 
-@media only screen and (min-width:801px) {
-    .bioContainer{
-        flex-basis:400px;
-    }
-}
+// @media only screen and (min-width:801px) {
+//     .bioContainer{
+//         flex-basis:400px;
+//     }
+// }
 
 .arrow{
     font-size: 1.1rem;
