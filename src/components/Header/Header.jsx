@@ -16,15 +16,18 @@ const Header = () => {
     }
   }
   `);
-  var logoGif;
-  var logoPng;
+  var logoGifPath;
+  var logoPngPath;
   data.allFile.edges.forEach(edge => {
     if(edge.node.extension == "gif") {
-      logoGif=edge.node.relativePath;
+      logoGifPath=edge.node.relativePath;
     } else {
-      logoPng=edge.node.relativePath;
+      logoPngPath=edge.node.relativePath;
     }
   });
+
+  const logoPng  = (<img className={styles.heightSet} src={logoPngPath}/>);
+  const logoGif  = (<img className={styles.heightSet} src={logoGifPath}/>);
   const [logo, setLogo] = useState(logoPng);
 
   return (
@@ -39,10 +42,7 @@ const Header = () => {
               setLogo(logoPng)
             }}        
             to="/">
-                <img 
-                className={styles.heightSet}
-                src={logo}
-              />
+              {logo}
           </Link>
         </div>
         <div className={styles.toggleMenuContainer}>

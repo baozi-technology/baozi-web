@@ -17,24 +17,20 @@ const BioContent = (props) => {
     }
   }
   `)
-  var meEatingBaozi;
-  var meNormal;
+  var meEatingBaoziPath;
+  var meNormalPath;
   data.allFile.edges.forEach(edge => {
     if(edge.node.extension == "gif") {
-      meEatingBaozi=edge.node.relativePath;
+      meEatingBaoziPath=edge.node.relativePath;
     } else {
-      meNormal=edge.node.relativePath;
+      meNormalPath=edge.node.relativePath;
     }
   });
+  const meNormal  = (<img className={styles.avatar} src={meNormalPath}/>);
+  const meEatingBaozi  = (<img className={styles.avatar} src={meEatingBaoziPath}/>);
   const [avatar, setAvatar] = useState(meNormal);
 
-  var avatarImage = (
-    <img 
-      className={styles.avatar}
-      src={avatar}
-    />
-  );
-  var baozi = (<button 
+  const baozi = (<button 
     className={styles.baozi}
     onClick={handleBaoziClick}>
       eating baozi
@@ -49,7 +45,7 @@ const BioContent = (props) => {
     setAvatar(meNormal);
   }
   const isLink = props.isLink;
-  var bio = (
+  const bio = (
     <span>Hi! I’m Nicolas – freelance fullstack software engineer based in France. 
         My main area of expertise is concurrent backend services dealing with various non-standard protocols.  
         My passions are solving complex problems using technology and {baozi}.
@@ -73,7 +69,7 @@ const BioContent = (props) => {
   return (
     <div className={styles.bioContentContainer}>
       <div className={styles.avatarContainer}>
-        {avatarImage}
+        {avatar}
       </div>
       <div className={styles.bioContainer}>
         {content}
