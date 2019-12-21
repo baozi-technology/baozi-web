@@ -6,9 +6,11 @@ class Asciidoctor extends React.Component {
     var template = { __html: this.props.asciidocHtml };    
     return (
         <div className={styles.asciidoctorContainer}>
-          <div className={styles.asciidoctor}
-              dangerouslySetInnerHTML={template}
-          />
+          <div className={styles.asciidoctorInnerContainer}>
+            <div className={styles.asciidoctor}
+                dangerouslySetInnerHTML={template}
+            />
+          </div>
         </div>
     );
   }
