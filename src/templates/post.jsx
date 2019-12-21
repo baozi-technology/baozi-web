@@ -46,8 +46,8 @@ export default class PostTemplate extends React.Component {
           <SEO postPath={slug} postNode={postNode} postSEO />
           <hr/>
           <div className={styles.postPageContainer}>
-            <div>
-              <div className={styles.tableOfContentsContainer} dangerouslySetInnerHTML={{__html: tableOfContents}}/>
+            <div className={styles.contentContainer}>
+              {/* <div className={styles.tableOfContentsContainer} dangerouslySetInnerHTML={{__html: tableOfContents}}/> */}
               <div className={styles.actualContentContainer}>
                 <div className={styles.theArticle} dangerouslySetInnerHTML={{ __html: postNode.html }} />
               </div>
