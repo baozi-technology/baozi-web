@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import UserLinks from "../UserLinks/UserLinks";
 import config from "../../../data/SiteConfig";
@@ -29,10 +29,13 @@ const Footer = () => {
   });
 
   // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
-  componentDidMount(logoGif);
-  componentDidMount(logoPng);
+  useEffect(() => {
+    // https://fr.reactjs.org/docs/hooks-effect.html
+    preLoadImage(logoGif);
+    preLoadImage(logoPng);
+  });
 
-  function componentDidMount(imgFileName) {
+  function preLoadImage(imgFileName) {
     const img = new Image();
     img.src = imgFileName;
   }

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import styles from "./BioContent.module.scss"
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql, Link } from 'gatsby';
@@ -28,10 +28,13 @@ const BioContent = (props) => {
   });
 
   // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
-  componentDidMount(meEatingBaozi);
-  componentDidMount(meNormal);
+  useEffect(() => {
+    // https://fr.reactjs.org/docs/hooks-effect.html
+    preLoadImage(meEatingBaozi);
+    preLoadImage(meEatingBaozi);
+  });
 
-  function componentDidMount(imgFileName) {
+  function preLoadImage(imgFileName) {
     const img = new Image();
     img.src = imgFileName;
   }
