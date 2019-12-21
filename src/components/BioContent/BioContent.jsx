@@ -31,7 +31,7 @@ const BioContent = (props) => {
   useEffect(() => {
     // https://fr.reactjs.org/docs/hooks-effect.html
     preLoadImage(meEatingBaozi);
-    preLoadImage(meEatingBaozi);
+    preLoadImage(meNormal);
   });
 
   function preLoadImage(imgFileName) {
