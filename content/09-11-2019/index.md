@@ -25,22 +25,22 @@ tags:
     - must read
 ---
 
-I've spent a couple of months reading and reading all sort of opinions, facts and news about Free Software, Open-Source, licensing and more importantly the different business model strategy you can approach to support financially your next amazing Free Libre Open Source Software project.
+I've spent a couple of months reading all sorts of articles and news about Free Software, Open-Source, licensing and more importantly the different business model strategies you can adopt to support financially your next amazing Free Libre Open Source Software project.
 
-I want to summarize here the most important thing I've learnt and that I think everyone in the industry should know. I will finish by suggesting an innovative community-centric business model called "Robin Hood" that you can use to support your next Free software library. 
+I want to summarize here the most important thing that I've learnt and that I think everyone in the industry should know. I will finish by suggesting an innovative community-centric business model called "Robin Hood" that you can use to support your next Free software library. 
 
-This essay is long because it is beginner-friendly. You do not need any background in software licensing, or even in software development to read it. In fact, my wife who is not in technology in any ways, was able to fathom its content.
+This essay is long because it is beginner-friendly. You do not need any background in software licensing, or even in software development to read it. In fact, my wife who is not in technology in any ways, was able to comprehend its content.
 
-I'll start by a few definitions. If you are in tech, while it may appear trivial I encourage you NOT to skip that section, especially if you consider yourself as a junior/mid-level developer, but it also applies to many senior developers. I've read too many mischaracterizations and misunderstandings on the very meaning of Free Software, Open Source and the different licenses to know that you're probably very confused about these notions - maybe without realizing it. It's not your fault, lots of tech/business articles happily make these confusions everyday. Nothing to be ashamed of, until recently I was just like you ;). 
+I'll start by a few definitions. If you are in tech, while it may appear trivial I encourage you NOT to skip that section, especially if you consider yourself as a junior/mid-level developer, but it also applies to many senior developers. I've read many mischaracterizations and misunderstandings on the very meaning of Free Software, Open Source and the different licenses to know that you might be confused about these notions maybe without realizing it. As a matter of fact, lots of tech/business articles happily make these confusions everyday.
 
 # I. Definitions and context
 
 ## I.1. Free Software
 
 Free Software is a term invented by Richard Stallman.
-It was invented at a time when almost every piece of software was proprietary. No one was ever sharing source code. The software industry was following the same principle as the other industries: you make a product inside your company, you sell it and you keep your recipe ultra secret. A business model around selling ultra-expensive perpetual licenses.
-Free Software's motto is "Free as in Freedom". "Libre" Software. Which Freedom? For the user as opposed to the developers.
-It all bursted out when Richard got frustrated after his printer couldn't work and he realized he didn't have access to its source code to fix it. And everyone was refusing giving him the source code because they had signed a NDA. You can read the whole story on [gnu.org](https://www.gnu.org/philosophy/rms-nyu-2001-transcript.txt).
+It was invented at a time when almost every piece of software was proprietary. No one was ever sharing source code. The software industry was following the same principle as the other industries: you make a product inside your company, you sell it and you keep your recipe ultra secret. A business model based on selling ultra-expensive perpetual licenses.
+Free Software's motto is "Free as in Freedom". Freedom for the user as opposed to the developers.
+It all started when Richard got frustrated after his printer couldn't work and he realized he didn't have access to its source code to fix it. And everyone was refusing giving him the source code because they had signed a NDA. You can read the whole story on [gnu.org](https://www.gnu.org/philosophy/rms-nyu-2001-transcript.txt).
 
 What are those freedoms?
 
@@ -53,7 +53,7 @@ Free Software DOES NOT mean the software is free as in free beer. Nothing forbid
 
 It is defined as opposed to so-called proprietary/non-free softwares, that was particularly common back at the time (and still is today...). It has NOTHING to do with closed-source as opposed to open-source softwares.
 
-The Free Software Foundation (FSF) was created to promote the ideology of Free Software, and to promote making Free Software.
+The Free Software Foundation (FSF) was created to promote the ideology of Free Software and to promote making Free Software.
 
 You can read on Business Insider a recent example of misrepresentation of the Free Software ideology (Free confused with free beer as opposed to Freedom + Stallman wrongly related to open-source): ["He [Stallman] pioneered the concept of free and open source software (FOSS), whereby any programmer can create, contribute to, and give away software for free — offering viable alternatives to corporate-owned and created software."](https://www.businessinsider.fr/us/gnu-programmers-call-for-richard-stallman-to-quit-2019-10)
 
@@ -91,106 +91,105 @@ At its core, it does the following:
 - if you make modification to the software in any way and use it for your internal use, you can do whatever you want.
 - if you make modification to the software in any way and distribute it to somebody else, then your modified work must be licensed under the GNU GPL too and as such you must distribute the source code of the modified work to the person/entity you are distributing your modified software to.
 
-The last point is what is called the "copyleft" effect. It means that by using a GNU GPL licensed software to make a modified work, you are somehow impeding your copyright over the modified work in the sense that you must use the same license GNU GPL when you distribute it. Don't get me wrong, you keep your copyright over your own work, nothing can remove this from you magically, but it is the result of the contract you accepted when you started using the GPL software to make your own.
+The last point is the socalled "copyleft" effect. It means that by using a GNU GPL licensed software to make a modified work, you are somehow impeding your copyright over the modified work in the sense that you are obliged to use the same license GNU GPL when you distribute it. You will keep your copyright over your own work, but it is the result of the contract you accepted when you started using the GPL software to make your own.
 
-The GNU GPL is sometimes refered by its detractors as "restrictive" and "viral" license and developers tend [not to understand why the Free Software guys talk about "freedom" all way long while "restricting" the way the software created is being used](https://ayende.com/blog/186146-A/making-money-from-open-source-software-the-dichotomy). That's because they don't get that it is about freedom of the users. It is about getting the software freed from one particular vendor, as it is for proprietary softwares, freeding the software from the developers and transferring this freedom to the users. Not only freeding it from the initial developers but also all the subsequent ones - that is the very reason why copyleft has been created: to make sure any modifications of the software remain free. So that the source code can get its own life.
+The GNU GPL is sometimes refered by its detractors as "restrictive" and "viral" license. Developers tend [not to understand why the Free Software guys talk about "freedom" all the while "restricting" the way newly created software is being used](https://ayende.com/blog/186146-A/making-money-from-open-source-software-the-dichotomy). That's because it is about freedom of the users. It is about freeing the software from one particular vendor, as is the case for proprietary softwares. It is also about freeing the software from the developers and transferring this freedom to the users. Not only freeing it from the initial developers but also all the subsequent ones - that is the very reason why copyleft has been created: to make sure any modifications of the software remain free. So that the source code can get its own life.
 
 All the softwares released by the GNU Project are licensed under the GPL. 
-Linux is also licensed under the GPL.
-As such that used to be the way to recognize Free Softwares. Free Softwares are licensed under the GPL or one of its variant (see later for that).
+Linux is also licensed under the GPL. 
+ 
+As you can see, by definition, GPL softwares are incompatible with proprietary softwares ;).
 
-As you can see, by definition, GPL softwares are incompatible with proprietary softwares. It is by feature ;).
-
-At this stage you may think, but how the heck can you control that nobody breach this license if the code lives its own life out there in the wild?
-Well, that's a real issue. [The FSF gives legal support](https://www.gnu.org/licenses/gpl-violation.en.html) to anyone witnessing a GNU GPL infrigement.
+You may wonder how the heck can you make sure that nobody breaches this license, since the code lives its own life out there in the wild.
+Well, this is a real issue. [The FSF gives legal support](https://www.gnu.org/licenses/gpl-violation.en.html) to anyone witnessing a GNU GPL infrigement.
 Sadly, many companies seem  to embrace GPL violations, as with [this 3D Printer](https://www.youtube.com/watch?v=I6FRig3LUkw&t) or [many Android-based OS](https://www.youtube.com/watch?v=-BhGJz2yPt4&t).
 
 ## I.5. Open-Source
 
 Open-Source is a very different notion. It appeared later. 
 
-Linux, the kernel of the operating system GNU/Linux, was using the GNU GPLv2 as well. As such, it was also a Free Software (and that's why the GNU Project team accepted to use it as a replacement of their own kernel under development). However, its founder, Linus Torvalds, was not part of the GNU Project nor the FSF by itself.
+Linux, the kernel of the operating system GNU/Linux, was using the GNU GPLv2 as well. It was also a Free Software (which is why the GNU Project team accepted to use it as a replacement of their own kernel under development). However, its founder, Linus Torvalds, was not part of the GNU Project nor the FSF by itself.
 
 The MIT and UC Berkeley were also working on softwares used in the first entirely open-source operating systems, the (GNU/)Linux OS.
-Why I say open-source? Because X Window, developed by the MIT is under X11 License (~= MIT License) and the networking softwares developed by UC Berkeley is under BSD License which are permissive licenses (see later for a definition). They were not part of the Free Software movement as such, or else they would have used the GNU GPL ;).  
+Why open-source? Because X Window, developed by the MIT is under X11 License (~= MIT License) and the networking softwares developed by UC Berkeley is under BSD License which are permissive licenses (see later for a definition). They were not part of the Free Software movement. Otherwise, they would have used the GNU GPL ;).  
 
-People working on GPL softwares were not necessarily always 100% aligned with the ideology led by the Free Software Foundation and Richard Stallman. [When asked by Wonderview Productions in 2001 "What is Linux relationships with the GNU project?", part of Linus answer was "Well, there is relationships to GNU on kind of multiple levels, one is just the philosophical level of thinking that making your source open is a good idea. [...] You can think as Richard Stallman as the great philosopher. You can think of me as the engineer."](https://youtu.be/kZlOCHYu1Vk?t=58). 
-He refers to the FSF philosophy simply as "having the source open" already. Obviously you cannot know what he truly meant by just a simple sentence (it is hard to summarize the FSF movement in two words), but clearly, the copyleft effect of the GNU GPL started to be perceived by many solely as a mean to enforce working in the open and share technical improvements rather than for the sake of Freedom of the users. Else, he would have said "sharing the source code and ultimately the program's functionalitites transparently _to the users_" is important.
-More recently, [Linus opposed to the adoption of the latest version of the GNU GPL (version 3)](https://opensource.stackexchange.com/questions/7020/what-exactly-is-tivoization-and-why-did-linus-torvalds-not-like-it-in-gplv3). It was partly because of not agreeing with [Stallman's view on tivoization](https://www.gnu.org/licenses/rms-why-gplv3.en.html), which is a modern way to restrict the change of a copyleft software by locking it in the hardware itself. It is most likely used extensively by all portable devices: [that's the reason why VLC remains at LGPLv2](https://www.videolan.org/press/2007-1.html).
+People working on GPL softwares were not necessarily always aligned with the ideology of the Free Software Foundation and Richard Stallman. [When asked by Wonderview Productions in 2001 "What is Linux relationships with the GNU project?", part of Linus answer was "Well, there is relationships to GNU on kind of multiple levels, one is just the philosophical level of thinking that making your source open is a good idea. [...] You can think as Richard Stallman as the great philosopher. You can think of me as the engineer."](https://youtu.be/kZlOCHYu1Vk?t=58). 
+He refers to the FSF philosophy simply as "having the source open" rather than for the Freedom of users. 
 
-GPL does not enforce sharing per se, but the fact that anyone receiving a GPL licensed software can release the source code to the public makes it practically impossible for somebody to both keep his work secret and make money out of it. That argument was valid only for non-internet based softwares but we will come to that later (GPL loop hole kinda closed by AGPL).
-[As NDA over GPL work is illegal](https://www.gnu.org/licenses/gpl-faq.html#DoesTheGPLAllowNDA), and even though the person receiving the GPL software may not want to distribute it to the world, it became common that anyone making improvements to a GPL project was contributing it back to the community, especially with the raise of Version Control System hosted online like GitHub, that made it incredibly easier to do so. Instead of having to distribute the source each time to each customer, you put the source online, and you can only provide a link.
+More recently, [Linus opposed to the adoption of the latest version of the GNU GPL (version 3)](https://opensource.stackexchange.com/questions/7020/what-exactly-is-tivoization-and-why-did-linus-torvalds-not-like-it-in-gplv3) partly due to the disagreement with [Stallman's view on tivoization](https://www.gnu.org/licenses/rms-why-gplv3.en.html), a modern way to restrict the change of a copyleft software by locking it in the hardware itself. It is most likely used extensively by all portable devices: [that's the reason why VLC remains at LGPLv2](https://www.videolan.org/press/2007-1.html).
 
-People started realizing making Free Software enables online community to be created, working from all over the world and making incredible projects. It all started especially with the Linux community, led by the "engineer" Linus Torvalds who thought "making the source open is a good idea". The Open-Source movement was born. The term was created by Eric Raymond. Read ["The Cathedral and the Bazar"](http://www.catb.org/~esr/writings/cathedral-bazaar/) for more info. 
-Open-Source is more about the technical side of the Free Software movement as opposed to the ethical and philosophical stance that the FSF insists on. It is really about simply convenient ways of working together on a common shared source code. The license used is then solely a tool for either enforcing sharing of improvements or enabling more users to use the source code (permissive non-copyleft licenses - see later). It is then all part of a strategy around the business model you'll be pursuing.
+GPL does not enforce sharing per se, but the fact that anyone receiving a GPL licensed software can release the source code to the public makes it practically impossible for anyone to keep his work secret and make money out of it. That argument was valid only for non-internet based softwares but we will come to that later (GPL loop hole kinda closed by AGPL).
+[As NDA over GPL work is illegal](https://www.gnu.org/licenses/gpl-faq.html#DoesTheGPLAllowNDA). Even though the person receiving the GPL software may not want to distribute it to the world, it became common that anyone making improvements to a GPL project was contributing it back to the community, especially with the rise of Version Control System  online like GitHub, which made it incredibly easier to do so. Instead of having to distribute the source each time to each customer, you can put the source online with only a link.
 
-Open-Source movement does not see any harm in combining proprietary and "open-source" softwares. Open-Source is only a tool to achieve a better product, leveraging free (as in free beer) labour from all over the world - with very different perspectives. Open Source contributors are often passion-driven, especially back in the days. Open-Source is also a marketing tool used by businesses today to promote their softwares, penetrate more markets and make it easy for clients to use their products so that they can then sell advanced "enterprise" features. They may or may not use the GPL to achieve such purpose. Since then, the use of the GPL for a particular package was no longer enough to define a project as from the Free Softwares movement. The GPL can be used solely as a tool for business model purposes (like with dual licensing - more about that later), or to restrict the usage of a key library, and enforce improvements.
+People started realizing that Free Software enables online community to gather, to work from all over the world and to creat incredible projects. With the Linux community, led by Linus Torvalds who thought "making the source open is a good idea," Open-Source movement was born. The term was created by Eric Raymond. Read ["The Cathedral and the Bazar"](http://www.catb.org/~esr/writings/cathedral-bazaar/) for more info. 
 
-FLOSS is Free(Libre) Open-Source Software and refers to both Open-Source and Free Software indistinctively.
+Open-Source is more about the technical side of the Free Software movement as opposed to the ethical and philosophical stance that the FSF insists on. It is really about simthe convenience of working together on a commonly shared source code. The license used is solely a tool for either enforcing the sharing of improvements or enabling more users to use the source code (permissive non-copyleft licenses - see later). It becomes a business model strategy.
+
+Open-Source movement does not see any harm in combining proprietary and "open-source" softwares, since Open-Source is only a tool to achieve a better product, leveraging free (as in free beer) labour from all over the world. Open Source contributors are often passion-driven, especially back in the days. Open-Source is also a marketing tool used by businesses today to promote their softwares, penetrate more markets and encourage clients to use their products so that they can sell advanced "enterprise" features later. They may or may not use GPL to achieve such purpose. Since then, the use of GPL for a particular package was no longer enough to differentiate a project from the Free Softwares movement. The GPL can be used solely as a tool for business purposes (like with dual licensing - more about that later), to restrict the usage of a key library, or to enforce improvements.
+
+FLOSS is Free(Libre) Open-Source Software and it refers to both Open-Source and Free Software indistinctively.
 
 ## I.6. Source-available
 
-A software is called "Open-Source" if and only if its source code is distributed to the public under a license validated by the Open Source Initiative. There are [many criterias](https://opensource.org/osd-annotated) for a license to be accepted as being an "Open-Source" license.
+A software is called "Open-Source" only if its source code is distributed to the public under a license validated by the Open Source Initiative. There are [many criterias](https://opensource.org/osd-annotated) for a license to be accepted as an "Open-Source" license.
 
-A software which source code is distributed to the public under a license that is NOT validated by the Open Source Initiative is called "source-available software".
+A software whose source code is distributed to the public under a license that is NOT validated by the Open Source Initiative is called "source-available software".
 
 An open-source software is automatically source-available but a source-available software is not necessarily open-source.
 
 ## 1.7. Permissive vs Copyleft open-source licenses
-There are many kind of software licenses accepted by the Open Source Initiative as "open-source". We can divide them between copyleft and permissive licenses.
+There are many kind of Open-Source software licenses. We can classify them into copyleft and permissive licenses.
 
 ### I.7.1. Copyleft licenses
 
-In the "open-source" world, copyleft is often understood as follows:
-- all or a part of the modified work of the copyleft-licensed software have to abide by the same license
-- when distributing the copyleft-licensed software to somebody, the source code of this software must be distributed too
+Copyleft is often understood as follows:
+- the modified work of the copyleft-licensed software has to abide by the same license
+- when distributing the copyleft-licensed software, the source code of this software must be distributed too
 
 #### Strong copyleft licenses
 
-- [The GNU GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) is a strong copyleft license because ANY modified work must be distributed under the GNU GPL as well. 
-- [The Affero General Public License (AGPL)](https://en.wikipedia.org/wiki/Affero_General_Public_License) is the same as the GPL except that the event that defines "distribution" is extended to "making your software available to a user through a Network". It was designed for the modern internet era, when most softwares are run on private servers and never distributed physically to a user, while powering websites used by billions of people.
+- [The GNU GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) is a strong copyleft license because ANY modified work must also be distributed under the GNU GPL. 
+- [The Affero General Public License (AGPL)](https://en.wikipedia.org/wiki/Affero_General_Public_License) is the same as GPL except that the event that defines "distribution" is extended to "making your software available to a user through a Network". It was designed for the modern internet era, when most softwares run on private servers and are never distributed physically to a user, all the while powering websites used by billions of people.
 
-I have witnessed sooo many people on the web getting [afraid of barely _using_ an AGPL software on their computer](https://news.ycombinator.com/item?id=8965701). Such a paradox!!! There is a huge misunderstanding on the reality of AGPL. The point is: if you don't modify the code, you only have to make the software that's AGPL available to your users.
-But if you are the user of an AGPL software (like [Signal](https://signal.org/) or [Bitwarden](https://bitwarden.com/)), then you have nothing to do. In fact, that's a plus for you as a user. You're just using a software over which you have total control on, you can see the code and you'll be sure the source code of any improvement of the software you use will always be made available to you.
+I have witnessed sooo many people on the web getting [afraid of barely _using_ an AGPL software on their computer](https://news.ycombinator.com/item?id=8965701). Such a paradox!!! There is a huge misunderstanding on AGPL. The point is: if you don't modify the code, you only have to make the software that's AGPL available to your users.
+But if you are the user of an AGPL software (like [Signal](https://signal.org/) or [Bitwarden](https://bitwarden.com/)), then you have nothing to do. In fact, that's a plus for you as a user. You're using a software over which you have total control. You can see the code and you'll be sure that the source code of any improvement of this software will always be available to you.
 
  It may be the consequence of [several articles bashing AGPL](https://www.techrepublic.com/blog/10-things/dont-believe-the-hype-agpl-open-source-licensing-is-toxic-and-unpopular/), after [Google decided to ban AGPL](https://www.theregister.co.uk/2011/03/31/google_on_open_source_licenses/).
 
 #### Weak copyleft licenses
 
-The two most used "weak" copyleft licenses are the Lesser General Public License (LGPL) and the Mozilla Public License (MPL).
-While being very similar, their underlying philosophy are totally opposed: 
+The two most popular "weak" copyleft licenses are the Lesser General Public License (LGPL) and the Mozilla Public License (MPL).
+Their underlying philosophy are totally opposed: 
 - [the LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) was made by the FSF as a compromise to make more people use GPL-licensed softwares (i.e make proprietary vendors use Free Softwares). The copyleft effect is not systematically triggered to all kind of modified work.
-- [the MPL](https://en.wikipedia.org/wiki/Mozilla_Public_License) is a file-level copyleft license that was made by Mozilla to enable proprietary add-on (in particularly made by Mozilla) while encouraging some kind of improvements. It's more of an Open-Source philosophy type of license.
+- [the MPL](https://en.wikipedia.org/wiki/Mozilla_Public_License) is a file-level copyleft license was made by Mozilla to enable proprietary add-on (in particularly made by Mozilla) while encouraging some kind of improvements. It's more of an Open-Source philosophy type of license.
 
-The LGPL is more complicated than the MPL and tend to be less used these days (the trend is for simpler, more permissive licenses that are easy to embed into proprietary softwares - the open-source philosophy).
-However, the LGPL is more suitable for people embracing the spirit of the Free Software movement.
+The LGPL is more complicated than the MPL and tends to be less used these days (the trend is simpler, more permissive licenses that are easy to embed into proprietary softwares - the open-source philosophy).
+However, the LGPL is more suitable for people who embrace the spirit of the Free Software movement.
 
 More on the difference on [my answer to this StackExchange question](https://softwareengineering.stackexchange.com/questions/221365/mozilla-public-license-mpl-2-0-vs-lesser-gnu-general-public-license-lgpl-3-0).
 
 ### I.7.2. Permissive licenses
 
-There are a bunch of them, the most famous being the:
+Among them, the most famous ones are:
 - [Apache License (v2)](https://en.wikipedia.org/wiki/Apache_License)
 - [MIT/X11 License](https://en.wikipedia.org/wiki/MIT_License)
 - [BSD Licenses (2, 3 or 4 clauses)](https://en.wikipedia.org/wiki/BSD_licenses)
 
-They all share one thing in common. They all say: "use me however you want, including combined with any other piece of softwares, may it be Free Software or Proprietary Software, but just give attribution".
-The rest are details.
+They all share one thing in common. They all say: "use me however you want, even by combining me with other softwares, no matter Free Software or Proprietary Software, as long as you give attribution".
 
-The most praised these days is the Apache License for [its protection against software patents](https://opensource.stackexchange.com/questions/1881/against-what-does-the-apache-2-0-patent-clause-protect).
-We haven't talked about that earlier. It's a very complex matter. There is a [huge debate over the very existence of software patents](https://en.wikipedia.org/wiki/Software_patent_debate). In fact, many organizations have fought against it, like the [FSF](https://www.fsf.org/news/end-soft-patents), the [GNU Project](https://www.gnu.org/philosophy/software-patents.html) and the [Foundation for a Free Information Infrastructure (FFII)](https://www.ffii.org/) which Pieter Hintjens led as President for two years.
+The most praised one these days is the Apache License for [its protection against software patents](https://opensource.stackexchange.com/questions/1881/against-what-does-the-apache-2-0-patent-clause-protect).
+There is a [huge debate over the very existence of software patents](https://en.wikipedia.org/wiki/Software_patent_debate). In fact, many organizations have fought against it, like the [FSF](https://www.fsf.org/news/end-soft-patents), the [GNU Project](https://www.gnu.org/philosophy/software-patents.html) and the [Foundation for a Free Information Infrastructure (FFII)](https://www.ffii.org/) which Pieter Hintjens led for two years.
 [Read Pieter Hintjens for an opinionated essay against software patents](http://hintjens.com/blog:31). [Listen to Richard Stallman 2 hours long talk about the dangers of software patents](https://youtu.be/aiKRt3-FbM0).
 
 So if you have to choose one permissive license, go for Apache v2 ;).
 
 ## I.8. License compatibility
 
-The Free licenses have all in common to be completely or partially incompatible with proprietary softwares (because of the copyleft effect).
+All Free licenses are completely or partially incompatible with proprietary softwares (because of the copyleft effect).
+But not all OSS licenses are compatible with each other.
 
-But all OSS licenses are not compatible with each other as well.
-
-For example Apache v2 License is famously incompatible with the GNU GPLv2.
-This can be very annoying when you are working with some Kernel libraries still released under (L)GPLv2. If you're anti-copyleft, then you have no choice but to use MIT or BSD (or equivalent) and you cannot have the patent protection offered by Apache v2.
+For example Apache v2 License is infamously incompatible with GNU GPLv2.
+This can be very annoying when you are working with some Kernel libraries released under (L)GPLv2. If you're anti-copyleft, then you have no choice but to use MIT or BSD (or equivalent) and you cannot have the patent protection offered by Apache v2.
 
 The following image summarizes the license compatibilities. It was extracted from [Wikipedia](https://en.wikipedia.org/wiki/License_compatibility#/media/File:Floss-license-slide-image.png), credits to David A. Wheeler.
 
@@ -204,93 +203,82 @@ What are the important values Free Software and Open-Source carry, and how do th
 
 ## II.1. Why the Free Software philosophy matters
 
-The Freedom for the users to control what their software is doing is particularly important nowadays. The debate around data pricacy is raising. With the ubiquity of devices, the problem becomes more and more important. Can users simply rely on the ethical values of a privately-own for-profit company? Surely not. Especially in these days of tensions between big nations, war becomes mainly a war of information systems. Let's face it, it is highly probable spywares are everywhere from your computer to your phone and your IoT device. Some of which are probably installed by the infrastructure vendor itself.
+The Freedom for the users to control their softwares is particularly important nowadays with the ongoing debate around data privacy and the ubiquity of devices. Can users simply rely on the ethics of a privately-own for-profit company? Surely not. Especially not today, with the war of information systems among big nations. It is highly possible that spywares are everywhere from your computer to your phone and your IoT device, some of which are probably installed by the infrastructure vendor itself.
 
-You don't trust me? Fair enough, I am no software security expert. Visit [Richard Stallman personal website](https://stallman.org/) for an opinionated view on the question. Aside from the character himself who is who he is, maybe a little too paranoid at times, one must acknowledge that this man is also full of wisdom when it comes to discuss ethics in technology.
+For more information, visit [Richard Stallman personal website](https://stallman.org/) for an opinionated view on the question. Although he might seems a little paranoid at times, one must acknowledge that this man is full of wisdom when it comes to technology ethics.
 
-I do not think everything he says is the Truth and I do not think I have the knowledge nor the experience necessary to judge whether there are or there aren't as many backdoors and spywares on our phones/computers as Stallman says. However, I do think it is obvious that the most powerful governments have dedicated backdoors for "security purpose" and that some tech companies may engage into questionable behaviours.
+["Total surveillance: good or evil?"](https://book.cyberyozh.com/total-surveillance-good-or-evil/) is an interesting summary of the situation. [Edward Snowden](https://en.wikipedia.org/wiki/Edward_Snowden) disclosed that to some extent, the big tech companies are lying to our faces. I'm not necessarily against all forms of surveillance - but I believe that it should be decided conjointly with the whole society instead of making us trust What's App/Skype/whatever-messaging-app to spy on us.
 
-["Total surveillance: good or evil?"](https://book.cyberyozh.com/total-surveillance-good-or-evil/) is an interesting summary of the situation. [Edward Snowden](https://en.wikipedia.org/wiki/Edward_Snowden) disclosed that to some extent, the big tech companies are somewhat lying to our face. I'm not necessarily against surveillance - but I believe that it should be decided conjointly with the whole society instead of making us trust What's App/Skype/whatever-messaging-app and then spy on us.
+I want to believe that the majority of the tech companies which do not abide to the Free Software ideology still try to be fair and transparent in their use of our data. However,  I don't think it is reasonable to simply "trust" these companies with our data.
 
-I want to believe that the majority of the tech industry that do not abide to the Free Software ideology still are good people that try to be fair and transparent in their use of our data. However, even considering that, I don't think it is reasonable to simply "trust" these companies. It is too important.
+With the rise of AI and data mining, the Free Software ideology is particularly relevant. If AI remains as the property of privately own for-profit organization, it's likely to be used for Evil at some point. The threat should be taken seriously. Those who say the opposite will have to take responsibility for their actions and related future events.
+I do know we are far from creating a real human-like intelligence but simply gathering and processing data without true consent is highly questionable.
 
-With the raise of AI and data mining, the Free Software ideology is particularly relevant. If AI remains the property of privately own for-profit organization it will be likely to be used for Evil if not now but at some point.
-Those technologies are increasingly more powerful and potentially dangerous as much as potentialy awesome. Like all science, it can be used for Good and Evil. However, the threat should be taken seriously. Those who engage into saying the opposite will also have to take the responsibility of their actions upon themselves for the past/present and future dramatic events related to it.
-Mind you the AI guy - I do know we are far from the point of creating a real animal-like or human-like intelligence but simply gathering and processing data against your will by being coerced to do so - or by being unaware of the risk - is already highly questionable.
+Free Software dimishes the risk of malwares by giving control to the users, but the only way to be _sure_ that you don't run a malware is to _build and deploy a source code you fully understand on a machine that you fully control, a way which is apparently.... not for everyone.
 
-Free Software dimishes the risk of developing malwares by giving control to the users - or at least by giving everyone the chance to use those malwares, not just one proprietary vendor ;).
-
-I say "dimishes" because the only way to be _sure_ that you don't run a malware is to _build and deploy a source code you fully understand yourself on a machine you have total control on_, which is obviously.... not for everyone.
-
-That is why I am proud to publicly support the cause of Free Software.
+That is why I am proud to support the cause of Free Software.
 
 ## II.2. Why the Open-Source movement matters
 
-Technically speaking, software made in the open are, as opposed to closed-source software:
+Technically speaking, softwares made in the open are, as opposed to closed-source software:
 - less likely to be thrown away 1 month later.
-- more likely to be better quality-made regarding their performance as well as their security as more pair of eyes coming from different backgrounds take a look at it. Management around open-source is de-centralized and more technology-focused which lead to better software too.
+- more likely to have better performance as well as security, since more pairs of eyes are looking at them. Management around open-source is de-centralized and more technology-focused.
 
-In my humble opinion, the main problem with most proprietary software is the fact that we may not be able to know what they are actually doing. We cannot verify in the source code. So, to me, the most important part of the Free Software movement is the availability of the source code. That you can or cannot modify it, reuse it or sell it, is less important. If you have access to the Facebook/Slack source code, at least you'd be able to know for sure they aren't doing anything wrong with your data, that they are doing _only_ what they are supposed to.
+In my humble opinion, the main problem with proprietary softwares is that we may not be able to know what they are actually doing. We cannot verify in the source code. To me, the essence of the Free Software movement is the availability of source code. It is less important if you can modify the source code, reuse it or sell it. For example, if you have access to the Facebook/Slack source code, at least you'd make sure that they are doing nothing wrong with your data, that they are doing _only_ what they are supposed to.
 
-And if they don't? You'll have a proof and you'll be able to complain and NOT use their softwares for good reasons.
+If they don't, at least you'll have the proof and you'll be able to report them and STOP using their softwares for good.
 
-A possible flaw of the Free Software movement is that it is not necessarily practical in real life to design a business model, a profitable company and ultimately make a _great_ product with the money generated with the sole use of the GNU GPL.
-
-Obviously they are business models which work, but they are much more limited or require lots of creativity.
-Sometimes, the use of proprietary software, either closed-source or source-available are necessary to generate higher revenue to support the project and make a better product so everyone is happy.
-
+A possible flaw of the Free Software movement is that it is not easy to make a _great_ product and design a profitable business model solely with GNU GPL.
+Some business models work, but they are either limited or require lots of creativity.
+More often than not, the use of proprietary software, either closed-source or source-available, is necessary to generate higher revenue to support and improve the project.
 The Open-Source movement acknowledges that.
 
-Besides, Open Source acknowledges that sometimes, Free Software sucks and proprietary software simply do the job better, especially in terms of design and ergnomics, an aspect often overlooked by the Free Software community. Think Microsoft Word vs OpenOffice.org Writer. Microsoft Word is 10 years ahead in terms of design and ergonomics. If you're from the OpenOffice.org development team - I do not mean any insult. I do understand working against a giant like Microsoft that had 10 years of development of Microsoft Office when the project started is a difficult task. I also do understand that hiring designers is hard when you rely mainly on donation to the Apache Foundation.
+Besides, Open Source acknowledges that sometimes, Free Software sucks and proprietary softwares simply do the job better, especially in terms of design and ergnomics, an aspect often overlooked by the Free Software community. Take Microsoft Word and OpenOffice.org Writer as an example. Microsoft Word is 10 years in advance in terms of design and ergonomics, no offence intended to the OpenOffice.org development team. Working against a giant like Microsoft is tough, especially when you rely mainly on Apache Foundation donations and simply cannot afford to hire designers.
 
-Open Source value convenience over ethics, and I think, to some extent, it makes sense. Why using a broken piece of Free Software when a great proprietary product exists in the market? I think it should be considered ok only if the source code of the said software is at least made source-available, at least to the users or to third-party security experts. I do not trust closed-source, and I am even thinking closed-source should be illegal. But for the vast majority of people out there, softwares are just tools, they don't  want to loose time installing it, configuring it or anything like that. They just want it to work and focus on their business.
+Open Source values convenience over ethics, and I think, to some extent, it makes sense. Why choosing a lesser Free Software over a solid proprietary product that already exists in the market? I think it is ok only if the source code of the said proprietary software is made source-available, at least to users or third-party security experts. I do not trust closed-source, and I am even considering that closed-source should be illegal. But for most people out there, softwares are just tools. They don't want to lose time installing, configuring and so on. They just want the software to work so they can focus on their business.
 
-In practice I am still using plenty, plenty of closed-source sofware and I won't stop anytime soon, simply because they are too good and I wouldn't be able to bear the inconvenience of not using them - at least for now. However, when I am building one for my own company, there is no way I build anything else than:
-- a Free Software or a software promoting Free Software if I can find a valid business model to support the project
-- Else, if I can sustain the project better by engaging into proprietary softwares, I will at least make the source code available to my users, even with extreme limitation that only enable users to see the code - and/or I will ask third-party security experts to verify that my source code is doing what it is supposed to (like 1Password does). 
+In practice I am still using plenty of closed-source sofware and I won't stop anytime soon, simply because they are too wellmade and I can't afford the inconvenience of not using them - at least for now. However, when I am building one software for my own company, there is no way I build anything else other than a Free Software or a software promoting Free Software, if I can find a valid business model to support the project
+If I can't, I will at least make the source code available to my users, - and/or I will ask third-party security experts to verify my source code (like 1Password does). 
 
 ## II.3. The Free Software movement tends to ignore business issues and be too political
 
-The Free Software movement is very politically engaged. I do not agree with Stallman's views that ["owners" should be placed at the same level as anyone else](https://www.gnu.org/philosophy/shouldbefree.html). "Owners" deserves credits and retribution for their work.
+The Free Software movement is very political. I do not agree with Stallman's view that ["owners" should be placed at the same level as anyone else](https://www.gnu.org/philosophy/shouldbefree.html). "Owners" deserves credits and retribution for their work.
 
-Stallman takes the fight for software freedom to the stage of applying it [to all media contents](https://stallman.org/articles/end-war-on-sharing.html), like [movies](https://www.gregjs.com/life/2015/richard-stallman-on-piracy/) and books. I think it is a bold position that is in no way compatible with the reality of the market.
-In China, [film directors are starving to death because they are abused by their producers](https://apg57822018.wordpress.com/2018/08/26/hu-bo-a-director-miss-miff-because-of-suicide/). Making a movie demand tremendous efforts, and hell of a lot more money than making a software. Unlike software developers, a random movie viewer will never ask a director or a producer to "support them in deploying their movies". There is no other sustainable business model than actually selling access to the movie itself. Now the part retributed to either the director or the producer is another story, but in no way a director should be left with nothing after having put himself in debt to be able to get the movie out in the cinemas. I don't see in any way how piracy can improve that.
+Stallman fights for software freedom to the stage of applying it [to all media contents](https://stallman.org/articles/end-war-on-sharing.html), like [movies](https://www.gregjs.com/life/2015/richard-stallman-on-piracy/) and books. This is a bold position that is in no way compatible with the reality of the market.
+In China, [film directors are starving to death because they are abused by their producers](https://apg57822018.wordpress.com/2018/08/26/hu-bo-a-director-miss-miff-because-of-suicide/). Making a movie demands tremendous efforts and a hell lot more money than making a software. Unlike software developers, filmmakers never ask viewers to "support them in deploying their movies." There is no sustainable business model other than selling access to watch the movies, and in no way should a director be left with nothing but debts after releasing the film.
 
 In fact, another chinese director is ["begging for survival"](https://xw.qq.com/cmsid/20190719A0EJCW00?f=newdc)(link in chinese language) as he spent 6 years making an animation that was leaked immediately after it was released in cinema.
 
-[Netflix did push the production of lots of independent and original contents](https://en.wikipedia.org/wiki/List_of_original_programs_distributed_by_Netflix), that would never have been able to be released without their money. And what is Netflix but a sort of modern pay-to-watch cinema? At the end of the day, it is mainly viewers that fund movies and it cannot be different. 
+[Netflix did push the production of lots of independent and original contents](https://en.wikipedia.org/wiki/List_of_original_programs_distributed_by_Netflix) that would have never have been made and released without the money. And what is Netflix but a sort of modern pay-to-watch cinema? At the end of the day, it is viewers who fund movies and this cannot be different. 
 
-Similarly, a writer should get the benefit of his work, and I don't understand why Free Software advocates like [Pieter Hintjens](http://hintjens.com/books) and [Richard Stallman](https://shop.fsf.org/books/free-freedom-20-richard-stallman) are systematically giving away the "source" of their work online for free. What's the point? Most people will just not buy your books and you will just have worked for free. Why volontarilly becoming a slave of modern society?
+Similarly, a writer is entitled to get the benefit of his work, and I don't understand why Free Software advocates like [Pieter Hintjens](http://hintjens.com/books) and [Richard Stallman](https://shop.fsf.org/books/free-freedom-20-richard-stallman) are systematically giving away the "source" of their work online for free. What's the point? Most people will just not buy your books and you will just have worked for free. Why volontarilly becoming a slave of modern society?
 
 Back to software.
 
-I believe that ALL softwares should be freed and most of it, be publicly available as open-source. It's about ethics and making the world a better world. Starting making software that the general public _genuinely_ need. It has been said that softwares are the catalysts of all the other industries. 
+I believe that ALL softwares should be freed and most should be publicly available as open-source. It's about making [the world a better place to live in](https://www.youtube.com/watch?v=Gp-rIfsoCoU). Start making software that people _genuinely_ need. It has been said that softwares are the catalysts of all other industries. 
 At this point you may say that it could apply also to books and movies.
-But no. Because softwares are complex by essence, and software developers can always be paid to make more piece of code, make customized solution, or help for the deployment process (until AI will replace them, but that's another issue ;)).
-And as explained earlier, proprietary softwares can have hidden functionalities and not do what they say they are doing. A book or a movie cannot hide itself. It is what it is and that's it.
+But no. Because software developers can always be paid to make customized solution or to help with the deployment process (until AI replaces them, but that's another issue ;)).
+As explained earlier, proprietary softwares can have hidden functionalities, but a book or a movie cannot hide itself.
 
-Stallman said in conference, ["the price is a side issue, I don't care at all!"](https://youtu.be/n9YDz-Iwgyw?t=322).
-I strongly disagree. It is the core of the problem why most people don't make Free Softwares.
-If you watch the conference, he then takes the example of GNU Emacs, a Free software he wrote and sold against a price, back in the days. But that was when barely 10% of the global population had access to the internet. 
-You don't see many Free Software sold against a price nowadays.
-You'll even witness [people getting mad that someone dared selling OpenOffice.org on eBay](https://forum.openoffice.org/en/forum/viewtopic.php?f=49&t=80111).
+Stallman said in a conference, ["the price is a side issue, I don't care at all!"](https://youtu.be/n9YDz-Iwgyw?t=322).
+I strongly disagree. This is exactly why most people don't make Free Softwares.
+Stallman then takes the example of GNU Emacs, a Free software he sold in the past, but that was when barely 10% of the global population had access to the internet. 
+You don't see many Free Software sold nowadays.
+You even witness [people getting mad that someone dared selling OpenOffice.org on eBay](https://forum.openoffice.org/en/forum/viewtopic.php?f=49&t=80111).
 
-While the FSF likes saying that Free Software means Free as in Freedom, not Free as in free beer, in practice, it is really more difficult to make money with it rather than doing proprietary softwares. 
+While the FSF likes to say that Free Software means Free as in Freedom, not Free as in free beer, in practice, it is really more difficult to make money with it than with  proprietary softwares. 
 In fact, at the very beginning of the movement, [the two meanings of "free" were not explicitely distinguished](https://www.gnu.org/gnu/why-programs-should-be-shared.html).
 
-I feel like [Stallman doesn't take business issues seriously enough](https://www.gnu.org/gnu/thegnuproject.html). It appears to me that he is at heart a scholar (and a rather great one), so it is a fairly understandable position. He insisted later in the same conference as earlier:  ["The price is a minor detail, I care about Freedom"](https://youtu.be/n9YDz-Iwgyw?t=341).
-(To be fair, I think he insists on the differenciation between the two meanings of free because people continuously misinterpret his movement.)
+I am under the impression that [Stallman doesn't take business issues seriously enough](https://www.gnu.org/gnu/thegnuproject.html). He insisted later in the same conference that ["The price is a minor detail, I care about Freedom"](https://youtu.be/n9YDz-Iwgyw?t=341).
 
-Free Software makes it hard to _enforce_ some kind of payment for buying the software itself. We will see later why. 
+Free Software makes it hard to _enforce_ payment to buy the software. We will see later why. 
 
-Enforcing payment is in no way unethical in my world. Softwares involve a large amount of smart people for a large amount of time. They don't only require developers. To make a great software, you often need designers, managers, salespeople, lawyers, and a whole bunch of other people that know about the particular problem in the particular industry that you are trying to address with your tool (like doctors if you're making a healthcare software, etc). 
+Enforcing payment is in no way unethical in my world. Softwares take many smart people a large amount of time. Besides from developers, a great software needs designers, managers, sales team, lawyers, and other experts (doctors if it is for a healthcare software for example). 
+Free Software advocates often ignore that they need all these other people, which is why many free softwares have crappy UI.
 
-Free Software advocates often ignore that part of the truth. They are not the only craftmen of softwares. They need all these other people. And that's why for example, let's face it, lots of free software have crappy UI. It is just legitimate that the people who have put so much effort in their craft get the fruits of their labour.
-
-If ALL softwares were freed, there will be no question. People will pay software vendors like today, and it will just happen, by law, that their work would be Free Software.
-It would for sure change the game, but in a good way and for the benefit of all:
-- developers will not have to work on crappy proprietary code that will be thrown away in 2 months. Concurrent companies will be encouraged to put together their effort in contributing to the same source code. As a result, we save large amount of money and time in engineering efforts, and the users will have access to more unified solutions, less systems to interoperate with.
-- developers will not face a flow of job offers consisting in making malicious softwares that unethically spy on people because end-users will be able to see it and refuse using them so it will be unattrative business-wise to engage in such practice.
+If ALL softwares were free, it would for sure change the game, but for the greater good:
+- developers will not have to work on crappy proprietary code that will be thrown away in 2 months. Concurrent companies will be encouraged to put together their effort in contributing to the same source code. As a result, we save both money and time, and the users will have access to more unified solutions, less systems to interoperate with.
+- developers will not face job offers that include making malicious softwares to spy on people, because with users able to see the code, it will be unattrative business-wise to engage in such practice.
 - users will have control, they will _really_ know what they use.
 
 But it is obviously NOT the case today.
