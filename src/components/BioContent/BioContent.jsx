@@ -49,13 +49,24 @@ const BioContent = (props) => {
     onClick={handleBaoziClick}>
       eating baozi
       </button>);
-  function handleBaoziClick(e) {
+
+
+  function handleBaoziClick() {
     if(avatar != meEatingBaozi) {
       setAvatar(meEatingBaozi);
-      const timer = setTimeout(() => setBackNormalAvatar, 2500);
-      return () => clearTimeout(timer); // https://upmostly.com/tutorials/settimeout-in-react-components-using-hooks
+      setTimeout(setBackNormalAvatar, 2500);
     }
   }
+
+  // function handleBaoziClick(() => {
+  //   if(avatar != meEatingBaozi) {
+  //     const timer = setTimeout(() => {
+  //       setBackNormalAvatar()
+  //     }, 2500);
+  //     return () => clearTimeout(timer);
+  //   }
+  // };
+
   function setBackNormalAvatar(){
     setAvatar(meNormal);
   }
