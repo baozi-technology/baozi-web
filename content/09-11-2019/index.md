@@ -91,7 +91,7 @@ At its core, it does the following:
 - if you make modification to the software in any way and use it for your internal use, you can do whatever you want.
 - if you make modification to the software in any way and distribute it to somebody else, then your modified work must be licensed under the GNU GPL too and as such you must distribute the source code of the modified work to the person/entity you are distributing your modified software to.
 
-The last point is the socalled "copyleft" effect. It means that by using a GNU GPL licensed software to make a modified work, you are somehow impeding your copyright over the modified work in the sense that you are obliged to use the same license GNU GPL when you distribute it. You will keep your copyright over your own work, but it is the result of the contract you accepted when you started using the GPL software to make your own.
+The last point is the so-called "copyleft" effect. It means that by using a GNU GPL licensed software to make a modified work, you are somehow impeding your copyright over the modified work in the sense that you are obliged to use the same license GNU GPL when you distribute it. You will keep your copyright over your own work, but it is the result of the contract you accepted when you started using the GPL software to make your own.
 
 The GNU GPL is sometimes refered by its detractors as "restrictive" and "viral" license. Developers tend [not to understand why the Free Software guys talk about "freedom" all the while "restricting" the way newly created software is being used](https://ayende.com/blog/186146-A/making-money-from-open-source-software-the-dichotomy). That's because it is about freedom of the users. It is about freeing the software from one particular vendor, as is the case for proprietary softwares. It is also about freeing the software from the developers and transferring this freedom to the users. Not only freeing it from the initial developers but also all the subsequent ones - that is the very reason why copyleft has been created: to make sure any modifications of the software remain free. So that the source code can get its own life.
 
@@ -151,7 +151,7 @@ Copyleft is often understood as follows:
 - [The GNU GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) is a strong copyleft license because ANY modified work must also be distributed under the GNU GPL. 
 - [The Affero General Public License (AGPL)](https://en.wikipedia.org/wiki/Affero_General_Public_License) is the same as GPL except that the event that defines "distribution" is extended to "making your software available to a user through a Network". It was designed for the modern internet era, when most softwares run on private servers and are never distributed physically to a user, all the while powering websites used by billions of people.
 
-I have witnessed sooo many people on the web getting [afraid of barely _using_ an AGPL software on their computer](https://news.ycombinator.com/item?id=8965701). Such a paradox!!! There is a huge misunderstanding on AGPL. The point is: if you don't modify the code, you only have to make the software that's AGPL available to your users.
+I have witnessed sooo many people on the web getting [afraid of barely _using_ an AGPL software on their computer](https://news.ycombinator.com/item?id=8965868). Such a paradox!!! There is a huge misunderstanding on AGPL. The point is: if you don't modify the code, you only have to make the software that's AGPL available to your users.
 But if you are the user of an AGPL software (like [Signal](https://signal.org/) or [Bitwarden](https://bitwarden.com/)), then you have nothing to do. In fact, that's a plus for you as a user. You're using a software over which you have total control. You can see the code and you'll be sure that the source code of any improvement of this software will always be available to you.
 
  It may be the consequence of [several articles bashing AGPL](https://www.techrepublic.com/blog/10-things/dont-believe-the-hype-agpl-open-source-licensing-is-toxic-and-unpopular/), after [Google decided to ban AGPL](https://www.theregister.co.uk/2011/03/31/google_on_open_source_licenses/).
@@ -281,9 +281,8 @@ If ALL softwares were free, it would for sure change the game, but for the great
 - developers will not face job offers that include making malicious softwares to spy on people, because with users able to see the code, it will be unattrative business-wise to engage in such practice.
 - users will have control, they will _really_ know what they use.
 
-But it is obviously NOT the case today.
-Things go well if ALL softwares are freed. But if even one single entity in the market have the right to make proprietary softwares, it changes the whole game. It becomes unfair.
-That's why finding the right business model to support the development of your software matters. Finding one that's both ethical and financially sustainable is a huge challenge. That's what I called "a pragmatic approach to the Free Software ideology".
+Things go well if ALL softwares are free. But if even one single entity in the market has the right to make proprietary softwares, it becomes unfair.
+That's why finding the right business model to support the development of your software matters. Finding one that's both ethical and financially sustainable is a huge challenge. That's "a pragmatic approach to the Free Software ideology" is about .
 
 # III. Business models
 
