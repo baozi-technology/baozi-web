@@ -99,9 +99,6 @@ const Footer = () => {
                   onMouseOut={() => {
                     setLogo(logoPng)
                   }}
-                  onError={(e)=>{ if (e.target.src !== {logoPng}){
-                    e.target.src={logoPng};
-                  }}} //https://stackoverflow.com/questions/34097560/react-js-replace-img-src-onerror
                 />
               </a>
             </div>
