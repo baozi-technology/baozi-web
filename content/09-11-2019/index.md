@@ -193,7 +193,7 @@ This can be very annoying when you are working with some Kernel libraries releas
 
 The following image summarizes the license compatibilities. It was extracted from [Wikipedia](https://en.wikipedia.org/wiki/License_compatibility#/media/File:Floss-license-slide-image.png), credits to David A. Wheeler.
 
-![License compatibility between common FOSS software licenses according to David A. Wheeler (2007): the arrows denote a one directional compatibility, therefore better compatibility on the left side than on the right side.](Floss-license-slide-image.png).
+![License compatibility between common FOSS software licenses according to David A. Wheeler (2007): the arrows denote a one directional compatibility, therefore better compatibility on the left side than on the right side.](Floss-license-slide-image.png =700x).
 
 That being said, all the latest versions of the modern most-used OSS licenses are compatible with each other. The real (voluntary) "issue" is the compatibility of copyleft licenses with proprietary softwares. 
 
