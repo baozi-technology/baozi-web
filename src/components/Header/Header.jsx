@@ -56,6 +56,7 @@ const Header = () => {
                 className={styles.heightSet}
                 src={logo}
                 alt="Baozi Technology"
+                onError={(e)=>{e.target.onerror = null; e.target.src={logoPng}}} //https://stackoverflow.com/questions/34097560/react-js-replace-img-src-onerror
               />
           </Link>
         </div>
