@@ -5,6 +5,7 @@ import About from "../components/About/About";
 import config from "../../data/SiteConfig";
 import BioContent from "../components/BioContent/BioContent"
 import ShowcaseContent from "../components/ShowcaseContent/ShowcaseContent"
+import SEO from "../components/SEO/SEO";
 
 class AboutPage extends Component {
   render() {
@@ -17,6 +18,7 @@ class AboutPage extends Component {
     return (
       <Layout showcaseContent={showcaseContent}>
           <Helmet title={`About | ${config.siteTitle}`} />
+          <SEO />
           <About />
       </Layout>
     );

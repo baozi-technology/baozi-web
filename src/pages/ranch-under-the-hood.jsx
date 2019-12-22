@@ -6,6 +6,7 @@ import ranchHtml from 'raw-loader!../../content/ranch-under-the-hood/Ranch_Under
 import Asciidoctor from "../components/Asciidoctor/Asciidoctor";
 import ArticleContent from "../components/ArticleContent/ArticleContent"
 import ShowcaseContent from "../components/ShowcaseContent/ShowcaseContent"
+import SEO from "../components/SEO/SEO";
 
 class RanchPage extends React.Component {
   render() {
@@ -20,6 +21,7 @@ class RanchPage extends React.Component {
       <Layout showcaseContent={showcaseContent}>
         <div className="ranch-container">
             <Helmet title={`Ranch: what's under the hood? | ${config.siteTitle}`} />
+            <SEO />
             {/* <p>doc: {doc}</p> */}
           <hr/>
           <Asciidoctor asciidocHtml={ranchHtml} />

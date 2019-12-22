@@ -2,10 +2,10 @@ const config = {
   siteTitle: "Baozi\nTechnology", // Site title.
   siteTitleShort: "Baozi", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Baozi Technology", // Alternative site title for SEO.
-  siteLogo: "/logos/baozi-only-logo.png", // Logo used for SEO and manifest.
+  siteLogo: "/static/logos/baozi-technology-full-logo.png", // Logo used for SEO and manifest.
   siteUrl: "https://baozi.technology", // Domain of your website without pathPrefix.
   pathPrefix: "/baozi-technology", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "Baozi Technology is the company under which Nicolas Gimenez operates as a Free Software and freelance developer", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Baozi Technology is the company under which Nicolas Gimenez operates as a Free Software and freelance developer.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "DD-MM-YYYY", // Date format used in the frontmatter.
@@ -31,8 +31,8 @@ const config = {
     }
   ],
   copyright: "COPYRIGHT © 2019 BAOZI TECHNOLOGY SAS", // Copyright string for the footer of the website and RSS feed.
-  themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#e0e0e0", // Used for setting manifest background color.
+  themeColor: "#555", // Used for setting manifest and progress theme colors.
+  backgroundColor: "#fefefe", // Used for setting manifest background color.
 };
 
 // Validate

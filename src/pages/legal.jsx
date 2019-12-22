@@ -5,6 +5,7 @@ import LegalNotice from "../components/LegalNotice/LegalNotice";
 import config from "../../data/SiteConfig";
 import ArticleContent from "../components/ArticleContent/ArticleContent";
 import ShowcaseContent from "../components/ShowcaseContent/ShowcaseContent";
+import SEO from "../components/SEO/SEO";
 
 class Legal extends React.Component {
   render() {
@@ -19,6 +20,7 @@ class Legal extends React.Component {
     return (
       <Layout showcaseContent={showcaseContent}>
         <Helmet title={`About | ${config.siteTitle}`} />
+        <SEO />
         <hr/>
         <LegalNotice/>
       </Layout>
