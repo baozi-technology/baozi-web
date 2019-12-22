@@ -99,6 +99,7 @@ const Footer = () => {
                   onMouseOut={() => {
                     setLogo(logoPng)
                   }}
+                  alt="Scroll to top"
                 />
               </a>
             </div>

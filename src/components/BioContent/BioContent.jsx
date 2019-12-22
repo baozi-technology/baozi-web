@@ -45,6 +45,7 @@ const BioContent = (props) => {
     <img 
       className={styles.avatar}
       src={avatar}
+      alt="Oops, profile pic did not load!"
     />
   );
   var baozi = (<button 
