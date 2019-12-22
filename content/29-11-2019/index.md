@@ -15,9 +15,9 @@ tags:
     - must read
 --- 
  
- This is the last part of the series. For a reminder of the different licenses and the history of Free Software and Open-Source, check out the [first episode]().
- For my thoughts on the meaning and purpose of the Free Software and Open-Source movements, refer to the [second episode]().
- For the result of my research on the state-of-the-art reality of the different business models supporting the development of FLOSS, see the [third episode]().
+ This is the last part of the series. For a reminder of the different licenses and the history of Free Software and Open-Source, check out the [first episode](https://baozi.technology/floss-business-ethics-part-1-definitions-and-context).
+ For my thoughts on the meaning and purpose of the Free Software and Open-Source movements, refer to the [second episode](https://baozi.technology/floss-business-ethics-part-2-thoughts-on-the-meaning-and-purpose-of-the-floss-movement).
+ For the result of my research on the state-of-the-art reality of the different business models supporting the development of FLOSS, see the [third episode](https://baozi.technology/floss-business-ethics-part-3-business-models).
 
 How to make the dual licensing strategy more ethical and contributor-friendly?
 

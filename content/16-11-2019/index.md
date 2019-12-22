@@ -13,7 +13,7 @@ tags:
     - must read
 ---
 
-If you are not totally comfortable with the notions of Free Software and Open-Source, I encourage you to read the first part of this series.
+If you are not totally comfortable with the notions of Free Software and Open-Source, I encourage you to read the [first part of this series](https://baozi.technology/floss-business-ethics-part-1-definitions-and-context).
 In this episode, we will try to answer the following question: "What are the important values Free Software and Open-Source carry, and how do they complement each other?"
 
 # Why the Free Software philosophy matters
