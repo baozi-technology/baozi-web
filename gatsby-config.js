@@ -76,9 +76,15 @@ module.exports = {
         display: "minimal-ui",
         icons: [
           {
-            src: config.siteLogo,
-            type: "image/png",
+            src: "/static/logos/baozi-only-logo-192.png",
+            sizes: "192x192",
+            type: "image/png"
           },
+          {
+            src: "/static/logos/baozi-only-logo-512.png",
+            sizes: "512x512",
+            type: "image/png"
+          }
         ]  
       }
     },
