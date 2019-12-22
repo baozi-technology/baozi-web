@@ -33,10 +33,10 @@ It all started when Richard got frustrated after his printer couldn't work and h
 
 What are those freedoms?
 
->	First, Freedom Zero is the freedom to run the program for any purpose, any way you like.  
->	Freedom One is the freedom to help yourself by changing the program to suit your needs.  
->	Freedom Two is the freedom to help your neighbor by distributing copies of the program.  
->	And Freedom Three is the freedom to help build your community by publishing an improved version so others can get the benefit of your work.  
+> First, Freedom Zero is the freedom to run the program for any purpose, any way you like.
+> Freedom One is the freedom to help yourself by changing the program to suit your needs.  
+> Freedom Two is the freedom to help your neighbor by distributing copies of the program.
+> And Freedom Three is the freedom to help build your community by publishing an improved version so others can get the benefit of your work.
 
 Free Software DOES NOT mean the software is free as in free beer. Nothing forbids you to sell your software for 1000000 dollars or give it away for free if you wish. It does NOT mean "non-commercial".
 
@@ -182,7 +182,7 @@ This can be very annoying when you are working with some Kernel libraries releas
 
 The following image summarizes the license compatibilities. It was extracted from [Wikipedia](https://en.wikipedia.org/wiki/License_compatibility#/media/File:Floss-license-slide-image.png), credits to David A. Wheeler.
 
-![License compatibility between common FOSS software licenses according to David A. Wheeler (2007): the arrows denote a one directional compatibility, therefore better compatibility on the left side than on the right side.](Floss-license-slide-image.png).
+![License compatibility between common FOSS software licenses according to David A. Wheeler (2007): the arrows denote a one directional compatibility, therefore better compatibility on the left side than on the right side.](./Floss-license-slide-image.png).
 
 That being said, all the latest versions of the modern most-used OSS licenses are compatible with each other. The real (voluntary) "issue" is the compatibility of copyleft licenses with proprietary softwares. 
 

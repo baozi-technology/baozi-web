@@ -101,5 +101,5 @@ That's why finding the right business model to support the development of your s
 
 # Conclusion
 
-Free Sofware is a political ideology that goes way beyond the realm of technology. Open-Source is a practical approach to software development, acknowledging that working in the open makes better products. Open-Source, as opposed to Free Software, embraces proprietary software when it appears necessary for the business viability a venture.
+Free Sofware is a political ideology that goes way beyond the realm of technology. The whole point is to give freedom to the users and make sure users don't run malware. Open-Source is a practical approach to software development that acknowledges that working in the open makes better products. The Open-Source ideology embraces more easily being combined with proprietary softwares when it appears necessary for the business viability of a venture. Free Software does it only as a long-term strategy towards its ideological goal.
 In the next episode, we will talk about the different sort of business models you can adopt to support your Free Libre Open Source project.

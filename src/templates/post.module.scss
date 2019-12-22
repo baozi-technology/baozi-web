@@ -20,6 +20,7 @@
 }
 
 .contentContainer, .socialLinks{
+  flex-basis:700px; // needed or blockquote/quote will not respect the container width...
   max-width:700px;
 }
 
