@@ -44,17 +44,18 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.headerContainer}>
         <div title="Jump to home page" className={styles.logoContainer}>
-          <Link 
-            onMouseOver={() => {
-              setLogo(logoGif)
-            }}    
-            onMouseOut={() => {
-              setLogo(logoPng)
-            }}        
+          <Link       
             to="/">
                 <img 
+                onMouseOver={() => {
+                  setLogo(logoGif)
+                }}    
+                onMouseOut={() => {
+                  setLogo(logoPng)
+                }}  
                 className={styles.heightSet}
                 src={logo}
+                alt="Baozi Technology"
               />
           </Link>
         </div>
