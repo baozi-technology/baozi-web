@@ -19,8 +19,12 @@
   align-items: center;
 }
 
-.contentContainer, .socialLinks{
+.contentContainer{
   flex-basis:700px; // needed or blockquote/quote will not respect the container width...
+  max-width:700px;
+}
+
+.socialLinks {
   max-width:700px;
 }
 
