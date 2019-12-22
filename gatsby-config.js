@@ -34,6 +34,7 @@ module.exports = {
         path: `${__dirname}/content/`
       }
     },
+    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -54,18 +55,11 @@ module.exports = {
       }
     },
     {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: config.googleAnalyticsID
-      }
-    },
-    {
       resolve: "gatsby-plugin-nprogress",
       options: {
         color: config.themeColor
       }
     },
-    "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
