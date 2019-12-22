@@ -146,23 +146,3 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 };
-
-exports.onCreateWebpackConfig = ({
-  stage,
-  rules,
-  loaders,
-  plugins,
-  actions,
-}) => {
-  actions.setWebpackConfig({
-    module: {
-      rules: [
-        {
-          test: /\.(jpe?g|png)$/i,
-          include: path.resolve(__dirname, './'),
-          loaders: ['file-loader']
-        },
-      ],
-    },
-  })
-}
