@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout/Layout";
 // import UserInfo from "../components/UserInfo/UserInfo";
 // import PostTags from "../components/PostTags/PostTags";
@@ -15,7 +15,7 @@ import styles from "./post.module.scss"
 export default class PostTemplate extends React.Component {
   render() {
     const { data, pageContext } = this.props;
-    const { slug } = pageContext;
+    const { slug, nexttitle, nextslug, prevtitle, prevslug } = pageContext;
     const postNode = data.markdownRemark;
     const tableOfContents = postNode.tableOfContents;
     const post = postNode.frontmatter;
@@ -57,6 +57,28 @@ export default class PostTemplate extends React.Component {
                 <SocialLinks postPath={slug} postNode={postNode} />
             </div>
             {/* <UserInfo config={config} /> */}
+          </div>
+          <div className={styles.prevNextContainer}>
+            <div className={styles.prevContainer}>
+              <Link to={nextslug}>
+                <div className={[styles.nextPrevText, styles.maxWdith].join(' ')}>
+                  Previous article:
+                </div>
+                <div className={styles.maxWidth}>
+                {nexttitle} {/* date reverse order... */}
+                </div>
+              </Link>
+            </div>
+            <div className={styles.nextContainer}>
+              <Link to={prevslug}>
+                <div className={[styles.nextPrevText, styles.maxWdith].join(' ')}>
+                  Next article:
+                </div>
+                <div className={styles.maxWidth}>
+                  {prevtitle} {/* date reverse order... */}
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
       </Layout>

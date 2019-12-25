@@ -13,7 +13,7 @@ class About extends Component {
           <p>I always try to code in the language the most suitable for each project, 
             regardless of my current knowledge and preferences. Disclaimer: I am most experienced in Python and Java, I love Erlang/Elixir/OTP and I am not a fan of frontend technologies.</p>
           <p> I recently started{" "} 
-            <Link activeClassName={styles.linkActive} to="/ranch-under-the-hood">contributing to open-source projects</Link> 
+            <Link to="/ranch-under-the-hood">contributing to open-source projects</Link> 
             {" "}and I am excited about releasing my own work Soon™.
           </p>
           <p>I spend lots of my time learning about the new technology and business trends.</p>

@@ -72,3 +72,22 @@
     align-items: center;
     justify-content: center;
 }
+
+.prevNextContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.prevContainer{
+  flex: 1 1 auto;
+}
+
+.nextContainer{
+  flex: 0 0 auto;
+}
+
+.maxWidth{
+  max-width: 200px;
+}
