@@ -14,7 +14,7 @@ tags:
 ---
  
 In this episode, we try to answer this question: "How do we financially sustain the developement of a FLOSS, while sticking with our ethical values?"
-We will see the advantages and drawbacks of each approach, and observe real-life examples. If you are unconfortable with the notions of open-source, free software and the different software licenses, read the [first part of this serie](https://baozi.technology/floss-business-ethics-part-1-definitions-and-context)! For my thoughts on the ethical stance of both movements, check out the [second part of this serie](https://baozi.technology/floss-business-ethics-part-2-thoughts-on-the-meaning-and-purpose-of-the-floss-movement).
+We will see the advantages and drawbacks of each approach, and observe real-life examples. If you are unconfortable with the notions of open-source, free software and the different software licenses, read the [first part of this serie](https://baozi.technology/floss-business-ethics-part-1-definitions-and-context)! For my thoughts on the ethical stance of both movements, check out the [second part of this serie](https://baozi.technology/floss-business-ethics-part-2-towards-a-pragmatic-approach-to-the-spirit-of-free-software).
 
 We must distinguish different sort of softwares. On one side, softwares that constitute a finished work that is distributed to a client as is, and on the other side, software that are unfinished work and are aimed to be combined by another developer with another piece of code to make a standalone software that an end-user may want to use. In short, we have to distinguish a standalone software (like OpenOffice.org) from a software library (like [ZeroMQ](https://zeromq.org/)).
 

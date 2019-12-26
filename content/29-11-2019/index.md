@@ -15,11 +15,11 @@ tags:
     - must read
 --- 
  
- This is the last part of the series. For a reminder of the different licenses and the history of Free Software and Open-Source, check out the [first episode](https://baozi.technology/floss-business-ethics-part-1-definitions-and-context).
- For my thoughts on the meaning and purpose of the Free Software and Open-Source movements, refer to the [second episode](https://baozi.technology/floss-business-ethics-part-2-thoughts-on-the-meaning-and-purpose-of-the-floss-movement).
- For the state-of-the-art of the different business models used to support the development of a FLOSS, see the [third episode](https://baozi.technology/floss-business-ethics-part-3-business-models).
+ This is the last part of the series. In this episode, we will present an innovative community-centric alternative to dual licensing, more respectful of the original ethics of Free Software: the Robin Hood social contract/business model.
 
-How to make the dual licensing strategy more ethical and contributor-friendly?
+ For a reminder of the different licenses and the history of Free Software and Open-Source, check out the [first episode](https://baozi.technology/floss-business-ethics-part-1-definitions-and-context).
+ For my thoughts on the meaning and purpose of the Free Software and Open-Source movements, refer to the [second episode](https://baozi.technology/floss-business-ethics-part-2-towards-a-pragmatic-approach-to-the-spirit-of-free-software).
+ For the state-of-the-art of the different business models used to support the development of a FLOSS, see the [third episode](https://baozi.technology/floss-business-ethics-part-3-business-models).
 
 # Selling exceptions to the AGPL and the Robin Hood business model
 

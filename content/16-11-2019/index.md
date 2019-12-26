@@ -1,5 +1,5 @@
 ---
-title: "FLOSS Business & Ethics: Part 2 - Thoughts on the meaning and purpose of the FLOSS movement"
+title: "FLOSS Business & Ethics: Part 2 - Towards a pragmatic approach to the spirit of Free Software"
 cover: "../../static/images/gpl-logo.png"
 date: "16-11-2019"
 author: "Nicolas Gimenez"
@@ -13,8 +13,8 @@ tags:
     - must read
 ---
 
-If you are not totally comfortable with the notions of Free Software and Open-Source, I encourage you to read the [first part of this series](https://baozi.technology/floss-business-ethics-part-1-definitions-and-context).
 In this episode, we will try to answer the following question: "What are the important values Free Software and Open-Source carry, and how do they complement each other?"
+If you are not totally comfortable with the notions of Free Software and Open-Source, I encourage you to read the [first part of this series](https://baozi.technology/floss-business-ethics-part-1-definitions-and-context).
 
 # Why the Free Software philosophy matters
 
