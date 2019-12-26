@@ -80,6 +80,11 @@ export default class PostTemplate extends React.Component {
                 </div>
             </div>
           </div>
+          <div className={styles.commentoContainer}>
+            <div id="commento"></div>
+            <script src="https://cdn.commento.io/js/commento.js"></script>
+            <noscript>Please enable JavaScript to load the comments.</noscript>
+          </div>
         </div>
       </Layout>
     );
