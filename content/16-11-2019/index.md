@@ -29,7 +29,7 @@ I want to believe that the majority of the tech companies which do not abide to 
 With the rise of AI and data mining, the Free Software ideology is particularly relevant. If AI remains as the property of privately own for-profit organization, it's likely to be used for Evil at some point. The threat should be taken seriously. Those who say the opposite will have to take responsibility for their actions and related future events.
 I do know we are far from creating a real human-like intelligence but simply gathering and processing data without true consent is highly questionable.
 
-Free Software dimishes the risk of malwares by giving control to the users, but the only way to be _sure_ that you don't run a malware is to _build and deploy a source code you fully understand on a machine that you fully control, a way which is apparently.... not for everyone.
+Free Software dimishes the risk of malwares by giving control to the users, but the only way to be _sure_ that you don't run a malware is to _build and deploy a source code you fully understand on a machine that you fully control_, a way which is apparently.... not for everyone.
 
 That is why I am proud to support the cause of Free Software.
 
