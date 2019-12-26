@@ -60,24 +60,24 @@ export default class PostTemplate extends React.Component {
           </div>
           <div className={styles.prevNextContainer}>
             <div className={styles.prevContainer}>
-              <Link to={nextslug}>
                 <div className={[styles.nextPrevText, styles.maxWdith].join(' ')}>
                   Previous article:
                 </div>
                 <div className={styles.maxWidth}>
-                {nexttitle} {/* date reverse order... */}
+                  <Link to={nextslug}>
+                    {nexttitle} {/* date reverse order... */}
+                  </Link>
                 </div>
-              </Link>
             </div>
             <div className={styles.nextContainer}>
-              <Link to={prevslug}>
                 <div className={[styles.nextPrevText, styles.maxWdith].join(' ')}>
                   Next article:
                 </div>
                 <div className={styles.maxWidth}>
-                  {prevtitle} {/* date reverse order... */}
+                  <Link to={prevslug}>
+                    {prevtitle} {/* date reverse order... */}
+                  </Link>
                 </div>
-              </Link>
             </div>
           </div>
         </div>

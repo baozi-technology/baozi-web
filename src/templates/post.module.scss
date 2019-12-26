@@ -78,16 +78,19 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap:wrap;
 }
 
 .prevContainer{
+  margin-top:1em;
   flex: 1 1 auto;
 }
 
 .nextContainer{
+  margin-top:1em;
   flex: 0 0 auto;
 }
 
 .maxWidth{
-  max-width: 200px;
+  max-width: 300px;
 }
