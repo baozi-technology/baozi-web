@@ -74,18 +74,19 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: "minimal-ui",
-        icons: [
-          {
-            src: "static/logos/baozi-only-logo-192.png",
-            sizes: "192x192",
-            type: "image/png"
-          },
-          {
-            src: "static/logos/baozi-only-logo-512.png",
-            sizes: "512x512",
-            type: "image/png"
-          }
-        ]  
+        icon: "static/logos/baozi-only-logo-512.png"
+        // icons: [
+        //   {
+        //     src: "static/logos/baozi-only-logo-192.png",
+        //     sizes: "192x192",
+        //     type: "image/png"
+        //   },
+        //   {
+        //     src: "static/logos/baozi-only-logo-512.png",
+        //     sizes: "512x512",
+        //     type: "image/png"
+        //   }
+        // ]  
       }
     },
     {

@@ -47,7 +47,8 @@ const Header = () => {
           <Link       
             to="/">
                 {/*https://stackoverflow.com/questions/980855/inputting-a-default-image-in-case-the-src-attribute-of-an-html-img-is-not-vali*/}
-                <object 
+                {/* does not work...*/}
+                <img 
                 onMouseOver={() => {
                   setLogo(logoGif)
                 }}    
@@ -55,10 +56,9 @@ const Header = () => {
                   setLogo(logoPng)
                 }}  
                 className={styles.heightSet}
-                data={logo}
-                >
-                  <img src={logoPng} alt="Baozi Technology"/>
-                </object>
+                src={logo}
+                alt="Baozi Technology"
+                />
           </Link>
         </div>
         <div className={styles.toggleMenuContainer}>
