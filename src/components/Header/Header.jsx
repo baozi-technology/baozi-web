@@ -56,7 +56,6 @@ const Header = () => {
                 }}  
                 className={styles.heightSet}
                 data={logo}
-                alt="Baozi Technology"
                 >
                   <img src={logoPng} alt="Baozi Technology"/>
                 </object>
