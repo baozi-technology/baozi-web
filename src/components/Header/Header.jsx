@@ -46,7 +46,7 @@ const Header = () => {
         <div title="Jump to home page" className={styles.logoContainer}>
           <Link       
             to="/">
-                <img 
+                <object 
                 onMouseOver={() => {
                   setLogo(logoGif)
                 }}    
@@ -54,9 +54,11 @@ const Header = () => {
                   setLogo(logoPng)
                 }}  
                 className={styles.heightSet}
-                src={logo}
+                data={logo}
                 alt="Baozi Technology"
-              />
+                >
+                  <img src={logoPng} alt="Baozi Technology"/>
+                </object>
           </Link>
         </div>
         <div className={styles.toggleMenuContainer}>
