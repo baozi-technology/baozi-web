@@ -46,6 +46,7 @@ const Header = () => {
         <div title="Jump to home page" className={styles.logoContainer}>
           <Link       
             to="/">
+                {// https://stackoverflow.com/questions/980855/inputting-a-default-image-in-case-the-src-attribute-of-an-html-img-is-not-vali}
                 <object 
                 onMouseOver={() => {
                   setLogo(logoGif)
