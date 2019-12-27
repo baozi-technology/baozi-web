@@ -2,7 +2,7 @@ const config = {
   siteTitle: "Baozi\nTechnology", // Site title.
   siteTitleShort: "Baozi", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Baozi Technology", // Alternative site title for SEO.
-  siteLogo: "/static/logos/baozi-technology-full-logo.png", // Logo used for SEO and manifest.
+  siteLogo: "logos/baozi-technology-full-logo.png", // Logo used for SEO and manifest.
   siteUrl: "https://baozi.technology", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "That's Nicolas's professional blog, featuring his side projects. Hire him as a freelance developer! Watch him eating baozi!", // Website description used for RSS feeds/meta description tag.
