@@ -11,12 +11,14 @@ import "./b16-tomorrow-dark.css";
 import ShowcaseContent from "../components/ShowcaseContent/ShowcaseContent"
 import ArticleContent from "../components/ArticleContent/ArticleContent"
 import styles from "./post.module.scss"
+import Commento from "../components/Commento/Commento"
 
 export default class PostTemplate extends React.Component {
   render() {
     const { data, pageContext } = this.props;
     const { slug, nexttitle, nextslug, prevtitle, prevslug } = pageContext;
     const postNode = data.markdownRemark;
+    const id = postNode.id;
     const tableOfContents = postNode.tableOfContents;
     const post = postNode.frontmatter;
     if (!post.id) {
@@ -81,9 +83,7 @@ export default class PostTemplate extends React.Component {
             </div>
           </div>
           <div className={styles.commentoContainer}>
-            <div id="commento"></div>
-            <script src="https://cdn.commento.io/js/commento.js"></script>
-            <noscript>Please enable JavaScript to load the comments.</noscript>
+            <Commento id={id}/>
           </div>
         </div>
       </Layout>
@@ -117,6 +117,7 @@ export const pageQuery = graphql`
         slug
         date
       }
+      id
     }
   }
 `;
