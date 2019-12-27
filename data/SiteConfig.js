@@ -4,7 +4,7 @@ const config = {
   siteTitleAlt: "Baozi Technology", // Alternative site title for SEO.
   siteLogo: "/static/logos/baozi-technology-full-logo.png", // Logo used for SEO and manifest.
   siteUrl: "https://baozi.technology", // Domain of your website without pathPrefix.
-  pathPrefix: "/baozi-technology", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Baozi Technology is the company under which Nicolas Gimenez operates as a Free Software and freelance developer.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   postDefaultCategoryID: "Tech", // Default category for posts.
