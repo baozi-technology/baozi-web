@@ -19,7 +19,7 @@ class SEO extends Component {
       if(postMeta.cover) {
         image = postMeta.cover.relativePath;
       }
-      postURL = urljoin(config.siteUrl, config.pathPrefix, postPath);
+      postURL = urljoin(config.siteUrl, postPath);
     } else {
       title = config.siteTitle;
       description = config.siteDescription;
@@ -27,11 +27,11 @@ class SEO extends Component {
     }
 
     if(image) {
-      image = urljoin(config.siteUrl, config.pathPrefix, image);
+      image = urljoin(config.siteUrl, image);
     } else {
-      image = urljoin(config.siteUrl, config.pathPrefix);
+      image = config.siteUrl;
     }
-    const blogURL = urljoin(config.siteUrl, config.pathPrefix);
+    const blogURL = config.siteUrl;
     const schemaOrgJSONLD = [
       {
         "@context": "http://schema.org",
