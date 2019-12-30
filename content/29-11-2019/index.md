@@ -46,7 +46,7 @@ You need money? Only engage into selling support/training/goodies/consulting or 
 
 (Read him, and you'll see!)
 
-I think, his position is extremely interesting as he was one of the most prominent writer around the simple but incredibly complex question: "how to create a community around open-source?"
+His position is extremely interesting as he was one of the most prominent writer around the simple but incredibly complex question: "how to create a community around open-source?"
 That's the key to a successful project. If you have enough people engaged into making a great product, he believed that the money will come naturally afterwards - and that it was the only way apart from Option One.
 
 He designed the [Collective Code Construction Contract (C4)](https://rfc.zeromq.org/spec:22/C4/) to set in marber the way people should work together in a de-centralized way to improve the open-source project.
@@ -71,7 +71,7 @@ The fundamental difference between selling exceptions and dual licensing, that m
 
 ## Which weak-copyleft license should you sell? 
 
-I think that giving people the right to get over side clauses of the GNU GPLv3 like "tivoization" is controversial. I myself think it is ok, considering you're already allowing other people to do something "wrong" by allowing them to embed your free software into their proprietary code. So the point here in my opinion, leans more towards the OSS practical use of the copyleft, that is about _being used_ while _enforcing sharing improvements_, so that you can keep the community building Free Software alive. 
+Giving people the right to get over side clauses of the GNU GPLv3 like "tivoization" is controversial. I myself think it is ok, considering you're already allowing other people to do something "wrong" by allowing them to embed your free software into their proprietary code. So the point here in my opinion, leans more towards the OSS practical use of the copyleft, that is about _being used_ while _enforcing sharing improvements_, so that you can keep the community building Free Software alive. 
 
 That is why I encourage people "selling exception" to offer MPLv2 license for a fee as an alternative to the GNU GPL for proprietary vendors. The wording of "selling exception" is misleading here, as you factually do license your software under another license, but the point is in practice MPLv2 behaves as "file-level GNU GPL" despite being a separate license.
 
