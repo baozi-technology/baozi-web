@@ -27,21 +27,19 @@ There are plenty of initiatives these days to pay the open-source developers, na
 
 We'll see which are the business models available while giving you my two cents along the way.
 
-# Selling the software as is
+# Selling the software itself
 
-Free standalone Softwares may be sold the same way as proprietary softwares. As said earlier [nothing forbid it](https://www.gnu.org/philosophy/selling.en.html). And in fact, Free Softwares are and have always been sold the same way as proprietary softwares. Ex: copies of the GNU Emacs back at the time was [sold by Richard Stallman](https://www.oreilly.com/openbook/opensources/book/stallman.html). More recently, the WordPress plugin are all released under the GPL and are still distributed against a price. The source code is available but it doesn't mean that the service around providing binaries, installation packages and such are to be given away for free.
+Free standalone Softwares may be sold the same way as proprietary softwares. As said earlier [nothing forbid it](https://www.gnu.org/philosophy/selling.en.html). And in fact, Free Softwares have been sold the same way as proprietary softwares. Ex: copies of the GNU Emacs back at the time was [sold by Richard Stallman](https://www.oreilly.com/openbook/opensources/book/stallman.html).
 
 With GNU Emacs, we took the examples of softwares developers tools distributed at a time when barely 10% of the global population had access to a very slow internet. Today everyone can download it for free on the Internet. Furthermore, even if you'd lock Emacs so that people could try the software using a free trial before buying, someone could study the source code and release another version without the lock for free on the Internet. Therefore, it is in practice difficult to enforce a payment after a free trial of a standalone Free Software. All this is legal and encouraged by the FSF.
 
-However, softwares usually come with logos and designs that are often protected under the trademarks laws. Therefore, one who engages into modifying a software and providing it without the "lock" doesn't have the right to do so using the logos and designs of the original software without the written permission of the copyright holders.
-
-Replacing the logos and designs may be an easy task but it diminishes the credibility of the modified work for the customers that see in the original work the insurance that it is not a crack. The power of branding!
+However, softwares usually come with logos and designs that are often protected under the trademarks laws. Therefore, one who engages into modifying a software and providing it without the "lock" doesn't have the right to do so using the logos and designs of the original software without the written permission of the trademarks owners.
+Replacing the logos and designs may be an easy task but it also diminishes the credibility of the modified work for the customers that see in the original work the insurance that it is not a crack. The power of branding!
 
 Finally, end-users that are non technologists do not care about software licenses. They do not know anything about it. If you tell them to pay to use the software, they'll just do it. But they might feel betrayed if you didn't tell them that there were a way around payment ;).
 
-Generally, this strategy does not work if the software is 100% free (as in freedom). It works way better when at least a tiny part of your software is proprietary.
-
-One counter-example could the so-called ["premium" WordPress plugins](https://www.wpstuffs.com/3-best-places-buy-premium-wordpress-plugins/) which are free softwares (licensed under the GNU GPL), but the service of bundling the binaries together and providing the service to download and install those plugins comes with a price.
+Generally, selling the software itself does not work if the software is 100% open-source. It works way better when at least a tiny part of your software is proprietary.
+A counter-example could be the ["premium" WordPress plugins](https://www.wpstuffs.com/3-best-places-buy-premium-wordpress-plugins/) which are free softwares (licensed under the GNU GPL), but the service of bundling the binaries together and providing the service to download and install those plugins comes with a price.
 
 # Support, training and donations
 
@@ -79,13 +77,13 @@ As a tolerant Free Software advocate, I'd recommend anyone that is forking a per
 
 Interestingly, the two projects of Martin Sústrik, Crossroad I/O and nanomsg did not have the same sort of success, and did not gather as much a whole commnity as ZeroMQ did. Maybe the use of the ["benevolent dictator" model](https://lwn.net/Articles/488732/) for handling his community over the innovative de-centralized [C4 contribution policy](https://rfc.zeromq.org/spec:22/C4/) of ZeroMQ can explain it. Or maybe the choice of license? It is hard to say.
 
-At this game of selling support and training, it mostly doesn't work for individual developers and small companies. RedHat is the real winner here. The land page for their [Tidelift project talks about it better than anyone](https://blog.tidelift.com/open-source-creators-red-hat-got-34-billion-and-you-got-0.-heres-why). It is the sad truth, companies doesn't want to bother with a thousands of different support contract for thousands of different software modules - and as RedHat says: _"Open source creators: RedHat got $34 billions of you got $0."_. Individual or small group of developers are no lawyers and salesmen, and that's what it takes for companies to sign legal and technical support deals.
+At this game of selling support and training, it mostly doesn't work for individual developers and small companies. RedHat is the real winner here. The land page for their [Tidelift project talks about it better than anyone](https://blog.tidelift.com/open-source-creators-red-hat-got-34-billion-and-you-got-0.-heres-why). It is the sad truth, companies don't want to bother with a thousands of different support contract for thousands of different software modules - and as RedHat says: _"Open source creators: RedHat got $34 billions of you got $0."_. Individual or small group of developers are no lawyers and salesmen, and that's what it takes for companies to sign legal and technical support deals.
 
 The amount of money received from donations for small projects are usually only enough to pay the founder/core maintainers of the project. Anyone else contributing, even significantly is not paid at all. The most successful open-source software working with that model is Linux: [the main guy beeing paid is Linus Torvald + the other employees of the Linux Foundation + the employees of RedHat/Microsoft/IBM and equivalent that work on it as part of their employement contract](https://www.quora.com/Do-Linux-developers-get-paid-If-so-is-it-on-par-with-the-pay-that-software-professionals-are-paid).
 
 Quasar Framework makes relatively good money that goes almost entirely to the core maintainer/project founder (and almost only contributor in terms of number of commits), [Razvan Stoenescu](https://quasar.dev/sponsors-and-backers).
 
-Loïc Hoguin, creator of the Erlang's Cowboy library (and others) is responsible for over 90% of the commits to his projects, while his work is used by thousands of companies out there. Still, if you look at [his sponsor page](https://ninenines.eu/services/#_sponsoring), it does not seem that impressive when compared to the greatness of his work and he seems to admittedly still have to accept consulting contract.
+Loïc Hoguin, creator of the Erlang's Cowboy library (and others) is responsible for over 90% of the commits to his projects, while his work is used by lots of companies out there. Still, if you look at [his sponsor page](https://ninenines.eu/services/#_sponsoring), it does not seem that impressive when compared to the greatness of his work and he seems to admittedly still have to accept consulting contract.
 It shows both how hard it is to create a community around FLOSS, independently of the success of your project, and how hard it is to get a competitive salary for it.
 
 This [interview with the VIM creator Bram Moolenar](https://www.binpress.com/vim-creator-bram-moolenaar-interview/) is symptomatic. When asked "How can the community ensure that the Vim project succeeds for the foreseeable future?", he answered: "Keep me alive".
@@ -159,42 +157,6 @@ They are NOT community-based softwares (unlike WordPress).
 The project founders raised money from business angels, hired plenty of people and used Open-Source as a tool to achieve the goal of making a great software and making money out of it. Even though some of them use copyleft licenses, there is no such thing as "Free Sofware spirit" out there. We're 100% commited to the Open-Source movement NOT the Free Software movement.
 
 Open-Source is used mainly as a business marketing tool, and to be transparent to the users about the library they are using (which is a respectable move), so that people will use their tool. As such, it may feel relatively limited ethically. That's actually why, I believe, there is no real contributors community behind the project: there is no incentive from the project founders to create such community.
-
-While they deserve the respect due to their success and the added value they provide to their users, I believe that there is a way to avoid raising funds, a way that engage the whole community instead of having to hire plenty of developers. [Pieter Hintjens talked about it brillantly on his blog](http://hintjens.com/blog:27):
-
-> _"There are, it has been said, two ways to make really large-scale software. Option One is to throw massive amounts of money and problems at empires of smart people, and hope that what emerges is not yet another career killer. If you're very lucky, and are building on lots of experience, and have kept your teams solid, and are not aiming for technical brilliance, and are furthermore incredibly lucky, it works._
-
-> _But gambling with hundreds of millions of others' money isn't for everyone. For the rest of us who want to build large-scale software, there's Option Two, which is open source, and more specifically, free software. You may be asking how the choice of software license is relevant to the scale of the software you build. It's the right question."_
-
-[Pieter Hintjens also said](https://twitter.com/hintjens/status/603446810183610368):
-
->_""How to make money from open source" is like "How to make money from clean water" or public education or science."_
-
-He believed the only way for creating a community around an Open-Source project was to:
-- put people before code
-- share copyrights
-- use a copyleft licensed (strong or weak for librairies)
-- not engaging into dual licensing or such practice
-- never make any proprietary features on top of such project
-
-You need money? Only engage into selling support/training/goodies/consulting or get donations.
-
-(Read him, and you'll see ;).)
-
-I think, his position is extremely interesting as he was one of the most prominent writer around the simple but incredibly complex question: "how to create a community around open-source?"
-That's the key to a successful project. If you have enough people engaged into making a great product, he believed that the money will come naturally afterwards - and that it was the only way apart from Option One.
-
-He designed the [Collective Code Construction Contract (C4)](https://rfc.zeromq.org/spec:22/C4/) to set in marber the way people should work together in a de-centralized way to improve the open-source project.
-
-However, in my opinion, his views were a bit too extreme when it came to business models. I do not believe unpaid contributors, or starving projects make a better product. He was often referencing to [Wikipedia as a successful community-based project that is always starving and asking for donation while being extremely successful](http://hintjens.com/blog:117).
-
-Well, if you ask me, I'd say that Wikipedia's purpose is different from any other commercial software. Being a FLOSS doesn't mean you don't want to make money. Wikipedia has a higher ethical purpose and works behind a foundation for free and unbiased information. It has no commercial purpose, this is a wonderful goal and I have huge respect for people working towards this objective.
-
-But, if I were to engage into founding or contributing to a software like [ZeroMQ](https://zeromq.org/), and I was a developer with a fulltime employement job on the side, I would personally prefer being able to make money out of it, being successful financially so I can quit my daily job and put more and more energy into making the project grow, making the project sustainable while still having time to spend with my family.
-
-In fact, I see retribution by money as part of the Freedom necessary for software developers to achieve their goal: work on what they love the most, ambitious and creative frameworks or librairies and thrive to make this world better.
-
-I feel like asking for donations can _sometimes_ be a confession for being unable to successfully find meaningful and ethical business model around your activity, that engage more people than just you and eventually a few other core contributors. It _can be_ a confession for lack of business creativity. (I emphasize on "sometimes", because for some, like for foundations but not only, it is a solution that has been seriously reflected on.)
 
 # Dual licensing
 
