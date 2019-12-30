@@ -93,7 +93,11 @@ For me it makes so much sense. Abide by the rules that gives Freedom to your use
 The main issue with the way this dual licensing is usually done is that there is not enough distinction between a regular user and a contributor.
 Contributor shall have the same if not more attention from the project founders than the people who buy exceptions.
 
-Selling exceptions shall NOT be the ultimate goal. The ultimate goal shall be to engage a community commited to write great Free Software and to promote its inherent philosophy. Selling exceptions should only be a means to achieve such goals - a strategy as Stallman would say. Selling exceptions is only one of the means to pursue this objective. It shall be about acknowledging that contributors and ultimately people behind it have ambition and value, and deserve to be paid for their work. Acknowledging that well-paid full-time developers make better softwares than the very same developers struggling to find time for it. Acknowledging that UX/UI is important and a Free Software project needs money to pay designers as well (these ones rarely work for free ;)). Acknowledging that support/training/donations are generally not enough to provide sufficiently to a whole community.
+Selling exceptions shall NOT be the ultimate goal. The ultimate goal shall be to engage a community commited to write great Free Software and to promote its inherent philosophy. Selling exceptions should only be a means to achieve such goals - a strategy as Stallman would say. Selling exceptions is only one of the means to pursue this objective. It shall be about:
+- acknowledging that contributors and ultimately people behind it have ambition and value, and deserve to be paid for their work
+- acknowledging that well-paid full-time developers make better softwares than the very same developers struggling to find time for it
+- acknowledging that UX/UI is important and a Free Software project needs money to pay designers as well (these ones rarely work for free)
+- aAcknowledging that support/training/donations are generally not enough to provide sufficiently to a whole community.
 
 ## Which steps should you follow to adopt the Robin Hood social contract?
 
