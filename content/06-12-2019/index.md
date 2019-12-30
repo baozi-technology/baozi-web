@@ -9,18 +9,13 @@ tags:
     - design
 ---
 
-Hi! I've struggled to get those logos look relatively good.
-It is far from perfect - because using gif means loosing quality...
-
-I was pretty new to these frontend web-related issues.
-
+I've struggled to get those logos look relatively good.
 Ideally I guess the option that would lead to the cleanest result would be to use a .svg file and animate it within javascript. It is rather time consuming and complex though.
 I chose to use an animated gif.
 
 I had access to the .ps file of the logo - and I needed to generate both .png (or .jpeg) and .gif files. On mouse over, javascript swaps from .jpeg to .gif. On mouse out, javascript swaps from .gif to .jpeg. Easy peasy lemon squeezy. But no. It is more "difficult difficult lemon difficult".
-The .ps file was containing multiple layers corresponding to each step of the animated gif.
 
-The problem is - because of the nature of the gif, it wasn't easy to get a pretty result. Usually, the .png/.jpeg version was much more beautiful and when the user was dragging his mouse to the logo, it was obvious to the human-eye.
+Because of the nature of the gif, it wasn't easy to get a pretty result. Usually, the .png/.jpeg version was much more beautiful and when the user was dragging his mouse to the logo, it was obvious to the human-eye.
 
 There are actually many tricks to be aware of when generating a .gif. It is very important for the gif to look good. It is very easy to export one that's absolutely awful - while it was appearing good on Photoshop itself.
 
@@ -29,10 +24,7 @@ Exporting something like that for example:
 ![Ugly gif logo](./ugly-logo.gif)
 
 If you are not careful enough, you can also easily export a ".gif" that... is not even animated! Try "File -> Export -> Export as -> GIF"... o_O
-
 I spent a couple of days playing around with Adobe Photoshop 2020 to finally get an _acceptable_ result.
-
-Note that I didn't know anything about Photoshop and not much about exporting images for the web before that.
 
 (Yes I know Photoshop is an ugly proprietary software that doesn't even work on GNU/Linux - my OS of choice and there are better free software alternatives like GNU GIMP - I agree. But I didn't choose the tool my designer initially used, my designer did. So I was stuck with those proprietary .ps files. I'll talk more about that later...)
 
