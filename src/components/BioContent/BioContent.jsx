@@ -4,28 +4,9 @@ import PropTypes from 'prop-types';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 
 const BioContent = (props) => {
-  const data = useStaticQuery(graphql`
-  query BioQuery {
-    allFile(filter: {name: {in: ["nico_catch_yuting", "me-eating-baozi-square-transparent"]}}) {
-      edges {
-        node {
-          name
-          publicURL
-          extension
-        }
-      }
-    }
-  }
-  `)
-  var meEatingBaozi;
-  var meNormal;
-  data.allFile.edges.forEach(edge => {
-    if(edge.node.extension == "gif") {
-      meEatingBaozi=edge.node.publicURL;
-    } else {
-      meNormal=edge.node.publicURL;
-    }
-  });
+
+  const meEatingBaozi = '/avatars/me-eating-baozi-square-transparent.gif';
+  const meNormal = '/avatars/nico_catch_yuting.jpg';
 
   // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
   useEffect(() => {
