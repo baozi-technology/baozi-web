@@ -23,7 +23,7 @@ tags:
 
 # Why do we need another business model to support financially a software library?
 
-I emphasize here that the following business model will apply to supporting financially your software library, not a standalone software.
+I emphasize here that the following business model will apply to software library, not standalone software.
 
 I believe that there is a way to avoid raising funds, a way that engage the whole community instead of having to hire plenty of developers. [Pieter Hintjens talked about it brillantly on his blog](http://hintjens.com/blog:27):
 
