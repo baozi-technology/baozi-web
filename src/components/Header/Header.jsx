@@ -9,7 +9,7 @@ const Header = () => {
     allFile(filter: {name: {eq: "baozi-technology-full-logo"}, extension: {regex: "/jpg|gif/"}}) {
       edges {
         node {
-          relativePath
+          publicURL
           extension
         }
       }
@@ -20,9 +20,9 @@ const Header = () => {
   var logoPng;
   data.allFile.edges.forEach(edge => {
     if(edge.node.extension == "gif") {
-      logoGif=edge.node.relativePath;
+      logoGif=edge.node.publicURL;
     } else {
-      logoPng=edge.node.relativePath;
+      logoPng=edge.node.publicURL;
     }
   });
 
