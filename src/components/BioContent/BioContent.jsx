@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import styles from "./BioContent.module.scss"
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
 
 const BioContent = (props) => {
 
@@ -22,14 +22,7 @@ const BioContent = (props) => {
 
   const [click, setClick] = useState(false);
 
-  var avatarImage = (
-    <img 
-      className={styles.avatar}
-      src={!click ? meNormal : meEatingBaozi}
-      alt="Oops, the profile pic did not load! Try refreshing the page."
-    />
-  );
-  var baozi = (<button 
+  const baozi = (<button 
     className={styles.baozi}
     onClick={handleBaoziClick}>
       eating baozi
@@ -71,7 +64,11 @@ const BioContent = (props) => {
   return (
     <div className={styles.bioContentContainer}>
       <div className={styles.avatarContainer}>
-        {avatarImage}
+        <img 
+        className={styles.avatar}
+        src={!click ? meNormal : meEatingBaozi}
+        alt="Oops, the profile pic did not load! Try refreshing the page."
+        />
       </div>
       <div className={styles.bioContainer}>
         {content}

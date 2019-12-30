@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useStaticQuery, graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
 import UserLinks from "../UserLinks/UserLinks";
 import config from "../../../data/SiteConfig";
 import Container from "../Container/Container"

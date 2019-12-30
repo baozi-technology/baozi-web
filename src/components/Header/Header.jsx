@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useStaticQuery, graphql, Link } from 'gatsby';
+import {  Link } from 'gatsby';
 import styles from "./Header.module.scss"
 import Drawer from "../Drawer/Drawer"
 
