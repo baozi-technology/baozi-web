@@ -59,7 +59,7 @@ But, if I were to engage into founding or contributing to a software like [ZeroM
 
 In fact, I see retribution by money as part of the Freedom necessary for software developers to achieve their goal: work on what they love the most, ambitious and creative frameworks or librairies and thrive to make this world better.
 
-I feel like asking for donations can _sometimes_ be a confession for being unable to successfully find meaningful and ethical business model around your activity, that engage more people than just you and eventually a few other core contributors. It _can be_ a confession for lack of business creativity.
+I am under the impression that asking for donations can _sometimes_ be a confession for being unable to successfully find meaningful and ethical business model around your activity, that engage more people than just you and eventually a few other core contributors. It _can be_ a confession for lack of business creativity.
 
 # Selling exceptions to the AGPL and the Robin Hood business model
 
@@ -189,7 +189,7 @@ Also, there is no way you can check the plagiarism of a source code that's copyr
 
 It's a complex issue that should be addressed with a lawyer.
 
-I feel like it's part of the reason why individual entrepeneurs usually go for sponsoring/support. It feels safer, less complicated than bothering with contract laws. It also requires no financial investment (lawyers do take money...)
+It is part of the reason why individual entrepeneurs usually go for sponsoring/support. It feels safer, less complicated than bothering with contract laws. It also requires no financial investment (lawyers do take money...)
 
 However, I still believe that by being so repelled by business strategies, we, FLOSS developers, are missing a large part of the cake we deserve.
 
