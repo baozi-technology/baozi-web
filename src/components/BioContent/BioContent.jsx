@@ -20,12 +20,12 @@ const BioContent = (props) => {
     img.src = imgFileName;
   }
 
-  const [avatar, setAvatar] = useState(meNormal);
+  const [click, setClick] = useState(false);
 
   var avatarImage = (
     <img 
       className={styles.avatar}
-      src={avatar}
+      src={!click ? meNormal : meEatingBaozi}
       alt="Oops, the profile pic did not load! Try refreshing the page."
     />
   );
@@ -37,23 +37,14 @@ const BioContent = (props) => {
 
 
   function handleBaoziClick() {
-    if(avatar != meEatingBaozi) {
-      setAvatar(meEatingBaozi);
+    if(!click) {
+      setClick(true);
       setTimeout(setBackNormalAvatar, 2500);
     }
   }
 
-  // function handleBaoziClick(() => {
-  //   if(avatar != meEatingBaozi) {
-  //     const timer = setTimeout(() => {
-  //       setBackNormalAvatar()
-  //     }, 2500);
-  //     return () => clearTimeout(timer);
-  //   }
-  // };
-
   function setBackNormalAvatar(){
-    setAvatar(meNormal);
+    setClick(false);
   }
   const isLink = props.isLink;
   var bio = (
