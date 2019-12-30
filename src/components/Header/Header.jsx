@@ -3,8 +3,22 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 import styles from "./Header.module.scss"
 import Drawer from "../Drawer/Drawer"
 
-// https://github.com/gatsbyjs/gatsby/issues/10415
 const Header = () => {
+  
+  const logoDynamic = '/logos/baozi-technology-full-logo.gif';
+  const logoStatic = '/logos/baozi-technology-full-logo.jpg';
+
+  // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
+  useEffect(() => {
+    // https://fr.reactjs.org/docs/hooks-effect.html
+    preLoadImage(logoGif);
+    preLoadImage(logoPng);
+  });
+
+  function preLoadImage(imgFileName) {
+    const img = new Image();
+    img.src = imgFileName;
+  }
 
   const [hover, setHover] = useState(false);
 
@@ -23,7 +37,7 @@ const Header = () => {
                 setHover(false);
               }}
               className={styles.heightSet}
-              src={!hover ? '/logos/baozi-technology-full-logo.jpg':'/logos/baozi-technology-full-logo.gif'}
+              src={!hover ? logoStatic: logoDynamic}
               alt="Baozi Technology"
             />
           </Link>
