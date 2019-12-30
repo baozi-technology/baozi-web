@@ -4,15 +4,15 @@ import styles from "./Header.module.scss"
 import Drawer from "../Drawer/Drawer"
 
 const Header = () => {
-  
+
   const logoDynamic = '/logos/baozi-technology-full-logo.gif';
   const logoStatic = '/logos/baozi-technology-full-logo.jpg';
 
   // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
   useEffect(() => {
     // https://fr.reactjs.org/docs/hooks-effect.html
-    preLoadImage(logoGif);
-    preLoadImage(logoPng);
+    preLoadImage(logoDynamic);
+    preLoadImage(logoStatic);
   });
 
   function preLoadImage(imgFileName) {
