@@ -5,34 +5,17 @@ import config from "../../../data/SiteConfig";
 import Container from "../Container/Container"
 import styles from "./Footer.module.scss"
 
+// https://github.com/gatsbyjs/gatsby/issues/10415
 const Footer = () => {
-  const data = useStaticQuery(graphql`
-  query FooterQuery {
-    allFile(filter: {name: {eq: "baozi-only-logo"}, extension: {regex: "/png|gif/"}}) {
-      edges {
-        node {
-          publicURL
-          extension
-        }
-      }
-    }
-  }
-  `);
-  var logoGif;
-  var logoPng;
-  data.allFile.edges.forEach(edge => {
-    if(edge.node.extension == "gif") {
-      logoGif=edge.node.publicURL;
-    } else {
-      logoPng=edge.node.publicURL;
-    }
-  });
+
+  const logoDynamic = '/logos/baozi-only-logo.gif';
+  const logoStatic = '/logos/baozi-only-logo.png';
 
   // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
   useEffect(() => {
     // https://fr.reactjs.org/docs/hooks-effect.html
-    preLoadImage(logoGif);
-    preLoadImage(logoPng);
+    preLoadImage(logoDynamic);
+    preLoadImage(logoStatic);
   });
 
   function preLoadImage(imgFileName) {
@@ -40,7 +23,7 @@ const Footer = () => {
     img.src = imgFileName;
   }
 
-  const [logo, setLogo] = useState(logoPng);
+  const [hover, setHover] = useState(false);
 
   return (
       <footer className={styles.footer}>
@@ -92,12 +75,12 @@ const Footer = () => {
               <a onClick={() => scrollToTop()}>
                 <img 
                   className={[styles.heightSet, styles.logo].join(' ')}
-                  src={logo}
+                  src={!hover ? logoStatic: logoDynamic}
                   onMouseOver={() => {
-                    setLogo(logoGif)
+                    setHover(true);
                   }}
                   onMouseOut={() => {
-                    setLogo(logoPng)
+                    setHover(false);
                   }}
                   alt="Scroll to top"
                 />

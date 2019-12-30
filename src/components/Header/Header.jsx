@@ -3,6 +3,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 import styles from "./Header.module.scss"
 import Drawer from "../Drawer/Drawer"
 
+// https://github.com/gatsbyjs/gatsby/issues/10415
 const Header = () => {
 
   const logoDynamic = '/logos/baozi-technology-full-logo.gif';
@@ -29,11 +30,9 @@ const Header = () => {
           <Link to="/">
             <img
               onMouseOver={() => {
-                console.log("entered mouse over");
                 setHover(true);
               }}
               onMouseOut={() => {
-                console.log("entered onMouseOut");
                 setHover(false);
               }}
               className={styles.heightSet}
