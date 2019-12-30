@@ -16,7 +16,7 @@ tags:
     - must read
 ---
 
-I've spent a couple of months reading all sorts of articles and news about Free Software, Open-Source, licensing and more importantly the different business model strategies you can adopt to support financially your next amazing Free Libre Open Source Software project.
+I've spent a couple of months reading all sorts of articles and news about Free Software, Open-Source, licensing and more importantly the different business model strategies you can adopt to support financially your next amazing Free Libre Open Source Software (FLOSS) project.
 
 I want to summarize in this series of articles the most important things that I've learnt and that I think everyone in the industry should know.
 
