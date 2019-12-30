@@ -3,80 +3,61 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 import styles from "./Header.module.scss"
 import Drawer from "../Drawer/Drawer"
 
+// https://github.com/gatsbyjs/gatsby/issues/10415
 const Header = () => {
-  const data = useStaticQuery(graphql`
-  query HeaderQuery {
-    allFile(filter: {name: {eq: "baozi-technology-full-logo"}, extension: {regex: "/jpg|gif/"}}) {
-      edges {
-        node {
-          publicURL
-          extension
-        }
-      }
-    }
-  }
-  `);
-  var logoGif;
-  var logoPng;
-  data.allFile.edges.forEach(edge => {
-    if(edge.node.extension == "gif") {
-      logoGif=edge.node.publicURL;
-    } else {
-      logoPng=edge.node.publicURL;
-    }
-  });
 
-  // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
-  useEffect(() => {
-    // https://fr.reactjs.org/docs/hooks-effect.html
-    preLoadImage(logoGif);
-    preLoadImage(logoPng);
-  });
-
-  function preLoadImage(imgFileName) {
-    const img = new Image();
-    img.src = imgFileName;
-  }
-
-  const [logo, setLogo] = useState(logoPng);
+  const [hover, setHover] = useState(false);
 
   return (
     <header className={styles.header}>
       <div className={styles.headerContainer}>
         <div title="Jump to home page" className={styles.logoContainer}>
-          <Link       
-            to="/">
-                {/*https://stackoverflow.com/questions/980855/inputting-a-default-image-in-case-the-src-attribute-of-an-html-img-is-not-vali*/}
-                {/* does not work...*/}
-                <img 
-                onMouseOver={() => {
-                  setLogo(logoGif)
-                }}    
-                onMouseOut={() => {
-                  setLogo(logoPng)
-                }}  
-                className={styles.heightSet}
-                src={logo}
-                alt="Baozi Technology"
-                />
+          <Link to="/">
+            <img
+              onMouseOver={() => {
+                console.log("entered mouse over");
+                setHover(true);
+              }}
+              onMouseOut={() => {
+                console.log("entered onMouseOut");
+                setHover(false);
+              }}
+              className={styles.heightSet}
+              src={!hover ? '/logos/baozi-technology-full-logo.jpg':'/logos/baozi-technology-full-logo.gif'}
+              alt="Baozi Technology"
+            />
           </Link>
         </div>
         <div className={styles.toggleMenuContainer}>
-            <Drawer/>
+          <Drawer />
         </div>
         <div className={styles.navContainer}>
           <nav className={styles.siteNav}>
             <div className={styles.siteNavItemFirst}>
-              <Link activeClassName={styles.linkActive} to="/">Home</Link>
+              <Link activeClassName={styles.linkActive} to="/">
+                Home
+              </Link>
             </div>
             <div className={styles.siteNavItemMiddle}>
-              <Link activeClassName={styles.linkActive} to="/ranch-under-the-hood">Ranch doc</Link>
+              <Link
+                activeClassName={styles.linkActive}
+                to="/ranch-under-the-hood"
+              >
+                Ranch doc
+              </Link>
             </div>
             <div className={styles.siteNavItemMiddle}>
-              <Link activeClassName={styles.linkActive} to="/about">About</Link>
+              <Link activeClassName={styles.linkActive} to="/about">
+                About
+              </Link>
             </div>
             <div className={styles.siteNavItemLast}>
-              <a title="nicolas.gimenez@baozi.technology" href="mailto:nicolas.gimenez@baozi.technology">Message me</a>
+              <a
+                title="nicolas.gimenez@baozi.technology"
+                href="mailto:nicolas.gimenez@baozi.technology"
+              >
+                Message me
+              </a>
             </div>
           </nav>
         </div>
