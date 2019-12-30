@@ -11,7 +11,7 @@ const Footer = () => {
     allFile(filter: {name: {eq: "baozi-only-logo"}, extension: {regex: "/png|gif/"}}) {
       edges {
         node {
-          relativePath
+          publicURL
           extension
         }
       }
@@ -22,9 +22,9 @@ const Footer = () => {
   var logoPng;
   data.allFile.edges.forEach(edge => {
     if(edge.node.extension == "gif") {
-      logoGif=edge.node.relativePath;
+      logoGif=edge.node.publicURL;
     } else {
-      logoPng=edge.node.relativePath;
+      logoPng=edge.node.publicURL;
     }
   });
 

@@ -10,7 +10,7 @@ const BioContent = (props) => {
       edges {
         node {
           name
-          relativePath
+          publicURL
           extension
         }
       }
@@ -21,9 +21,9 @@ const BioContent = (props) => {
   var meNormal;
   data.allFile.edges.forEach(edge => {
     if(edge.node.extension == "gif") {
-      meEatingBaozi=edge.node.relativePath;
+      meEatingBaozi=edge.node.publicURL;
     } else {
-      meNormal=edge.node.relativePath;
+      meNormal=edge.node.publicURL;
     }
   });
 
