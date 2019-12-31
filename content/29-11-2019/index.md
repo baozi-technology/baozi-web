@@ -138,7 +138,7 @@ The customer will always have to come to you if he wants to avoid the "constrain
 ## Robin Hood can be used conjointly with other business models
 
 Using the Robin Hood business model doesn't mean you can't engage into the other business models exposed earlier like providing a SaaS, support, training or receiving donations.
-You can mix them all - espcially donations, as you are still tight to the ethical values of the Free Software movement.
+You can mix them all - especially donations, as you are still tight to the ethical values of the Free Software movement.
 
 # Limits of the Robin Hood business model
 
