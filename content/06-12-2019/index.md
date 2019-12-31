@@ -13,9 +13,9 @@ I've struggled to get those logos look relatively good.
 Ideally I guess the option that would lead to the cleanest result would be to use a .svg file and animate it within javascript. It is rather time consuming and complex though.
 I chose to use an animated gif.
 
-I had access to the .ps file of the logo - and I needed to generate both .png (or .jpeg) and .gif files. On mouse over, javascript swaps from .jpeg to .gif. On mouse out, javascript swaps from .gif to .jpeg. Easy peasy lemon squeezy. But no. It is more "difficult difficult lemon difficult".
+I had access to the .ps file of the logo - and I needed to generate both .png (or .jpeg) and .gif files. On mouse hover, javascript swaps from .jpeg to .gif. On mouse out, javascript swaps from .gif to .jpeg. Easy peasy lemon squeezy. But no. It is more "difficult difficult lemon difficult".
 
-Because of the nature of the gif, it wasn't easy to get a pretty result. Usually, the .png/.jpeg version was much more beautiful and when the user was dragging his mouse to the logo, it was obvious to the human-eye.
+Because of the nature of gif, it wasn't easy to get a pretty result. Usually, the .png/.jpeg version was much more beautiful and when the user was dragging his mouse over the logo, the difference of quality was obvious to the human eye.
 
 There are actually many tricks to be aware of when generating a .gif. It is very important for the gif to look good. It is very easy to export one that's absolutely awful - while it was appearing good on Photoshop itself.
 

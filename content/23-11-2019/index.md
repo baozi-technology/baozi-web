@@ -108,13 +108,14 @@ One other alternative is having a core product and have another software like a 
 
 The FSF considers any of this behaviour harmful to the cause of the Free Software, obviously, even though they do [allow it through their LGPL](https://www.gnu.org/licenses/why-not-lgpl.en.html).
 
-I think it is a practical approach from prorietary vendors (JetBrains IntelliJ was originally a proprietary closed-source software) to market their products but there is nothing close to the idea of collaboration to make a better system.
+It is a practical approach from prorietary vendors (JetBrains IntelliJ was originally a proprietary closed-source software) to market their products. Open-Source looks cool. JetBrains particularly encourages developers to make plug-in because [they make money from it](https://plugins.jetbrains.com/marketplace). 
 
-JetBrains product are 99% maintained by JetBrains employees, even though they have released part of their functionality under a permissive license.
+JetBrains core products are still largely maintained by JetBrains employees, despite that their Community Editions have been released under a permissive license. [To contribute to IntelliJ Community Edition, you need to sign a CLA](https://github.com/JetBrains/intellij-community/blob/master/CONTRIBUTING.md) and give away all your copyrights over your contribution, which means they could make the whole project proprietary again one day or use your contribution inside their proprietary closed-source and commercial Enterprise Edition. Not really encouraging, right?
 
 Ethically speaking it is really odd to choose between which feature should be part of the "Community" edition and which one should be part of the "Proprietary" Edition. It can be really cumbersome to handle and confusing for the users.
 
-This sort of business model is not really possible if you don't go find business angels to raise funds for your project and hire a bunch of developers. Why? Who will want to contribute to a FLOSS when the owners make proprietary/closed-source adds-on on top of it?
+This sort of business model is not really possible if you don't go find business angels to raise funds for your project and hire a bunch of developers. 
+Who will want to contribute to a FLOSS when the owners make proprietary/closed-source adds-on on top of it?
 
 A counter-example could be [GitLab](https://about.gitlab.com/pricing/licensing-faq/), an open-core alternative to GitHub that is [relatively well supported by the Free Software community](https://about.gitlab.com/blog/2015/05/20/gitlab-gitorious-free-software/). It seems like the [Debian community is contributing to the Community Edition of GitLab](https://about.gitlab.com/blog/2017/11/01/gitlab-switches-to-dco-license/).
 
@@ -161,8 +162,8 @@ Open-Source is used mainly as a business marketing tool, and to be transparent t
 # Dual licensing
 
 Dual/Multi Licensing consists in:
-- releasing a software under a strong copyleft license such as GPL or AGPL
-- provide a "Proprietary License" as well for companies that does not wish to engage into making Free Softwares against payment
+- releasing a software library under a strong copyleft license such as GPL or AGPL
+- selling a "Proprietary License" as well to companies that make nonfree softwares
 
 The project founders shall make people sign a Contributor Software Agreement to all the external contributors to the software for them to give away their copyright to the project founders.
 That's the only way they can then publish the external contributions under a different license (the Proprietary License).

@@ -110,9 +110,9 @@ More recently, [Linus opposed to the adoption of the latest version of the GNU G
 GPL does not enforce sharing per se, but the fact that anyone receiving a GPL licensed software can release the source code to the public makes it practically impossible for anyone to keep his work secret and make money out of it. That argument was valid only for non-internet based softwares but we will come to that later (GPL loop hole kinda closed by AGPL).
 [As NDA over GPL work is illegal](https://www.gnu.org/licenses/gpl-faq.html#DoesTheGPLAllowNDA). Even though the person receiving the GPL software may not want to distribute it to the world, it became common that anyone making improvements to a GPL project was contributing it back to the community, especially with the rise of Version Control System  online like GitHub, which made it incredibly easier to do so. Instead of having to distribute the source each time to each customer, you can put the source online with only a link.
 
-People started realizing that Free Software enables online community to gather, to work from all over the world and to creat incredible projects. With the Linux community, led by Linus Torvalds who thought "making the source open is a good idea," Open-Source movement was born. The term was created by Eric Raymond. Read ["The Cathedral and the Bazar"](http://www.catb.org/~esr/writings/cathedral-bazaar/) for more info. 
+People started realizing that Free Software enables online community to gather, to work from all over the world and to create incredible projects. With the Linux community, led by Linus Torvalds who thought "making the source open is a good idea," Open-Source movement was born. The term was created by Eric Raymond. Read ["The Cathedral and the Bazar"](http://www.catb.org/~esr/writings/cathedral-bazaar/) for more info. 
 
-Open-Source is more about the technical side of the Free Software movement as opposed to the ethical and philosophical stance that the FSF insists on. It is really about simthe convenience of working together on a commonly shared source code. The license used is solely a tool for either enforcing the sharing of improvements or enabling more users to use the source code (permissive non-copyleft licenses - see later). It becomes a business model strategy.
+Open-Source is more about the technical side of the Free Software movement as opposed to the ethical and philosophical stance that the FSF insists on. It is really about the convenience of working together on a commonly shared source code. The license used is solely a tool for either enforcing the sharing of improvements or enabling more users to use the source code (permissive non-copyleft licenses - see later). It becomes a business model strategy.
 
 Open-Source movement does not see any harm in combining proprietary and "open-source" softwares, since Open-Source is only a tool to achieve a better product, leveraging free (as in free beer) labour from all over the world. Open Source contributors are often passion-driven, especially back in the days. Open-Source is also a marketing tool used by businesses today to promote their softwares, penetrate more markets and encourage clients to use their products so that they can sell advanced "enterprise" features later. They may or may not use GPL to achieve such purpose. Since then, the use of GPL for a particular package was no longer enough to differentiate a project from the Free Softwares movement. The GPL can be used solely as a tool for business purposes (like with dual licensing - more about that later), to restrict the usage of a key library, or to enforce improvements.
 
@@ -150,7 +150,7 @@ But if you are the user of an AGPL software (like [Signal](https://signal.org/) 
 The two most popular "weak" copyleft licenses are the Lesser General Public License (LGPL) and the Mozilla Public License (MPL).
 Their underlying philosophy are totally opposed: 
 - [the LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) was made by the FSF as a compromise to make more people use GPL-licensed softwares (i.e make proprietary vendors use Free Softwares). The copyleft effect is not systematically triggered to all kind of modified work.
-- [the MPL](https://en.wikipedia.org/wiki/Mozilla_Public_License) is a file-level copyleft license was made by Mozilla to enable proprietary add-on (in particularly made by Mozilla) while encouraging some kind of improvements. It's more of an Open-Source philosophy type of license.
+- [the MPL](https://en.wikipedia.org/wiki/Mozilla_Public_License) is a file-level copyleft license created by Mozilla to enable proprietary add-on (in particularly made by Mozilla) while encouraging some kind of improvements. It's more of an Open-Source philosophy type of license.
 
 The LGPL is more complicated than the MPL and tends to be less used these days (the trend is simpler, more permissive licenses that are easy to embed into proprietary softwares - the open-source philosophy).
 However, the LGPL is more suitable for people who embrace the spirit of the Free Software movement.
@@ -184,7 +184,7 @@ The following image summarizes the license compatibilities. It was extracted fro
 
 ![License compatibility between common FOSS software licenses according to David A. Wheeler (2007): the arrows denote a one directional compatibility, therefore better compatibility on the left side than on the right side.](./Floss-license-slide-image.png).
 
-That being said, all the latest versions of the modern most-used OSS licenses are compatible with each other. The real (voluntary) "issue" is the compatibility of copyleft licenses with proprietary softwares. 
+That being said, all the latest versions of the modern most-used OSS licenses are compatible with each other. The real (voluntary) "issue" is the incompatibility of copyleft licenses with proprietary softwares. 
 
 # Conclusion
 

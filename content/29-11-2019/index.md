@@ -21,7 +21,7 @@ tags:
  For my thoughts on the meaning and purpose of the Free Software and Open-Source movements, refer to the [second episode](https://baozi.technology/floss-business-ethics-part-2-towards-a-pragmatic-approach-to-the-spirit-of-free-software).
  For the state-of-the-art of the different business models used to support the development of a FLOSS, see the [third episode](https://baozi.technology/floss-business-ethics-part-3-business-models).
 
-# Why do we need another business model to support financially a software library?
+# Why do we need another business model?
 
 I emphasize here that the following business model will apply to software library, not standalone software.
 
