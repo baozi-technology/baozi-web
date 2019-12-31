@@ -11,7 +11,7 @@ class About extends Component {
           <p>Most of my professional experiences revolve around softwares written for the physical world industries such as Aerospace and Defense. 
             Only recently did I start doing web development, a very different industry in many ways.</p>
           <p>I always try to code in the language the most suitable for each project, 
-            regardless of my current knowledge and preferences. Disclaimer: I am most experienced in Python and Java and I love Erlang/Elixir/OTP.</p>
+            regardless of my current knowledge and preferences. Disclaimer: I am most experienced in Python and Java, I love Erlang/Elixir/OTP.</p>
           <p> I recently started{" "} 
             <Link to="/ranch-under-the-hood">contributing to open-source projects</Link> 
             {" "}and I am excited about releasing my own work Soon™.
