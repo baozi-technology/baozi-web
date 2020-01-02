@@ -1,17 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import { Follow } from "react-twitter-widgets";
 
-class UserInfo extends Component {
-  render() {
-    const { userTwitter } = this.props.config;
-    const { expanded } = this.props;
-    return (
-      <Follow
-        username={userTwitter}
-        options={{ count: expanded ? true : "none" }}
-      />
-    );
-  }
-}
+/**
+no need for full blow class. The component will become readable and easy to understand as it only
+has one job
+ */
+const UserInfo=({userTwitter,expanded})=>(
+  <Follow
+    username={userTwitter}
+    options={{ count: expanded ? true : "none" }}
+  />
+)
+
 
 export default UserInfo;

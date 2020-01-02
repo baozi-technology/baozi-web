@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from "./Showcase.module.scss"
+import PropTypes from 'prop-types';
 import Container from "../Container/Container"
 import ShowcaseContent from '../ShowcaseContent/ShowcaseContent';
-import PropTypes from 'prop-types';
+import styles from "./Showcase.module.scss"
 
 const Showcase = ({showcaseContent}) => {
   return (

@@ -1,62 +1,46 @@
-import React, { Component } from "react"
-import styles from "./ArticleContent.module.scss"
-import PropTypes from 'prop-types';
-import Img from "gatsby-image"
+import React from "react";
+import PropTypes from "prop-types";
+import Img from "gatsby-image";
+import styles from "./ArticleContent.module.scss";
 
-const ArticleContent = (props) => {
-  const cover = props.cover;
-  const subTitle = props.subTitle;
-  var content;
-  if(subTitle) {
-      if(cover) {
-        content = (
-            <div>
-                <div className={styles.subTitleContainer}>
-                    <h2 className={styles.subTitle}>
-                        {subTitle}
-                    </h2>
-                </div>
-                <div className={styles.coverContainer}>
-                    <Img className={styles.cover}        
-                    fluid={cover}
-                    />
-                </div>
+const ArticleContent = ({ cover, subTitle }) => {
+  if (subTitle) {
+    return (
+      <div className={styles.articleContentContainer}>
+        {cover ? (
+          <div>
+            <div className={styles.subTitleContainer}>
+              <h2 className={styles.subTitle}>{subTitle}</h2>
             </div>
-        );         
-      } else {
-        content = (
-            <div>
-                <div className={styles.subTitleContainer}>
-                    <h2 className={styles.subTitle}>
-                        {subTitle}
-                    </h2>
-                </div>
-            </div>
-        );              
-      }
-  } else {
-    if(cover) {
-      content = ( 
-        <div>
             <div className={styles.coverContainer}>
-                <Img className={styles.cover}        
-                fluid={cover}
-                />
+              <Img className={styles.cover} fluid={cover} />
             </div>
-        </div>);
-    } else {
-        content = null;
-    }
+          </div>
+        ) : (
+          <div>
+            <div className={styles.subTitleContainer}>
+              <h2 className={styles.subTitle}>{subTitle}</h2>
+            </div>
+          </div>
+        )}
+      </div>
+    );
   }
   return (
     <div className={styles.articleContentContainer}>
-        {content}
+      {cover ? (
+        <div>
+          <div className={styles.coverContainer}>
+            <Img className={styles.cover} fluid={cover} />
+          </div>
+        </div>
+      ) : null}
     </div>
   );
-}
+};
 
 export default ArticleContent;
 
 ArticleContent.propTypes = {
-  subTtitle: PropTypes.string,
+  subTitle: PropTypes.string
 };

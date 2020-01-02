@@ -5,29 +5,27 @@ import Layout from "../components/Layout/Layout";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
-import BioContent from "../components/BioContent/BioContent";
+/* import BioContent from "../components/BioContent/BioContent"; */
+/* import BioContentV1 from "../components/BioContent/BioContent_V1"; */
+import BioContentV2 from "../components/BioContent/BioContent_V2";
 import ShowcaseContent from "../components/ShowcaseContent/ShowcaseContent";
 
-class Index extends React.Component {
-  render() {
-    const postEdges = this.props.data.allMarkdownRemark.edges;
-    const bioContent = <BioContent isLink={true}/>;
-    const showcaseContent = 
-      (<ShowcaseContent 
-        title="Nicolas Gimenez" 
-        bioContent={bioContent}>
-      </ShowcaseContent>);
-
-    return (
-      <Layout showcaseContent={showcaseContent}>
-        <Helmet title={config.siteTitle} />
-        <SEO />
-        <PostListing postEdges={postEdges} />
-      </Layout>
-    );
-  }
-}
-
+const Index = ({ data }) => {
+  const { allMarkdownRemark } = data;
+  const { edges } = allMarkdownRemark;
+  // no need for setting it to true React will know that is the case
+  const bioContent = <BioContentV2 isLink />;
+  const showcaseContent = (
+    <ShowcaseContent title="Nicolas Gimenez" bioContent={bioContent} />
+  );
+  return (
+    <Layout showcaseContent={showcaseContent}>
+      <Helmet title={config.siteTitle} />
+      <SEO />
+      <PostListing postEdges={edges} />
+    </Layout>
+  );
+};
 export default Index;
 
 /* eslint no-undef: "off" */

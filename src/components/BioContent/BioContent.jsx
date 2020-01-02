@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import styles from "./BioContent.module.scss"
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql, Link } from 'gatsby';
 
 const BioContent = (props) => {
   const data = useStaticQuery(graphql`

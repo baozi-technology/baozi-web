@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import {
   // FacebookShareButton,
   LinkedinShareButton,
@@ -18,58 +18,52 @@ import urljoin from "url-join";
 import config from "../../../data/SiteConfig";
 import styles from "./SocialLinks.module.scss"
 
-class SocialLinks extends Component {
-  render() {
-    const { postNode, postPath, mobile } = this.props;
-    const post = postNode.frontmatter;
-    const url = urljoin(config.siteUrl, postPath);
-    const iconSize = mobile ? 36 : 48;
-    const filter = count => (count > 0 ? count : "");
-    const renderShareCount = count => (
-      <div className={styles.shareCount}>{filter(count)}</div>
-    );
-
-    return (
-      <div className={styles.socialLinks}>
-        <div>
-          <RedditShareButton url={url} title={post.title}>
-            <RedditIcon round size={iconSize} />
-            <RedditShareCount url={url}>
-              {count => renderShareCount(count)}
-            </RedditShareCount>
-          </RedditShareButton>
-        </div>
-        <div>
-          <TwitterShareButton url={url} title={post.title}>
-            <TwitterIcon round size={iconSize} />
-          </TwitterShareButton>
-        </div>
-        {/* <FacebookShareButton url={url} quote={postNode.excerpt}>
-          <FacebookIcon round size={iconSize} />
-          <FacebookShareCount url={url}>
+const SocialLinks =({postNode, postPath, mobile})=>{
+  const post = postNode.frontmatter;
+  const renderShareCount = count => (
+    <div className={styles.shareCount}>{count > 0 ? count : ""}</div>
+  );
+  return (
+    <div className={styles.socialLinks}>
+      <div>
+        <RedditShareButton url={urljoin(config.siteUrl, postPath)} title={post.title}>
+          <RedditIcon round size={mobile ? 36 : 48} />
+          <RedditShareCount url={urljoin(config.siteUrl, postPath)}>
             {count => renderShareCount(count)}
-          </FacebookShareCount>
-        </FacebookShareButton> */}
-        <div>
-          <LinkedinShareButton
-            url={url}
-            title={post.title}
-            description={postNode.excerpt}
-            >
-            <LinkedinIcon round size={iconSize} />
-            <LinkedinShareCount url={url}>
-              {count => renderShareCount(count)}
-            </LinkedinShareCount>
-          </LinkedinShareButton>
-        </div>
-        <div>
-          <TelegramShareButton url={url}>
-            <TelegramIcon round size={iconSize} />
-          </TelegramShareButton>
-        </div>
+          </RedditShareCount>
+        </RedditShareButton>
       </div>
-    );
-  }
+      <div>
+        <TwitterShareButton url={urljoin(config.siteUrl, postPath)} title={post.title}>
+          <TwitterIcon round size={mobile ? 36 : 48} />
+        </TwitterShareButton>
+      </div>
+      {/* <FacebookShareButton url={url} quote={postNode.excerpt}>
+        <FacebookIcon round size={iconSize} />
+        <FacebookShareCount url={url}>
+          {count => renderShareCount(count)}
+        </FacebookShareCount>
+      </FacebookShareButton> */}
+      <div>
+        <LinkedinShareButton
+          url={urljoin(config.siteUrl, postPath)}
+          title={post.title}
+          description={postNode.excerpt}
+        >
+          <LinkedinIcon round size={mobile ? 36 : 48} />
+          <LinkedinShareCount url={urljoin(config.siteUrl, postPath)}>
+            {count => renderShareCount(count)}
+          </LinkedinShareCount>
+        </LinkedinShareButton>
+      </div>
+      <div>
+        <TelegramShareButton url={urljoin(config.siteUrl, postPath)}>
+          <TelegramIcon round size={mobile ? 36 : 48} />
+        </TelegramShareButton>
+      </div>
+    </div>
+  );
 }
+
 
 export default SocialLinks;
