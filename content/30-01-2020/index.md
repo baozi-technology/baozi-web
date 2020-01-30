@@ -1,5 +1,5 @@
 ---
-title: "La risible évacuation des français à Wuhan"
+title: "La risible evacuation des francais a Wuhan"
 cover: "../../static/images/wuhan.jpg"
 date: "30-01-2020"
 author: "Nicolas Gimenez"
