@@ -11,7 +11,7 @@ tags:
     - sinophobia
 --- 
 
-<This is an exceptional one-time off-topic article in French because of the emergency situation of the coronavirus>
+Note: This is an exceptional one-time off-topic article in French because of the emergency situation of the coronavirus.
 
 Bonjour, 
 
