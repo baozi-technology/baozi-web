@@ -1,5 +1,5 @@
 ---
-title: "La risible evacuation des francais a Wuhan"
+title: "La risible évacuation des français à Wuhan"
 cover: "../../static/images/wuhan.jpg"
 date: "30-01-2020"
 author: "Nicolas Gimenez"
@@ -11,7 +11,7 @@ tags:
     - sinophobia
 --- 
 
-Note: This is an exceptional one-time off-topic article in French because of the emergency situation of the coronavirus.
+<This is an exceptional one-time off-topic article in French because of the emergency situation of the coronavirus.>
 
 Bonjour, 
 
