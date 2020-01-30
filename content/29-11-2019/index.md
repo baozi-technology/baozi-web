@@ -1,6 +1,6 @@
 ---
 title: "FLOSS Business & Ethics: Part 4 - The Robin Hood social contract"
-cover: "../../static/images/gpl-logo.png"
+cover: "../../static/images/wuhan.png"
 date: "29-11-2019"
 author: "Nicolas Gimenez"
 category: "floss"
