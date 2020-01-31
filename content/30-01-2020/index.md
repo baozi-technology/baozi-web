@@ -20,7 +20,7 @@ Je suis Nicolas. Ca fait environ une semaine que vous m'avez peut-être vu passe
 # Pourquoi tu fais cet article ?
 Je vous parle ici plus librement.
 
-# Pourquoi sur ce site? o_O
+# Pourquoi sur ce site ? o_O
 Le seul gros réseau social occidental auquel j'ai actuellement accès de Chine est LinkedIn. Mais faut avoir un compte pour lire les articles.
 
 # T'es où maintenant ? Avec qui ? Pourquoi ?
