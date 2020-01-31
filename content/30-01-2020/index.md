@@ -26,7 +26,7 @@ Le seul gros réseau social occidental auquel j'ai actuellement accès de Chine 
 # T'es où maintenant ? Avec qui ? Pourquoi ?
 Je suis bloqué à Wuhan avec ma femme de nationalité chinoise. Nous résidons normalement en France où nous nous sommes mariés en 2018. Nous sommes venu passer le nouvel an chinois à Wuhan chez ma belle-famille et on était censé rentrer le 28. 
 
-# Mais, si vous êtes mariés pourquoi n'a-t-elle pas la nationalité française ?
+# Mais merde, si vous êtes mariés pourquoi n'a-t-elle pas la nationalité française ?
 En fait c'est jamais le cas. T'as un titre de séjour vie privée vie familiale qui t'autorise à vivre en France comme bon te semble, à travailler etc. C'est pas un visa, c'est mieux. C'est comme une carte d'identité pour étranger quoi. La première fois qu'on t'en délivre, sa validité est d'un an. Mais bon c'est une formalité pour le renouvellement. Ensuite c'est deux ans. Ensuite c'est 2 ans encore. Et enfin, 10 ans. Après 5 ans de vie et en France et de possession de titre de séjour, tu peux demander la nationalité française. Mais c'est pas obligé, tout le monde ne le fait pas. En tant que chinois, si tu deviens français, tu perds ta nationalité chinoise aussi. C'est le gouvernement chinois qui refuse les doubles passeports.
 
 # Putain, mais ça doit être chaud la vie là-bas!! Ca va t'es pas malade ? Ya des zombies dans la rue ?
