@@ -42,8 +42,8 @@ Je me suis dit au départ que ça devait être à cause du gouvernement françai
 
 Ils m'ont dit que c'était en négociation avec je ne sais qui, mais sans +.
 
-A priori tout ce qui intéresse le gouvernement chinois c'est d'entretenir de bonnes relatoins avec les autres pays et de ne pas être taxé de responsable d'avoir mal gérer la crise. Honnêtement du coup ils surgèrent. Peut-être un peu trop même, vu qu'ils ont bloqué entièrement la ville. Ca pète les couilles mais c'est comme ça. Jsais pas si nous les français on aurait fait ça pour, Marseille par exemple. Car Wuhan c'est balèze comme ville hein. C'est pas Pétaoutchnok. C'est une grosse mégalopole. Ya autant de gens qu'à Paris, 10 Millions.
-De ce que j'ai compris comme c'est illégal pour les chinois aujourd'hui de quitter la ville, c'est illégal aussi pour les conjoints de français. Mais bon la diplomatie ça sert à ça non ?
+A priori tout ce qui intéresse le gouvernement chinois c'est d'entretenir de bonnes relations avec les autres pays et de ne pas être taxé de responsable d'avoir mal gérer la crise. Honnêtement du coup ils surgèrent. Peut-être un peu trop même, vu qu'ils ont bloqué entièrement la ville. Ca pète les couilles mais c'est comme ça. Jsais pas si nous les français on aurait fait ça pour, Marseille par exemple. Car Wuhan c'est balèze comme ville hein. C'est pas Pétaoutchnok. C'est une grosse mégalopole. Ya autant de gens qu'à Paris, 10 Millions.
+Enfin peut-être que je me trompe mais on n'a jamais pu m'expliquer ce qui gêne.
 
 Puis récémment on m'a dit que ma femme pourrait venir. Mais à ma mère qui appelle de France on lui a dit le contraire. N'imp' le truc.
 
