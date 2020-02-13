@@ -39,7 +39,9 @@ A counter-example could be the commercial ["premium" WordPress plugins](https://
 
 Most people distribute FLOSS for free, and make end-users pay for advanced support, specific training or simply ask for generous donations.
 
-If the software is a standalone as opposed to a software library, the main interest of the license business-wise is to enforce sharing improvements. Therefore, you'd rather use a strong copyleft license - such as the GNU GPL. Ex of projects adopting this strategy:
+If the software is a standalone as opposed to a software library, the main interest of the license business-wise is to enforce sharing improvements. Therefore, you'd rather use a strong copyleft license - such as the GNU GPL. 
+
+Ex of projects adopting this strategy:
 - the GNU projects
 - Linux
 - [WordPress](https://developer.wordpress.org/themes/getting-started/wordpress-licensing-the-gpl/)
@@ -48,9 +50,11 @@ If the software is a standalone as opposed to a software library, the main inter
 For a software library, using a permissive license can be interesting because:
 - it makes it smoother for people to use the library
 - it allows the software owners to both accept contributions and make proprietary add-ons on top, which may reasure the investors behind the project
+
 Ex of projects adopting this strategy: 
 - [Quasar Framework](https://quasar.dev/)
 - [Cowboy and Nine Nines](https://ninenines.eu/).
+
 Some prefer using a weak copyleft license instead for libraries: 
 - VLC core library which recently [moved away from GPL to LGPL](https://www.videolan.org/press/lgpl-libvlc.html)
 - ZeroMQ which [uses LGPLv3+static exception and is moving towards MPLv2](http://wiki.zeromq.org/area:licensing)
@@ -60,7 +64,9 @@ It really depends on your goals:
 - do you want to enforce sharing of improvements, avoid being captured by a proprietary project ==> go for copyleft
 - do you prefer making sure everyone can use your software? => go for permissive
 
-It must be noted that if somebody forks your permissive project and make it GPL, you will NOT be able to pull back the improvements to your permissive project using your permissive license. You will need to change your license to GPL. That's one of the reason why permissive license advocates often dislike copyleft users. They consider that GPL-like licenses are viral and polluting.
+It must be noted that if somebody forks your permissive project and make it GPL, you will NOT be able to pull back the improvements to your permissive project using your permissive license. You will need to change your license to GPL. 
+That's one of the reason why permissive license advocates often dislike copyleft users. They consider that GPL-like licenses are viral and polluting.
+
 It's a risk and this reason alone is enough to advice any one of you wanting to engage into making a significant open-source library with a permissive license to choose a weak copyleft license like the MPLv2 instead, especially if you are a small startup or an individual.
 Pieter Hintjens talked about it better than me [on his blog](http://hintjens.com/blog:27). 
 
@@ -77,7 +83,7 @@ The amount of money received from donations for small projects are usually only 
 This [interview with the VIM creator Bram Moolenar](https://www.binpress.com/vim-creator-bram-moolenaar-interview/) is symptomatic. When asked _"How can the community ensure that the Vim project succeeds for the foreseeable future?"_, he answered: _"Keep me alive"_.
 Often times, when an open-source software relying on donations to a one-man maintainer becomes that successful, the maintainer is hired by a well-established company to work on the project full-time. [Bran Moolenar](https://www.vim.org/sponsor/index.php) works at Google.
 
-What happens when the main project maintainers can no longer contribute to the project? It seems quite scary for the users that rely on such library... That's why it appears to be a real necessity to create a community of developers - and somehow find a way to get them paid, to some extent like with Linux.
+What happens when the main project maintainers can no longer contribute to the project? It seems quite scary for the users that rely on such library... That's why it is a necessity to create to create a community of developers - and somehow find a way to get them paid, to some extent like with Linux.
 
 MaterialUI [makes it very clear where the money goes and seems to split it to many contributors](https://material-ui.com/discover-more/backers/).
 Still, it is difficult to pay _everyone_ a competitive salary. One of the MaterialUI core maintainer, [Olivier Tassinari, acnowledges that and as a result is part of the RedHat Tidelift subscription](https://tidelift.com/subscription/pkg/npm-material-ui).
@@ -95,7 +101,7 @@ Another alternative is distributing a core open-source product together with ano
 
 The FSF considers any of this behaviour harmful to the cause of the Free Software, obviously, even though they do [allow it through their LGPL](https://www.gnu.org/licenses/why-not-lgpl.en.html).
 
-It can be really odd to choose which feature should be part of the "Community" edition and which one should be part of the "Proprietary" Edition.
+It can feel very arbitrary to choose which feature should be part of the "Community" edition and which one should be part of the "Proprietary" Edition.
 
 Building proprietary commercial softwares on top of an open-source project can be a deterrent to gathering a community around the core project. This strategy is usually supported almost entirely by the company that initially founded the project, and often require raising funds from venture capitalists.
 
@@ -118,8 +124,8 @@ For WordPress, this model has been rather successful, as they also sell training
 - the independent third-party plugin developers
 - the cloud providers
 - the IT teachers
-- the companies and their developers helping end-users making their websit. 
-Anyone can make money with WordPress by learning it and then proposing any service around it against a price. 
+- the companies and their developers helping end-users making their website
+ 
 As a result, the WordPress project founders managed to create a large pool of contributors to enhance their project, especially via their plugin system. These very same people market the project for them, which indeed attract more users and more contributors. This strategy happens to scale very well.
 
 This business and licensing model is the core reason why WordPress succeeded as the most used CMS rather than its early competitors. Not the initial technical value of the product.
@@ -155,7 +161,7 @@ Many people seem to think that using GPL means that you got to  make your code p
 
 The three most famous companies engaging into dual licensing are The Qt Company, MySQL and MongoDB.
 
-[MongoDB says upfront that their drivers are licensed under the Apache License v2](https://www.mongodb.com/community/licensing) so that you do not need to license your own code under any specific terms when using MongoDB, but still - companies feel the need to buy a "Commercial" License, maybe because their lawyer said so. I think bundled with the Proprietary License, you also buy legal liabilities and other niceties that I do not understand at all.
+[MongoDB says upfront that their drivers are licensed under the Apache License v2](https://www.mongodb.com/community/licensing) so that you do not need to license your own code under any specific terms when using MongoDB, but still - companies feel the need to buy a "Commercial" License. I am not sure why, maybe because they need to buy a liability.
 MongoDB AGPL/SSPL library was chosen as a protection against big cloud vendors, not to enforce dual licensing.
 
 Qt is [less clear](https://www.qt.io/licensing/). Most of their library are using LGPL so using them is no problem, but they seem to [confuse people a lot](https://www.quora.com/Can-I-use-the-free-QT-for-c++-commercially).
