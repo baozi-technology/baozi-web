@@ -15,17 +15,15 @@ tags:
     - must read
 --- 
  
- This is the last part of the series. In this episode, we will present an innovative community-centric alternative to dual licensing, more respectful of the original ethics of Free Software: the Robin Hood social contract/business model.
+This is the last part of this series. This episode is an attempt to improve the dual licensing business model by making it more respectful to the original ethics of Free Software. I called this alternative the "Robin Hood social contract".
 
  For a reminder of the different licenses and the history of Free Software and Open-Source, check out the [first episode](https://baozi.technology/floss-business-ethics-part-1-definitions-and-context).
- For my thoughts on the meaning and purpose of the Free Software and Open-Source movements, refer to the [second episode](https://baozi.technology/floss-business-ethics-part-2-towards-a-pragmatic-approach-to-the-spirit-of-free-software).
- For the state-of-the-art of the different business models used to support the development of a FLOSS, see the [third episode](https://baozi.technology/floss-business-ethics-part-3-business-models).
+ For my humble thoughts on the meaning and purpose of the Free Software and Open-Source movements, refer to the [second episode](https://baozi.technology/floss-business-ethics-part-2-towards-a-pragmatic-approach-to-the-spirit-of-free-software).
+ For a short introduction on the different business models (such as dual licensing) used to support the development of a FLOSS, see the [third episode](https://baozi.technology/floss-business-ethics-part-3-business-models).
 
-# Why do we need another business model?
+# Context and purpose
 
-I emphasize here that the following business model will apply to software library, not standalone software.
-
-I believe that there is a way to avoid raising funds, a way that engage the whole community instead of having to hire plenty of developers. [Pieter Hintjens talked about it brillantly on his blog](http://hintjens.com/blog:27):
+[Pieter Hintjens said](http://hintjens.com/blog:27):
 
 > _"There are, it has been said, two ways to make really large-scale software. Option One is to throw massive amounts of money and problems at empires of smart people, and hope that what emerges is not yet another career killer. If you're very lucky, and are building on lots of experience, and have kept your teams solid, and are not aiming for technical brilliance, and are furthermore incredibly lucky, it works._
 
@@ -35,7 +33,7 @@ I believe that there is a way to avoid raising funds, a way that engage the whol
 
 >_""How to make money from open source" is like "How to make money from clean water" or public education or science."_
 
-He believed the only way for creating a community around an Open-Source project was to:
+He believed the only way for creating a community around a large-scale Open-Source project was to:
 - put people before code
 - share copyrights
 - use a copyleft licensed (strong or weak for librairies)
@@ -47,11 +45,11 @@ You need money? Only engage into selling support/training/goodies/consulting or 
 (Read him, and you'll see!)
 
 His position is extremely interesting as he was one of the most prominent writer around the simple but incredibly complex question: "how to create a community around open-source?"
-That's the key to a successful project. If you have enough people engaged into making a great product, he believed that the money will come naturally afterwards - and that it was the only way apart from Option One.
+It seems crucial for a successful open-source project. If enough people are engaged into making a product, he believed that the money will come naturally afterwards - and that it was the only way apart from Option One.
 
-He designed the [Collective Code Construction Contract (C4)](https://rfc.zeromq.org/spec:22/C4/) to set in marber the way people should work together in a de-centralized way to improve the open-source project.
+He designed the [Collective Code Construction Contract (C4)](https://rfc.zeromq.org/spec:22/C4/) to set in marber the way people could work together in a de-centralized way.
 
-However, in my opinion, his views were a bit too extreme when it came to business models. I do not believe unpaid contributors, or starving projects make a better product. He was often referencing to [Wikipedia as a successful community-based project that is always starving and asking for donation while being extremely successful](http://hintjens.com/blog:117).
+In my humble opinion, his views were a bit too extreme when it came to business models. I do not believe unpaid contributors, or starving projects make a better product. He was often referencing to [Wikipedia as a successful community-based project that is always starving and asking for donation while being extremely successful](http://hintjens.com/blog:117).
 
 I'd say that Wikipedia's purpose is different from any other commercial software. Being a FLOSS doesn't mean you don't want to make money. Wikipedia has a higher ethical purpose and works behind a foundation for free and unbiased information. It has no commercial purpose, this is a wonderful goal and I have huge respect for people working towards this objective.
 
