@@ -87,7 +87,7 @@ const Footer = () => {
               </a>
             </div>
             <div className={styles.noAnalyticsContainer}>
-              <p className={styles.reduceParagraphGap}>No analytics</p>
+              <p className={styles.reduceParagraphGap}>No cookies - No analytics</p>
             </div>
             <div className={styles.legalNoticeContainer}>
               <Link activeClassName={styles.linkActive} to="/legal">Legal notice (fr)</Link>
