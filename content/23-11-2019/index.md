@@ -15,8 +15,8 @@ tags:
  
 How do we financially sustain the developement of a FLOSS? What are the advantages and drawbacks of each approachs, based on real-life examples? 
 
-If you are unconfortable with the notions of open-source, free software and software licenses, read the [first part of this serie](https://baozi.technology/floss-business-ethics-part-1-definitions-and-context)! 
-For my humble thoughts on the ethical stance of both movements, check out the [second part of this serie](https://baozi.technology/floss-business-ethics-part-2-towards-a-pragmatic-approach-to-the-spirit-of-free-software).
+If you are unconfortable with the notions of open-source, free software and software licenses, read the [first part of this series](https://baozi.technology/floss-business-ethics-part-1-definitions-and-context)! 
+For my humble thoughts on the ethical stance of both movements, check out the [second part of this series](https://baozi.technology/floss-business-ethics-part-2-towards-a-pragmatic-approach-to-the-spirit-of-free-software).
 
 The choice of software licenses is key to a successful business model. As retroactively taking back rights given by a license is not possible, it must be thought ahead. 
 A few technically successful projects have been abandonned because the [maintainers couldn't find time to work on the project anymore](https://www.codeshelter.co/).
@@ -26,9 +26,9 @@ There are plenty of initiatives these days to pay the open-source developers, na
 
 # Selling the software itself
 
-Free standalone Softwares may be sold the same way as proprietary softwares. As said earlier, [nothing forbid it](https://www.gnu.org/philosophy/selling.en.html). The most famous example is copies of GNU Emacs, that was [sold by Richard Stallman](https://www.oreilly.com/openbook/opensources/book/stallman.html) back in the time.
+Free standalone Softwares may be sold the same way as proprietary softwares. As said earlier, [nothing forbids it](https://www.gnu.org/philosophy/selling.en.html). The most famous example is copies of GNU Emacs, that was [sold by Richard Stallman](https://www.oreilly.com/openbook/opensources/book/stallman.html) back in the time.
 
-But GNU Emacs was distributed at a time when barely 10% of the global population had access to a very slow internet. Today everyone can download it for free. Even if you'd lock Emacs and release it as a free trial with a paid option, someone could study the source code and release another version without the lock for free on the Internet. It is in practice difficult to enforce a payment. All this is legal and encouraged by the FSF.
+But GNU Emacs was distributed at a time when barely 10% of the global population had access to a very slow internet. Today everyone can download it for free. Even if you'd lock Emacs and release it as a free trial with a paid option, someone could study the source code and release another version without the lock for free on the Internet. All this is legal and encouraged by the FSF.
 
 That being said, non-technical end-users do not care about software licenses. They do not know anything about it. If you tell them to pay to use the software, they will just do it. But they might feel betrayed if you did not warn them that there were a way around payment.
 
@@ -83,7 +83,7 @@ The amount of money received from donations for small projects are usually only 
 This [interview with the VIM creator Bram Moolenar](https://www.binpress.com/vim-creator-bram-moolenaar-interview/) is symptomatic. When asked _"How can the community ensure that the Vim project succeeds for the foreseeable future?"_, he answered: _"Keep me alive"_.
 Often times, when an open-source software relying on donations to a one-man maintainer becomes that successful, the maintainer is hired by a well-established company to work on the project full-time. [Bran Moolenar](https://www.vim.org/sponsor/index.php) works at Google.
 
-What happens when the main project maintainers can no longer contribute to the project? It seems quite scary for the users that rely on such library... That's why it is a necessity to create to create a community of developers - and somehow find a way to get them paid, to some extent like with Linux.
+What happens when the main project maintainers can no longer contribute to the project? It seems quite scary for the users that rely on such library... That's why it is a necessity to create a community of developers - and somehow find a way to get them paid, to some extent like with Linux.
 
 MaterialUI [makes it very clear where the money goes and seems to split it to many contributors](https://material-ui.com/discover-more/backers/).
 Still, it is difficult to pay _everyone_ a competitive salary. One of the MaterialUI core maintainer, [Olivier Tassinari, acnowledges that and as a result is part of the RedHat Tidelift subscription](https://tidelift.com/subscription/pkg/npm-material-ui).
@@ -130,7 +130,7 @@ As a result, the WordPress project founders managed to create a large pool of co
 
 This business and licensing model is the core reason why WordPress succeeded as the most used CMS rather than its early competitors. Not the initial technical value of the product.
 
-I think this strategy works for WordPress because it is a generic Web Framework with an extremely large pool of potential end-users. It wouldn't be so successful if its purpose was more niche like if WordPress was a messaging library addressed specifically to certain developers.
+I think this strategy works for WordPress because it is a generic Web Framework with an extremely large pool of potential end-users. It wouldn't be as successful if its purpose was more niche like if WordPress was a messaging library addressed specifically to certain developers.
 
 For example, it seems that some Open-Source companies relying mainly on Managed version of their library on their Cloud for getting income have been financially impacted by certain big Cloud Infrastructure Vendors. For example, AWS was proposing the same hosted version as MongoDB without significantly giving back to the project itself.
 
@@ -157,9 +157,9 @@ Weirdly, sometimes the companies wishing to engage into making nonfree softwares
 
 However, the official vendor website that is selling the "Proprietary License" sometimes voluntarily confuses people by calling such license "Commercial License" instead. The use of the term "Commercial" is confusing because it indicates that you need to buy a license whenever you use the library in a commercial product. That's actually not the effect of copyleft. 
 
-Many people seem to think that using GPL means that you got to  make your code publicly available. Using GPL means that you have to deliver your source code to the user you are distributing your software to - not to the public. It contributes to confuse people about the intent of the alternative paid license.
+Many people seem to think that using GPL means that you got to make your code publicly available. Using GPL means that you have to deliver your source code to the user you are distributing your software to - not to the public. It contributes to confuse people about the intent of the alternative paid license.
 
-The three most famous companies engaging into dual licensing are The Qt Company, MySQL and MongoDB.
+Three of the most famous companies engaging into dual licensing are The Qt Company, MySQL and MongoDB.
 
 [MongoDB says upfront that their drivers are licensed under the Apache License v2](https://www.mongodb.com/community/licensing) so that you do not need to license your own code under any specific terms when using MongoDB, but still - companies feel the need to buy a "Commercial" License. I am not sure why, maybe because they need to buy a liability.
 MongoDB AGPL/SSPL library was chosen as a protection against big cloud vendors, not to enforce dual licensing.
@@ -170,9 +170,11 @@ Qt used to be full GPL so there were more incentive to buy a "Proprietary Licens
 MySQL dual licensing business model worked pretty well until the Cloud became a thing.
 This [talk from MySQL's founder](https://www.youtube.com/watch?v=krcKkiKBKms) is very insightful on why they used dual licensing. They make it clear that solely relying on selling services around the product is difficult financially. Dual licensing seems to potentially bring good revenue stream.
 
-Dual licensing is sometimes referred by its detractor as ["having your cake and eating it too"](https://www.linuxinsider.com/story/38172.html). For some, it creates ["a weird asymmetry and might be a strong deterrent to any community contribution"](https://opensource.stackexchange.com/questions/4092/how-to-accept-contributions-for-agpl-proprietary-dual-licensed-projects). Pieter Hintjens also [despised such practice](http://hintjens.com/blog:68). Some say that dual licensing are unfriendly to startups.
+Dual licensing is sometimes referred by its detractor as ["having your cake and eating it too"](https://www.linuxinsider.com/story/38172.html). For some, it creates ["a weird asymmetry and might be a strong deterrent to any community contribution"](https://opensource.stackexchange.com/questions/4092/how-to-accept-contributions-for-agpl-proprietary-dual-licensed-projects). Pieter Hintjens also [despised such practice](http://hintjens.com/blog:68). 
 
-However, [this StackExchange answer from the founder of iText](https://opensource.stackexchange.com/questions/88/how-can-large-open-source-projects-be-monetized) explains well why dual licensing can be a pragmatic way to support financially the developers of open-source libraries.
+Some say that dual licensing are unfriendly to startups, who [cannot afford the cost of the license](https://beeware.org/news/buzz/money-money-money/). Employees in big corporations who may want to use the library do not have credit card privileges too. So at the end it can be difficult to simply get used. Paradoxically, you need that widespread usage to create the public buzz that would convince people that using your tool is worth the money. 
+
+However, [this StackExchange answer from the founder of iText](https://opensource.stackexchange.com/questions/88/how-can-large-open-source-projects-be-monetized) explains well why dual licensing can be a profitable way to support the developers of open-source libraries.
 
 # Conclusion
 
