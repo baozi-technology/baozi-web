@@ -49,7 +49,7 @@ More often than not, the use of proprietary software, either closed-source or so
 The Open-Source movement acknowledges that.
 
 Besides, Open Source acknowledges that sometimes, proprietary softwares simply do the job better than their Free software counterparts, especially in terms of design and ergnomics - an aspect sometimes overlooked by the Free Software community. Take Microsoft Word and OpenOffice.org Writer as an example. Microsoft Word is really in advance in terms of design and ergonomics to me, no offence intended to the OpenOffice.org development team. Working against a giant like Microsoft is tough, especially when you rely mainly on Apache Foundation donations and cannot afford hiring as many designers.
-Big up to the development team of GNU GIMP 2.10 for being the perfect counter-example to that point. Imho, GNU GIMP is better in every way, including ergonomics.
+Big up to the development team of GNU GIMP 2.10 for being the perfect counter-example to that point. Imho, GNU GIMP is better than Adobe Photoshop in every way, including ergonomics.
 
 Open Source values convenience over ethics, and I think, to some extent, it makes sense. Why choosing a lesser Free Software over a solid proprietary product that already exists in the market? I think it is ok only if the source code of the said proprietary software is made source-available, at least to users or third-party security experts. I do not trust closed-source, and I am even considering that closed-source should be illegal. But for most people out there, softwares are just tools. They don't want to lose time installing, configuring and so on. They just want the software to work so they can focus on their business.
 
