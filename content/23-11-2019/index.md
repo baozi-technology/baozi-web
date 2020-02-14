@@ -174,7 +174,7 @@ Dual licensing is sometimes referred by its detractor as ["having your cake and 
 
 Some say that dual licensing are unfriendly to startups, who [cannot afford the cost of the license](https://beeware.org/news/buzz/money-money-money/). Employees in big corporations who may want to use the library do not have credit card privileges too. So at the end it can be difficult to simply get used. Paradoxically, you need that widespread usage to create the public buzz that would convince people that using your tool is worth the money. 
 
-However, [this StackExchange answer from the founder of iText](https://opensource.stackexchange.com/questions/88/how-can-large-open-source-projects-be-monetized) explains well why dual licensing can be a profitable way to support the developers of open-source libraries.
+However, [this StackExchange answer from the founder of iText](https://opensource.stackexchange.com/a/210/14261) explains well why dual licensing can be a profitable way to support the developers of open-source libraries.
 
 # Conclusion
 
