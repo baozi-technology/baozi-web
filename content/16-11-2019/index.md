@@ -41,18 +41,18 @@ Technically speaking, softwares made in the open are, as opposed to closed-sourc
 
 In my humble opinion, the main problem with proprietary softwares is that we may not be able to know what they are actually doing. We cannot verify in the source code. To me, the essence of the Free Software movement is the availability of source code. It is less important if you can modify the source code, reuse it or sell it. For example, if you have access to the Facebook/Slack source code, at least you'd make sure that they are doing nothing wrong with your data, that they are doing _only_ what they are supposed to.
 
-If they don't, at least you'll have the proof and you'll be able to report them and STOP using their softwares for good.
+If they don't, at least you'll have the proof and you'll be able to report them and stop using their softwares for good.
 
 A possible flaw of the Free Software movement is that it is not easy to make a _great_ product and design a profitable business model solely with GNU GPL.
 Some business models work, but they are either limited or require lots of creativity.
 More often than not, the use of proprietary software, either closed-source or source-available, is necessary to generate higher revenue to support and improve the project.
 The Open-Source movement acknowledges that.
 
-Besides, Open Source acknowledges that sometimes, Free Software sucks and proprietary softwares simply do the job better, especially in terms of design and ergnomics, an aspect often overlooked by the Free Software community. Take Microsoft Word and OpenOffice.org Writer as an example. Microsoft Word is 10 years in advance in terms of design and ergonomics, no offence intended to the OpenOffice.org development team. Working against a giant like Microsoft is tough, especially when you rely mainly on Apache Foundation donations and simply cannot afford to hire designers.
+Besides, Open Source acknowledges that sometimes, Free Software sucks and proprietary softwares simply do the job better, especially in terms of design and ergnomics, an aspect often overlooked by the Free Software community. Take Microsoft Word and OpenOffice.org Writer as an example. Microsoft Word seems 10 years in advance in terms of design and ergonomics to me, no offence intended to the OpenOffice.org development team (on the contrary, thank you!!). Working against a giant like Microsoft is tough, especially when you rely mainly on Apache Foundation donations and simply cannot afford to hire as many designers.
 
 Open Source values convenience over ethics, and I think, to some extent, it makes sense. Why choosing a lesser Free Software over a solid proprietary product that already exists in the market? I think it is ok only if the source code of the said proprietary software is made source-available, at least to users or third-party security experts. I do not trust closed-source, and I am even considering that closed-source should be illegal. But for most people out there, softwares are just tools. They don't want to lose time installing, configuring and so on. They just want the software to work so they can focus on their business.
 
-In practice I am still using plenty of closed-source sofware and I won't stop anytime soon, simply because they are too wellmade and I can't afford the inconvenience of not using them - at least for now. However, when I am building one software for my own company, there is no way I build anything else other than a Free Software or a software promoting Free Software, if I can find a valid business model to support the project
+In practice I am still using plenty of closed-source sofware and I won't stop anytime soon, simply because they are too wellmade and I can't afford the inconvenience of not using them - at least for now. However, when I am building one software for my own company, there is no way I build anything else other than a Free Software or a software promoting Free Software, if I can find a valid business model to support the project.
 If I can't, I will at least make the source code available to my users, - and/or I will ask third-party security experts to verify my source code (like 1Password does). 
 
 # The Free Software movement tends to ignore business issues and be too political
@@ -76,7 +76,7 @@ But no. Because software developers can always be paid to make customized soluti
 As explained earlier, proprietary softwares can have hidden functionalities, but a book or a movie cannot hide itself.
 
 Stallman said in a conference, ["the price is a side issue, I don't care at all!"](https://youtu.be/n9YDz-Iwgyw?t=322).
-I strongly disagree. This is exactly why most people don't make Free Softwares.
+I strongly disagree. This is exactly why lot of people don't make Free Softwares.
 Stallman then takes the example of GNU Emacs, a Free software he sold in the past, but that was when barely 10% of the global population had access to the internet. 
 You don't see many Free Software sold nowadays.
 You even witness [people getting mad that someone dared selling OpenOffice.org on eBay](https://forum.openoffice.org/en/forum/viewtopic.php?f=49&t=80111).
@@ -84,16 +84,15 @@ You even witness [people getting mad that someone dared selling OpenOffice.org o
 While the FSF likes to say that Free Software means Free as in Freedom, not Free as in free beer, in practice, it is really more difficult to make money with it than with  proprietary softwares. 
 In fact, at the very beginning of the movement, [the two meanings of "free" were not explicitely distinguished](https://www.gnu.org/gnu/why-programs-should-be-shared.html).
 
-I am under the impression that [Stallman doesn't take business issues seriously enough](https://www.gnu.org/gnu/thegnuproject.html). He insisted later in the same conference that ["The price is a minor detail, I care about Freedom"](https://youtu.be/n9YDz-Iwgyw?t=341).
+I am under the impression that Stallman doesn't take business issues seriously enough, as he insisted later in the same conference that ["The price is a minor detail, I care about Freedom"](https://youtu.be/n9YDz-Iwgyw?t=341).
 
 Free Software makes it hard to _enforce_ payment to buy the software. We will see later why. 
 
 Enforcing payment is in no way unethical in my world. Softwares take many smart people a large amount of time. Besides from developers, a great software needs designers, managers, sales team, lawyers, and other experts (doctors if it is for a healthcare software for example). 
-Free Software advocates often ignore that they need all these other people, which is why many free softwares have crappy UI.
+Free Software advocates often ignore that they need all these other people, which is why many free softwares have lower UX.
 
 If ALL softwares were free, it would for sure change the game, but for the greater good:
 - developers will not have to work on crappy proprietary code that will be thrown away in 2 months. Concurrent companies will be encouraged to put together their effort in contributing to the same source code. As a result, we save both money and time, and the users will have access to more unified solutions, less systems to interoperate with.
-- developers will not face job offers that include making malicious softwares to spy on people, because with users able to see the code, it will be unattrative business-wise to engage in such practice.
 - users will have control, they will _really_ know what they use.
 
 Things go well if ALL softwares are free. But if even one single entity in the market has the right to make proprietary softwares, it becomes unfair.
