@@ -5,7 +5,7 @@ const config = {
   siteLogo: "logos/baozi-technology-full-logo-square-gray.png", // Logo used for SEO and manifest.
   siteUrl: "https://baozi.technology", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "Nicolas's professional blog, featuring articles about floss ethics/business and Erlang/Elixir/OTP. Watch him eating baozi! Hire him as a freelance developer!", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Nicolas's blog, featuring articles about floss ethics/business and Erlang/Elixir/OTP. Watch him eating baozi! Hire him as a freelance developer!", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "DD-MM-YYYY", // Date format used in the frontmatter.
@@ -31,8 +31,8 @@ const config = {
     }
   ],
   copyright: "COPYRIGHT © 2019 BAOZI TECHNOLOGY SAS", // Copyright string for the footer of the website and RSS feed.
-  themeColor: "#555", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#fefefe", // Used for setting manifest background color.
+  themeColor: "#fefefe", // Used for setting manifest and progress theme colors.
+  backgroundColor: "#555", // Used for setting manifest background color.
 };
 
 // Validate
