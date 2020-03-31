@@ -1,13 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import {  Link } from 'gatsby';
-import styles from "./Header.module.scss"
-import Drawer from "../Drawer/Drawer"
+import React, { useState, useEffect } from "react";
+import { Link } from "gatsby";
+import styles from "./Header.module.scss";
+import Drawer from "../Drawer/Drawer";
 
 // https://github.com/gatsbyjs/gatsby/issues/10415
 const Header = () => {
-
-  const logoDynamic = '/logos/baozi-technology-full-logo.gif';
-  const logoStatic = '/logos/baozi-technology-full-logo.jpg';
+  const logoDynamic = "/logos/baozi-technology-full-logo.gif";
+  const logoStatic = "/logos/baozi-technology-full-logo.jpg";
 
   // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
   useEffect(() => {
@@ -36,7 +35,7 @@ const Header = () => {
                 setHover(false);
               }}
               className={styles.heightSet}
-              src={!hover ? logoStatic: logoDynamic}
+              src={!hover ? logoStatic : logoDynamic}
               alt="Baozi Technology"
             />
           </Link>

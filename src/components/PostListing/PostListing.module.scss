@@ -1,86 +1,85 @@
-.link{
-    text-decoration:none;
-    color: #555;
-    font-style:normal;
+.link {
+  text-decoration: none;
+  color: #555;
+  font-style: normal;
 }
 
-.link:visited{
-    color: #555; 
+.link:visited {
+  color: #555;
 }
 
-.link:hover{
-    color:#555;
+.link:hover {
+  color: #555;
 }
 
-.postListingContainer{
-    display:flex;
-    position:relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding:10px; /* this */
+.postListingContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px; /* this */
 }
 
-.cover{
-    width:400px;
-    align-self: center;
+.cover {
+  width: 400px;
+  align-self: center;
 }
 
-.mustRead{
-    color:black;
-    font-weight:bold;
-    font-size:0.7em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.mustRead {
+  color: black;
+  font-weight: bold;
+  font-size: 0.7em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.postContainer{
-    width: 100%;
-    min-width: 1px;
-    max-width: 700px;
-    margin:10px;  /* and that, will result in a 10px gap */
+.postContainer {
+  width: 100%;
+  min-width: 1px;
+  max-width: 700px;
+  margin: 10px; /* and that, will result in a 10px gap */
 }
 
-.insidePostContainer{
-    display:flex;
-    flex-direction:column;
-    position:relative;
-    justify-content:center;
-    align-items:flex-start;
-
+.insidePostContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.coverContainer{
-    align-self:center;
-    margin-bottom:1em;
+.coverContainer {
+  align-self: center;
+  margin-bottom: 1em;
 }
 
-.title{
-    margin-bottom:0.1em;
-    font-size:1.4em;
+.title {
+  margin-bottom: 0.1em;
+  font-size: 1.4em;
 }
 
-.dateAuthor{
-    margin-bottom:0px;
-    margin-top:0px;
-    font-style:italic;
-    font-size:0.8em;
+.dateAuthor {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-style: italic;
+  font-size: 0.8em;
 }
 
-.category{
-    margin-top: 0px;
-    // margin-bottom:0px;
-    font-style:italic;
-    font-size:0.8em;
+.category {
+  margin-top: 0px;
+  // margin-bottom:0px;
+  font-style: italic;
+  font-size: 0.8em;
 }
 
-@media only screen and (max-width: 1450px) and (min-width:1001px) {
-    .cover {
-        width:300px;
-    }
+@media only screen and (max-width: 1450px) and (min-width: 1001px) {
+  .cover {
+    width: 300px;
+  }
 }
 
-@media only screen and (max-width: 1000px){
-    .cover{
-        width:200px;
-    }
+@media only screen and (max-width: 1000px) {
+  .cover {
+    width: 200px;
+  }
 }

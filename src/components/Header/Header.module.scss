@@ -1,102 +1,101 @@
 .heightSet {
-    height: 82px;
+  height: 82px;
 }
 
 // https://stackoverflow.com/questions/10989238/center-image-horizontally-within-a-div
 // Center image within link
-.logoContainer a img{
-    display:block;
-    margin:auto;
+.logoContainer a img {
+  display: block;
+  margin: auto;
 }
 
 .header {
+  font-size: 1.6em;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 
-    font-size: 1.6em;
-    padding:10px;
-    padding-left:15px;
-    padding-right:15px;
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .headerContainer{ 
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .siteNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .siteNav{
-        display:flex;
-        flex-direction:row;
-        justify-content: center;
-        align-items: center;
-    }
+  .siteNavItemMiddle {
+    margin: 0 1em;
+  }
 
-    .siteNavItemMiddle{
-        margin: 0 1em;
-    }
+  .siteNavItemFirst {
+    margin-right: 1em;
+  }
 
-    .siteNavItemFirst{
-        margin-right: 1em;
-    }
+  .siteNavItemLast {
+    margin-left: 1em;
+  }
 
-    .siteNavItemLast{
-        margin-left: 1em;
-    }
+  a {
+    text-decoration: none;
+    font-style: normal;
+    color: #555;
+    font-weight: bold;
+  }
 
-    a {
-        text-decoration:none;
-        font-style:normal;
-        color:#555;
-        font-weight: bold;
-    }
+  a:hover {
+    color: black;
+  }
 
-    a:hover {
-        color: black;
-    }
-
-    .linkActive {
-        font-weight: normal;
-    }
+  .linkActive {
+    font-weight: normal;
+  }
 }
 
-.toggleMenuContainer{
-    display:none;
+.toggleMenuContainer {
+  display: none;
 }
 
-@media only screen and (max-width: 1450px) and (min-width:481px) {
-    .heightSet {
-        height:70px;
-    }
+@media only screen and (max-width: 1450px) and (min-width: 481px) {
+  .heightSet {
+    height: 70px;
+  }
 }
 
-@media only screen and (max-width: 1000px) and (min-width:481px) {
-    .toggleMenuContainer{
-        display:inherit;
-    }
+@media only screen and (max-width: 1000px) and (min-width: 481px) {
+  .toggleMenuContainer {
+    display: inherit;
+  }
 
-    .navContainer{
-        display:none;
-    }
+  .navContainer {
+    display: none;
+  }
 
-    .header {
-        padding-top:5px;
-        padding-bottom:5px;
-    }
+  .header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 }
 
-@media only screen and (max-width:480px) {
-    .heightSet {
-        height:40px;
-    }
-        
-    .header {
-        padding-top:5px;
-        padding-bottom:5px;
-    }
+@media only screen and (max-width: 480px) {
+  .heightSet {
+    height: 40px;
+  }
 
-    .toggleMenuContainer{
-        display:inherit;
-    }
+  .header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 
-    .navContainer{
-        display:none;
-    }
+  .toggleMenuContainer {
+    display: inherit;
+  }
+
+  .navContainer {
+    display: none;
+  }
 }

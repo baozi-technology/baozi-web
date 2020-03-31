@@ -1,19 +1,19 @@
-.siteContainer{
-    display:flex;
-    flex-direction:column;
-    height:100vh;
-    // overflow-y:auto;
+.siteContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  // overflow-y:auto;
 }
 
-.headerContainer{
-    z-index: 99;
+.headerContainer {
+  z-index: 99;
 }
 
-.main{
-    margin-top:2em;
-    margin-bottom:2em;
+.main {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.footerContainer{
-    flex: 0 0 auto;
+.footerContainer {
+  flex: 0 0 auto;
 }

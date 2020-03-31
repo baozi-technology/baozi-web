@@ -1,55 +1,55 @@
-body{
-	background-color:#fefefe;
-	// color:#555;
-	// font-family:Helvetica, Arial, sans-serif;
-	// font-size:1.3em;
-    // line-height:1.6em;
-    // h1 {
-    //     font-size: 1.9em;
-    //     line-height:1.2em;
-    // }
-    // h2{
-    //     font-size:1.8em;
-    //     line-height:1.2em;
-    // }
-    // h3{
-    //     font-size: 1.7em;
-    //     line-height:1.2em;
-    // }
-    // h4{
-    //     font-size: 1.6em;
-    //     line-height:1.2em;
-    // }
-    // h5{
-    //     font-size: 1.5em;
-    //     line-height:1.2em;
-    // }
-    // h6{
-    //     font-size:1.4em;
-    //     line-height:1.2em;
-    // }
-	margin:0;
-    overflow:hidden;
-    height: 100vh; // super important
+body {
+  background-color: #fefefe;
+  // color:#555;
+  // font-family:Helvetica, Arial, sans-serif;
+  // font-size:1.3em;
+  // line-height:1.6em;
+  // h1 {
+  //     font-size: 1.9em;
+  //     line-height:1.2em;
+  // }
+  // h2{
+  //     font-size:1.8em;
+  //     line-height:1.2em;
+  // }
+  // h3{
+  //     font-size: 1.7em;
+  //     line-height:1.2em;
+  // }
+  // h4{
+  //     font-size: 1.6em;
+  //     line-height:1.2em;
+  // }
+  // h5{
+  //     font-size: 1.5em;
+  //     line-height:1.2em;
+  // }
+  // h6{
+  //     font-size:1.4em;
+  //     line-height:1.2em;
+  // }
+  margin: 0;
+  overflow: hidden;
+  height: 100vh; // super important
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 main {
-    min-height: 100vh; // that's super important to stick the footer to bottom
+  min-height: 100vh; // that's super important to stick the footer to bottom
 }
 
-#contentAndFooterContainer{
-    flex: 1 1 auto;
-    overflow-y:auto;
-    overflow-x:hidden;
-    padding-top:3em;
-    // scroll-behavior: smooth;
+#contentAndFooterContainer {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 3em;
+  // scroll-behavior: smooth;
 }

@@ -11,12 +11,13 @@ import ShowcaseContent from "../components/ShowcaseContent/ShowcaseContent";
 class Index extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
-    const bioContent = <BioContent isLink={true}/>;
-    const showcaseContent = 
-      (<ShowcaseContent 
-        title="Nicolas Gimenez" 
-        bioContent={bioContent}>
-      </ShowcaseContent>);
+    const bioContent = <BioContent isLink={true} />;
+    const showcaseContent = (
+      <ShowcaseContent
+        title="Nicolas Gimenez"
+        bioContent={bioContent}
+      ></ShowcaseContent>
+    );
 
     return (
       <Layout showcaseContent={showcaseContent}>

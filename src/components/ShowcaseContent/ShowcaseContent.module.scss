@@ -1,25 +1,25 @@
 .showcaseContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.innerTitleContainer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.innerTitleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.title{
-    max-width: 700px;
+.title {
+  max-width: 700px;
 }

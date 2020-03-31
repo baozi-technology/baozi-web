@@ -7,14 +7,14 @@
 //     flex-direction: row;
 // }
 
-.asciidoctorInnerContainer{
-    max-width:700px;
-    // @import 'asciidoctor';
-    overflow:hidden;
+.asciidoctorInnerContainer {
+  max-width: 700px;
+  // @import 'asciidoctor';
+  overflow: hidden;
 }
 
-.asciidoctorContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.asciidoctorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

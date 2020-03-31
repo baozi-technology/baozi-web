@@ -1,31 +1,30 @@
 .actualContent a {
-    font-style: italic;
-    color:#555;
+  font-style: italic;
+  color: #555;
 }
 
-.actualContent a:visited{
-    color:black;
+.actualContent a:visited {
+  color: black;
 }
 
-.actualContent a:hover{
-    color: black;
+.actualContent a:hover {
+  color: black;
 }
 
-
-.postPageContainer{
-  display:flex;
+.postPageContainer {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.contentContainer{
-  flex-basis:700px; // needed or blockquote/quote will not respect the container width...
-  max-width:700px;
+.contentContainer {
+  flex-basis: 700px; // needed or blockquote/quote will not respect the container width...
+  max-width: 700px;
 }
 
 .socialLinks {
-  max-width:700px;
+  max-width: 700px;
 }
 
 // // https://every-layout.dev/layouts/sidebar/
@@ -40,7 +39,7 @@
 //   /* ↓ applies to both elements */
 //   margin: 0.5rem;
 // }
-  
+
 // .tableOfContentsContainer {
 //   flex-basis: 25%;
 //   flex-grow: 1;
@@ -54,7 +53,7 @@
 //   overflow-y:auto;
 //   // position:relative;
 // }
-  
+
 // .actualContentContainer {
 //   flex-basis: 0;
 //   flex-grow: 999;
@@ -63,38 +62,38 @@
 //   display: flex;
 //   flex-direction: column;
 //   justify-content: center;
-//   align-items: center; 
+//   align-items: center;
 // }
 /////
 
-.socialLinks{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.prevNextContainer{
+.prevNextContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
-.prevContainer{
-  margin-top:1em;
+.prevContainer {
+  margin-top: 1em;
   flex: 1 1 auto;
 }
 
-.nextContainer{
-  margin-top:1em;
+.nextContainer {
+  margin-top: 1em;
   flex: 0 0 auto;
 }
 
-.maxWidth{
+.maxWidth {
   max-width: 300px;
 }
 
-.commentoContainer{
-  margin-top:1em;
+.commentoContainer {
+  margin-top: 1em;
 }

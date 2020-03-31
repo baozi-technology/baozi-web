@@ -1,66 +1,66 @@
-.baozi{
-    padding: 0;
-    border: none;
-    font: inherit;
-    font-style: italic;
-    color: #555;
-    background-color: transparent;
-    /* show a hand cursor on hover; some argue that we
+.baozi {
+  padding: 0;
+  border: none;
+  font: inherit;
+  font-style: italic;
+  color: #555;
+  background-color: transparent;
+  /* show a hand cursor on hover; some argue that we
     should keep the default arrow cursor for buttons */
-    cursor: pointer;
-    text-decoration:underline;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
-.baozi:hover{
-    color:black; 
+.baozi:hover {
+  color: black;
 }
 
-.baozi:focus{
-    outline: none !important;
+.baozi:focus {
+  outline: none !important;
 }
 
-.avatar{
-    border-radius: 100%;
-    height: 340px;
+.avatar {
+  border-radius: 100%;
+  height: 340px;
 }
 
-@media only screen and (max-width:480px) {
-    .avatar{
-        height:170px;
-    }
+@media only screen and (max-width: 480px) {
+  .avatar {
+    height: 170px;
+  }
 
-    .bioContentContainer{
-        font-size: 1.0rem;
-    }
+  .bioContentContainer {
+    font-size: 1rem;
+  }
 
-    .arrow{
-        font-size: 1.0rem;
-    }
+  .arrow {
+    font-size: 1rem;
+  }
 }
 
-@media only screen and (max-width: 1450px) and (min-width:481px) {
-    .avatar{
-        height:255px;
-    }
+@media only screen and (max-width: 1450px) and (min-width: 481px) {
+  .avatar {
+    height: 255px;
+  }
 }
 
-.bioContentContainer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.1rem;
-    // line-height:1.6em;
-    flex-wrap:wrap;
+.bioContentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  // line-height:1.6em;
+  flex-wrap: wrap;
 }
 
-.avatarContainer{
-    margin-right:10px;
+.avatarContainer {
+  margin-right: 10px;
 }
 
-.bioContainer{
-    margin-left:10px;
-    max-width: 410px;
+.bioContainer {
+  margin-left: 10px;
+  max-width: 410px;
 }
 
 // @media only screen and (min-width:801px) {
@@ -69,7 +69,6 @@
 //     }
 // }
 
-.arrow{
-    font-size: 1.1rem;
+.arrow {
+  font-size: 1.1rem;
 }
-

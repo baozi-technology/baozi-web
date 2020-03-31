@@ -16,7 +16,7 @@ class SEO extends Component {
       description = postMeta.description
         ? postMeta.description
         : postNode.excerpt;
-      if(postMeta.cover) {
+      if (postMeta.cover) {
         image = postMeta.cover.relativePath;
       }
       postURL = urljoin(config.siteUrl, postPath);
@@ -26,7 +26,7 @@ class SEO extends Component {
       image = config.siteLogo;
     }
 
-    if(image) {
+    if (image) {
       image = urljoin(config.siteUrl, image);
     } else {
       image = config.siteUrl;
@@ -38,8 +38,8 @@ class SEO extends Component {
         "@type": "WebSite",
         url: blogURL,
         name: title,
-        alternateName: config.siteTitleAlt ? config.siteTitleAlt : ""
-      }
+        alternateName: config.siteTitleAlt ? config.siteTitleAlt : "",
+      },
     ];
     if (postSEO) {
       schemaOrgJSONLD.push(
@@ -53,10 +53,10 @@ class SEO extends Component {
               item: {
                 "@id": postURL,
                 name: title,
-                image
-              }
-            }
-          ]
+                image,
+              },
+            },
+          ],
         },
         {
           "@context": "http://schema.org",
@@ -67,9 +67,9 @@ class SEO extends Component {
           headline: title,
           image: {
             "@type": "ImageObject",
-            url: image
+            url: image,
           },
-          description
+          description,
         }
       );
     }

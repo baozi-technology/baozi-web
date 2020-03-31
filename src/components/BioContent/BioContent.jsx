@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from "react"
-import styles from "./BioContent.module.scss"
-import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
+import React, { useState, useEffect } from "react";
+import styles from "./BioContent.module.scss";
+import PropTypes from "prop-types";
+import { Link } from "gatsby";
 
 const BioContent = (props) => {
-
-  const meEatingBaozi = '/avatars/me-eating-baozi-square-transparent.gif';
-  const meNormal = '/avatars/nico_catch_yuting.jpg';
+  const meEatingBaozi = "/avatars/me-eating-baozi-square-transparent.gif";
+  const meNormal = "/avatars/nico_catch_yuting.jpg";
 
   // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
   useEffect(() => {
@@ -22,63 +21,61 @@ const BioContent = (props) => {
 
   const [click, setClick] = useState(false);
 
-  const baozi = (<button 
-    className={styles.baozi}
-    onClick={handleBaoziClick}>
+  const baozi = (
+    <button className={styles.baozi} onClick={handleBaoziClick}>
       eating baozi
-      </button>);
-
+    </button>
+  );
 
   function handleBaoziClick() {
-    if(!click) {
+    if (!click) {
       setClick(true);
       setTimeout(setBackNormalAvatar, 2500);
     }
   }
 
-  function setBackNormalAvatar(){
+  function setBackNormalAvatar() {
     setClick(false);
   }
   const isLink = props.isLink;
   var bio = (
-    <span>Hi! I’m Nicolas – freelance fullstack software engineer based in France. 
-        My main area of expertise is concurrent backend services dealing with various non-standard protocols.  
-        My passions are solving complex problems using technology and {baozi}.
+    <span>
+      Hi! I’m Nicolas – freelance fullstack software engineer based in France.
+      My main area of expertise is concurrent backend services dealing with
+      various non-standard protocols. My passions are solving complex problems
+      using technology and {baozi}.
     </span>
   );
   var content;
-  if(isLink) {
+  if (isLink) {
     content = (
       <p className={styles.bioContent}>
-        {bio}{"  "}
-        <Link className={styles.arrow} to="/about">&rarr;</Link>
+        {bio}
+        {"  "}
+        <Link className={styles.arrow} to="/about">
+          &rarr;
+        </Link>
       </p>
     );
   } else {
-    content = (
-      <p className={styles.bioContent}>
-        {bio} 
-      </p>
-    );
+    content = <p className={styles.bioContent}>{bio}</p>;
   }
   return (
     <div className={styles.bioContentContainer}>
       <div className={styles.avatarContainer}>
-        <img 
-        className={styles.avatar}
-        src={!click ? meNormal : meEatingBaozi}
-        alt="Oops, the profile pic did not load! Try refreshing the page."
+        <img
+          className={styles.avatar}
+          src={!click ? meNormal : meEatingBaozi}
+          alt="Oops, the profile pic did not load! Try refreshing the page."
         />
       </div>
-      <div className={styles.bioContainer}>
-        {content}
-      </div>
+      <div className={styles.bioContainer}>{content}</div>
     </div>
   );
-}
+};
 
 export default BioContent;
 
 BioContent.propTypes = {
-  isLink: PropTypes.bool
+  isLink: PropTypes.bool,
 };

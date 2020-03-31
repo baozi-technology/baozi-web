@@ -12,11 +12,11 @@ import {
   TwitterIcon,
   TelegramIcon,
   LinkedinIcon,
-  RedditIcon
+  RedditIcon,
 } from "react-share";
 import urljoin from "url-join";
 import config from "../../../data/SiteConfig";
-import styles from "./SocialLinks.module.scss"
+import styles from "./SocialLinks.module.scss";
 
 class SocialLinks extends Component {
   render() {
@@ -24,8 +24,8 @@ class SocialLinks extends Component {
     const post = postNode.frontmatter;
     const url = urljoin(config.siteUrl, postPath);
     const iconSize = mobile ? 36 : 48;
-    const filter = count => (count > 0 ? count : "");
-    const renderShareCount = count => (
+    const filter = (count) => (count > 0 ? count : "");
+    const renderShareCount = (count) => (
       <div className={styles.shareCount}>{filter(count)}</div>
     );
 
@@ -35,7 +35,7 @@ class SocialLinks extends Component {
           <RedditShareButton url={url} title={post.title}>
             <RedditIcon round size={iconSize} />
             <RedditShareCount url={url}>
-              {count => renderShareCount(count)}
+              {(count) => renderShareCount(count)}
             </RedditShareCount>
           </RedditShareButton>
         </div>
@@ -55,10 +55,10 @@ class SocialLinks extends Component {
             url={url}
             title={post.title}
             description={postNode.excerpt}
-            >
+          >
             <LinkedinIcon round size={iconSize} />
             <LinkedinShareCount url={url}>
-              {count => renderShareCount(count)}
+              {(count) => renderShareCount(count)}
             </LinkedinShareCount>
           </LinkedinShareButton>
         </div>

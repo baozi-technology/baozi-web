@@ -5,22 +5,22 @@
 //     justify-content: center;
 // }
 
-.subTitle{
-    max-width: 700px;
+.subTitle {
+  max-width: 700px;
 }
 
-.cover{
-    width:400px;
+.cover {
+  width: 400px;
 }
 
-@media only screen and (max-width: 1450px) and (min-width:1001px) {
-    .cover {
-        width:300px;
-    }
+@media only screen and (max-width: 1450px) and (min-width: 1001px) {
+  .cover {
+    width: 300px;
+  }
 }
 
-@media only screen and (max-width: 1000px){
-    .cover{
-        width:200px;
-    }
+@media only screen and (max-width: 1000px) {
+  .cover {
+    width: 200px;
+  }
 }

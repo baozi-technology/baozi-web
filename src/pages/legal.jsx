@@ -9,20 +9,22 @@ import SEO from "../components/SEO/SEO";
 
 class Legal extends React.Component {
   render() {
-    const articleContent =
-    (<ArticleContent subTitle="Baozi Technology SAS is a French company - this is a legal obligation"/>);
-    const showcaseContent = 
-      (<ShowcaseContent 
-        title="Mentions légales (fr)" 
-        articleContent={articleContent}>
-      </ShowcaseContent>);
+    const articleContent = (
+      <ArticleContent subTitle="Baozi Technology SAS is a French company - this is a legal obligation" />
+    );
+    const showcaseContent = (
+      <ShowcaseContent
+        title="Mentions légales (fr)"
+        articleContent={articleContent}
+      ></ShowcaseContent>
+    );
 
     return (
       <Layout showcaseContent={showcaseContent}>
         <Helmet title={`About | ${config.siteTitle}`} />
         <SEO />
-        <hr/>
-        <LegalNotice/>
+        <hr />
+        <LegalNotice />
       </Layout>
     );
   }
