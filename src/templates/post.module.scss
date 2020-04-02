@@ -16,15 +16,58 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
+
 .contentContainer {
-  flex-basis: 700px; // needed or blockquote/quote will not respect the container width...
-  max-width: 700px;
+    flex-basis: 700px; // needed or blockquote/quote will not respect the container width...
+    max-width: 700px;
+    flex-grow: 1;
+}
+
+.otherElementsContainer{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .socialLinks {
-  max-width: 700px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prevNextContainer {
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.prevContainer {
+    margin-top: 1em;
+    flex: 1 1 auto;
+}
+
+.nextContainer {
+    margin-top: 1em;
+    flex: 0 0 auto;
+}
+
+.maxWidth {
+    max-width: 300px;
+}
+
+.commentoContainer {
+    margin-top: 1em;
 }
 
 // // https://every-layout.dev/layouts/sidebar/
@@ -65,35 +108,3 @@
 //   align-items: center;
 // }
 /////
-
-.socialLinks {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.prevNextContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
-
-.prevContainer {
-  margin-top: 1em;
-  flex: 1 1 auto;
-}
-
-.nextContainer {
-  margin-top: 1em;
-  flex: 0 0 auto;
-}
-
-.maxWidth {
-  max-width: 300px;
-}
-
-.commentoContainer {
-  margin-top: 1em;
-}

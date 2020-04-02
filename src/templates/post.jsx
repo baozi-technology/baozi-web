@@ -56,31 +56,37 @@ export default class PostTemplate extends React.Component {
                 />
               </div>
             </div>
-            <div className={styles.socialLinks}>
-              {/* <PostTags tags={post.tags} /> */}
-              <SocialLinks postPath={slug} postNode={postNode} />
-            </div>
-            {/* <UserInfo config={config} /> */}
-          </div>
-          <div className={styles.prevNextContainer}>
-            <div className={styles.prevContainer}>
-              <div className={[styles.nextPrevText, styles.maxWdith].join(" ")}>
-                Previous article:
+            <div className={styles.otherElementsContainer}>
+              <div className={styles.socialLinks}>
+                {/* <PostTags tags={post.tags} /> */}
+                <SocialLinks postPath={slug} postNode={postNode} />
               </div>
-              <div className={styles.maxWidth}>
-                <Link to={nextslug}>
-                  {nexttitle} {/* date reverse order... */}
-                </Link>
-              </div>
-            </div>
-            <div className={styles.nextContainer}>
-              <div className={[styles.nextPrevText, styles.maxWdith].join(" ")}>
-                Next article:
-              </div>
-              <div className={styles.maxWidth}>
-                <Link to={prevslug}>
-                  {prevtitle} {/* date reverse order... */}
-                </Link>
+              {/* <UserInfo config={config} /> */}
+              <div className={styles.prevNextContainer}>
+                <div className={styles.prevContainer}>
+                  <div
+                    className={[styles.nextPrevText, styles.maxWdith].join(" ")}
+                  >
+                    Previous article:
+                  </div>
+                  <div className={styles.maxWidth}>
+                    <Link to={nextslug}>
+                      {nexttitle} {/* date reverse order... */}
+                    </Link>
+                  </div>
+                </div>
+                <div className={styles.nextContainer}>
+                  <div
+                    className={[styles.nextPrevText, styles.maxWdith].join(" ")}
+                  >
+                    Next article:
+                  </div>
+                  <div className={styles.maxWidth}>
+                    <Link to={prevslug}>
+                      {prevtitle} {/* date reverse order... */}
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
