@@ -10,17 +10,11 @@
 }
 
 .cover {
-  width: 400px;
-}
-
-@media only screen and (max-width: 1450px) and (min-width: 1001px) {
-  .cover {
     width: 300px;
-  }
 }
 
 @media only screen and (max-width: 1000px) {
-  .cover {
-    width: 200px;
-  }
+    .cover {
+        width: 200px;
+    }
 }

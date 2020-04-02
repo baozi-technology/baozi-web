@@ -22,8 +22,8 @@
 }
 
 .cover {
-  width: 400px;
-  align-self: center;
+    width: 300px;
+    align-self: center;
 }
 
 .mustRead {
@@ -72,14 +72,8 @@
   font-size: 0.8em;
 }
 
-@media only screen and (max-width: 1450px) and (min-width: 1001px) {
-  .cover {
-    width: 300px;
-  }
-}
-
 @media only screen and (max-width: 1000px) {
-  .cover {
-    width: 200px;
-  }
+    .cover {
+        width: 200px;
+    }
 }
