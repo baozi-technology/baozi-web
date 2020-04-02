@@ -5,7 +5,8 @@ const config = {
   siteLogo: "logos/baozi-technology-full-logo-square-gray.png", // Logo used for SEO and manifest.
   siteUrl: "https://baozi.technology", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "Nicolas's blog, featuring articles about floss ethics/business and Erlang/Elixir/OTP. Watch him eating baozi! Hire him as a freelance developer!", // Website description used for RSS feeds/meta description tag.
+  siteDescription:
+    "Nicolas's blog, featuring articles about floss ethics/business and Erlang/Elixir/OTP. Watch him eating baozi! Hire him as a freelance developer!", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "DD-MM-YYYY", // Date format used in the frontmatter.
@@ -16,19 +17,19 @@ const config = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/baozi-technology",
-      iconClassName: "fab fa-github"
+      url: "https://github.com/nicobao",
+      iconClassName: "fab fa-github",
     },
     {
       label: "LinkedIn",
       url: "https://www.linkedin.com/in/nicolas-gimenez-5155aba1/",
-      iconClassName: "fab fa-linkedin"
+      iconClassName: "fab fa-linkedin",
     },
     {
       label: "Email",
       url: "mailto:nicolas.gimenez@baozi.technology",
-      iconClassName: "far fa-envelope"
-    }
+      iconClassName: "far fa-envelope",
+    },
   ],
   copyright: "COPYRIGHT © 2019 BAOZI TECHNOLOGY SAS", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#fefefe", // Used for setting manifest and progress theme colors.
@@ -54,4 +55,3 @@ if (config.siteRss && config.siteRss[0] !== "/")
   config.siteRss = `/${config.siteRss}`;
 
 module.exports = config;
-
