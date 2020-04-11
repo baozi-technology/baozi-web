@@ -39,17 +39,13 @@ const Footer = () => {
                   trademarks of Baozi Technology SAS.
                 </p>
                 <p className={styles.reduceParagraphGap}>
-                  Nicolas retains full copyright over the articles.
-                </p>
-                <p className={styles.reduceParagraphGap}>
                   Unless otherwise stated, all contents of this site except the
                   logos and the photos of Nicolas are licensed under the{" "}
-                  <a href="https://creativecommons.org/licenses/by-nd/4.0/">
+                  <a href="https://creativecommons.org/licenses/by/4.0/deed.en">
                     {" "}
-                    CC-BY-ND 4.0 International license
+                    Creative Commons Attribution 4.0 International License
                   </a>
-                  . In other words, share generously but give attribution and do
-                  no alter content. Quoting is fine.
+                  . In other words, share generously but provide attribution.
                 </p>
               </div>
             </div>
@@ -67,7 +63,7 @@ const Footer = () => {
                   I try my hardest to be kind, respectful, and transparent and
                   ask the same respect from readers. For this reason, rude,
                   offensive, or harmful comments will not be tolerated. You are
-                  welcome to disagree, but just do it nicely!
+                  welcome to disagree, but just do it respectfully!
                 </p>
               </div>
             </div>
@@ -77,15 +73,16 @@ const Footer = () => {
               </div>
               <div>
                 <p className={styles.reduceParagraphGap}>
-                  I made this website using{" "}
+                  This website is based on{" "}
                   <a href="https://github.com/Vagr9K/gatsby-advanced-starter">
                     Gatsby Advanced Starter
                   </a>{" "}
-                  and it is kindly hosted by{" "}
-                  <a href="httpspadding container small screen://www.netlify.com">
-                    Netlify
-                  </a>
-                  .
+                  and hosted on <a href="https://www.netlify.com">Netlify</a>.
+                </p>
+                <p className={styles.reduceParagraphGap}>
+                  Special thanks to{" "}
+                  <a href="https://github.com/jonniebigodes">João Cardoso</a>{" "}
+                  for his contribution.
                 </p>
                 <p className={styles.reduceParagraphGap}>
                   Found a gotcha'? Open an issue or send a pull-request{" "}

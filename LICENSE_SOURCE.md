@@ -1,4 +1,4 @@
-The following licenses does NOT apply to
+The following licenses does NOT apply to:
 - images/logos and
 - contents (Markdown/ASCIIDOC post, raw text ultimately displayed contained within .js files...etc).
 
