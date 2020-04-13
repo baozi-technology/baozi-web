@@ -9,7 +9,7 @@ tags:
     - spacemacs
 ---
 
-If you don't use Emacs/Spacemacs/Doom Emacs in evil-mode, please do it. It is a difficult learning experience but it will enhance your life as a developer x100 for the rest of your days.
+If you don't use Emacs/Spacemacs/Doom Emacs in evil-mode, give it a try! It is a difficult learning experience but it will enhance your life as a developer x100 for the rest of your days.
 
 # Problem
 
