@@ -31,7 +31,7 @@ const config = {
       iconClassName: "far fa-envelope",
     },
   ],
-  copyright: "COPYRIGHT © 2019 BAOZI TECHNOLOGY SAS", // Copyright string for the footer of the website and RSS feed.
+  copyright: "COPYRIGHT © 2019 NICOLAS GIMENEZ", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#fefefe", // Used for setting manifest and progress theme colors.
   backgroundColor: "#555", // Used for setting manifest background color.
 };
