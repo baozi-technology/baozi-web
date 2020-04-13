@@ -34,7 +34,7 @@ BSD+Patent
 
 Note: This license is designed to provide: a) a simple permissive license; b) that is compatible with the GNU General Public License (GPL), version 2; and c) which also has an express patent grant included.
 
-Copyright (c) 2019 Baozi Technology SAS <nicolas.gimenez@baozi.technology>
+Copyright (c) 2019 Nicolas Gimenez <nicolas.gimenez@baozi.technology>
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
