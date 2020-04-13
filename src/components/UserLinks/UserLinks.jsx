@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./UserLinks.module.scss";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,6 +6,10 @@ import {
   faLinkedin,
   faStackExchange,
 } from "@fortawesome/free-brands-svg-icons";
+
+import styles from "./UserLinks.module.scss";
+
+const siteConfig = require("../../../data/SiteConfig");
 
 // class UserLinks extends Component {
 //   getLinkElements() {
@@ -44,26 +47,26 @@ function UserLinks({ isSplit = false }) {
         <div className={styles.rowFlexContainer}>
           <div className={styles.contentContainer}>
             <a
-              title="nicolas.gimenez@baozi.technology"
-              href="mailto:nicolas.gimenez@baozi.technology"
+              title={siteConfig.userEmail}
+              href={"mailto:".concat(siteConfig.userEmail)}
             >
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </div>
           <div className={styles.contentContainer}>
-            <a href="https://www.linkedin.com/in/nicolas-gimenez-5155aba1/">
+            <a href={siteConfig.userLinkedIn}>
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
         </div>
         <div className={styles.rowFlexContainer}>
           <div className={styles.contentContainer}>
-            <a href="https://github.com/baozi-technology">
+            <a href={siteConfig.userGitHub}>
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
           <div className={styles.contentContainer}>
-            <a href="https://stackexchange.com/users/10722664/n-gimenez?tab=accounts">
+            <a href={siteConfig.userStackExchange}>
               <FontAwesomeIcon icon={faStackExchange} />
             </a>
           </div>
@@ -75,24 +78,24 @@ function UserLinks({ isSplit = false }) {
       <div className={styles.userLinksNotSplit}>
         <div className={styles.contentContainer}>
           <a
-            title="nicolas.gimenez@baozi.technology"
-            href="mailto:nicolas.gimenez@baozi.technology"
+            title={siteConfig.userEmail}
+            href={"mailto:".concat(siteConfig.userEmail)}
           >
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </div>
         <div className={styles.contentContainer}>
-          <a href="https://www.linkedin.com/in/nicolas-gimenez-5155aba1/">
+          <a href={siteConfig.userLinkedIn}>
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
         <div className={styles.contentContainer}>
-          <a href="https://github.com/baozi-technology">
+          <a href={siteConfig.userGitHub}>
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
         <div className={styles.contentContainer}>
-          <a href="https://stackexchange.com/users/10722664/n-gimenez?tab=accounts">
+          <a href={siteConfig.userStackExchange}>
             <FontAwesomeIcon icon={faStackExchange} />
           </a>
         </div>

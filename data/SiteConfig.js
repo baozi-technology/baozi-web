@@ -14,23 +14,10 @@ const config = {
   userName: "Nicolas Gimenez", // Username to display in the author segment.
   userEmail: "nicolas.gimenez@baozi.technology", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLinks: [
-    {
-      label: "GitHub",
-      url: "https://github.com/nicobao",
-      iconClassName: "fab fa-github",
-    },
-    {
-      label: "LinkedIn",
-      url: "https://www.linkedin.com/in/nicolas-gimenez-5155aba1/",
-      iconClassName: "fab fa-linkedin",
-    },
-    {
-      label: "Email",
-      url: "mailto:nicolas.gimenez@baozi.technology",
-      iconClassName: "far fa-envelope",
-    },
-  ],
+  userGitHub: "https://github.com/nicobao",
+  userLinkedIn: "https://www.linkedin.com/in/nicolas-gimenez-5155aba1/",
+  userStackExchange:
+    "https://stackexchange.com/users/10722664/n-gimenez?tab=accounts",
   copyright: "COPYRIGHT © 2019 NICOLAS GIMENEZ", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#fefefe", // Used for setting manifest and progress theme colors.
   backgroundColor: "#555", // Used for setting manifest background color.
