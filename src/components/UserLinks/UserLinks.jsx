@@ -2,7 +2,11 @@ import React, { Component } from "react";
 import styles from "./UserLinks.module.scss";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faStackExchange,
+} from "@fortawesome/free-brands-svg-icons";
 
 // class UserLinks extends Component {
 //   getLinkElements() {
@@ -52,6 +56,11 @@ class UserLinks extends Component {
         <div className={styles.contentContainer}>
           <a href="https://www.linkedin.com/in/nicolas-gimenez-5155aba1/">
             <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+          </a>
+        </div>
+        <div className={styles.contentContainer}>
+          <a href="https://stackexchange.com/users/10722664/n-gimenez?tab=accounts">
+            <FontAwesomeIcon icon={faStackExchange}></FontAwesomeIcon>
           </a>
         </div>
       </div>

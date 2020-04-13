@@ -27,7 +27,7 @@ export default class Drawer extends React.Component {
   };
 
   openDrawer() {
-    document.getElementById("drawerID").style.width = "200px";
+    document.getElementById("drawerID").style.width = "250px";
     document.getElementById("drawerID").style.opacity = 1;
     document.getElementById("drawerOverlay").style.width = "100%";
     document.getElementById("drawerOverlay").style.height = "100%";
