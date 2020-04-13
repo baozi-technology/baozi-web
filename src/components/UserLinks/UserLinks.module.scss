@@ -1,6 +1,6 @@
 .userLinks {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   // flex-wrap: wrap;
   justify-content: center;
   align-content: center;
@@ -9,6 +9,28 @@
   font-size: 36px;
 }
 
-.userLinks > div {
+.rowFlexContainer > div {
   margin: 5px 15px;
+}
+
+.rowFlexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.userLinksNotSplit {
+    display: flex;
+    flex-direction: row;
+    // flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 36px;
+}
+
+.userLinksNotSplit > div {
+    margin: 5px 15px;
 }

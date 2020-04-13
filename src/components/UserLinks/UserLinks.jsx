@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styles from "./UserLinks.module.scss";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -36,36 +36,70 @@ import {
 //   }
 // }
 
-class UserLinks extends Component {
-  render() {
-    return (
+function UserLinks({ isSplit = false }) {
+  let toReturn;
+  if (isSplit) {
+    toReturn = (
       <div className={styles.userLinks}>
+        <div className={styles.rowFlexContainer}>
+          <div className={styles.contentContainer}>
+            <a
+              title="nicolas.gimenez@baozi.technology"
+              href="mailto:nicolas.gimenez@baozi.technology"
+            >
+              <FontAwesomeIcon icon={faEnvelope} />
+            </a>
+          </div>
+          <div className={styles.contentContainer}>
+            <a href="https://www.linkedin.com/in/nicolas-gimenez-5155aba1/">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </div>
+        </div>
+        <div className={styles.rowFlexContainer}>
+          <div className={styles.contentContainer}>
+            <a href="https://github.com/baozi-technology">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </div>
+          <div className={styles.contentContainer}>
+            <a href="https://stackexchange.com/users/10722664/n-gimenez?tab=accounts">
+              <FontAwesomeIcon icon={faStackExchange} />
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+  } else {
+    toReturn = (
+      <div className={styles.userLinksNotSplit}>
         <div className={styles.contentContainer}>
           <a
             title="nicolas.gimenez@baozi.technology"
             href="mailto:nicolas.gimenez@baozi.technology"
           >
-            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
-          </a>
-        </div>
-        <div className={styles.contentContainer}>
-          <a href="https://github.com/baozi-technology">
-            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </div>
         <div className={styles.contentContainer}>
           <a href="https://www.linkedin.com/in/nicolas-gimenez-5155aba1/">
-            <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+        </div>
+        <div className={styles.contentContainer}>
+          <a href="https://github.com/baozi-technology">
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
         <div className={styles.contentContainer}>
           <a href="https://stackexchange.com/users/10722664/n-gimenez?tab=accounts">
-            <FontAwesomeIcon icon={faStackExchange}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faStackExchange} />
           </a>
         </div>
       </div>
     );
   }
+  return toReturn;
 }
 
 export default UserLinks;
