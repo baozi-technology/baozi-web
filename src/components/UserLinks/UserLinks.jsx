@@ -1,4 +1,7 @@
 import React from "react";
+// This ensures that the icon CSS is loaded immediately before attempting to render icons
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,6 +13,9 @@ import {
 import styles from "./UserLinks.module.scss";
 
 const siteConfig = require("../../../data/SiteConfig");
+
+// Prevent fontawesome from dynamically adding its css since we did it manually above
+config.autoAddCss = false;
 
 // class UserLinks extends Component {
 //   getLinkElements() {

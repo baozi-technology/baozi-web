@@ -6,11 +6,6 @@
   align-content: center;
   align-items: center;
   margin: 15px 0;
-  font-size: 36px;
-}
-
-.rowFlexContainer > div {
-  margin: 5px 15px;
 }
 
 .rowFlexContainer {
@@ -28,9 +23,13 @@
     align-content: center;
     align-items: center;
     margin: 15px 0;
-    font-size: 36px;
 }
 
 .userLinksNotSplit > div {
     margin: 5px 15px;
+}
+
+.contentContainer {
+    margin: 5px 15px;
+    font-size: 36px;
 }
