@@ -6,7 +6,7 @@ const config = {
   siteUrl: "https://baozi.technology", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription:
-    "Nicolas's blog, featuring articles about floss ethics/business and Erlang/Elixir/OTP. Watch him eating baozi! Hire him as a freelance developer!", // Website description used for RSS feeds/meta description tag.
+    "Nicolas's blog, featuring articles about floss ethics/business, and various technologies. Watch him eating baozi! Hire him as a developer!", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "DD-MM-YYYY", // Date format used in the frontmatter.

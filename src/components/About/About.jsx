@@ -55,19 +55,18 @@ class About extends Component {
           </p>
           <p>
             Baozi Technology SAS registered in France is my company under which
-            I operate on freelance basis.
+            I operate.
           </p>
           <h2>I can help</h2>
           <p>
-            As of now, I am engaged in a full-time contract with a client.
-            However, starting from the summer 2020 I will be available remotely
-            or in Paris for any exciting freelance work. If you are interested
-            in working with me,{" "}
+            Interested in working with me?
+            I am available remotely or in Paris for any exciting work.
+            {" "}
             <a
               title="nicolas.gimenez@baozi.technology"
               href="mailto:nicolas.gimenez@baozi.technology"
             >
-              shoot me a message!
+              Shoot me a message!
             </a>
           </p>
         </div>
