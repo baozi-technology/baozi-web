@@ -1,6 +1,6 @@
 ---
 title: "Migrating to Emacs 27 is necessary to edit .dart files with lsp-mode"
-cover: "../../static/images/pieter-hintjens-1.jpg"
+cover: "../../static/images/dart-logo.png"
 date: "28-04-2020"
 author: "Nicolas Gimenez"
 category: "tech"
@@ -18,7 +18,7 @@ Spacemacs was literally randomly freezing when editing .dart files.
 
 # Analysis
 
-It turns out that it is an [issue related to using dart_language_server via lsp-mode with Emacs 26.3](https://github.com/syl20bnr/spacemacs/issues/12820#issuecomment-620433013).
+It turns out that it is an [issue related to using dart\_language\_server via lsp-mode with Emacs 26.3](https://github.com/syl20bnr/spacemacs/issues/12820#issuecomment-620433013).
 
 # Solution
 
@@ -31,7 +31,7 @@ I am on Fedora and even though Emacs 27 is stable and the Emacs team are working
 Browse https://alpha.gnu.org/pub/pub/gnu/emacs/pretest/ and download the source tar.xz manually or run `wget https://alpha.gnu.org/pub/pub/gnu/emacs/pretest/emacs-27.0.91.tar.xz` in a terminal.
 Note that the official Emacs instructions that you can find at [INSTALL](https://github.com/emacs-mirror/emacs/blob/master/INSTALL) suggests to do the following:
 
-```
+```bash
   1.  Obtain and unpack the Emacs release, with commands like this:
 
                  wget https://ftp.gnu.org/gnu/emacs/emacs-VERSION.tar.xz
@@ -51,13 +51,17 @@ Uninstall your old version of Emacs (26.3 here). How to uninstall depends on how
 
 On Fedora:
 
-`sudo dnf remove emacs`
+```bash
+sudo dnf remove emacs
+```
 
 ### Install required dependencies
 
 On Fedora, you would run:
 
-`sudo dnf install gtk3-devel-docs-3.24.18-1.fc32.x86_64 gtk3-devel-3.24.18-1.fc32.x86_64 gtk3-immodules-3.24.18-1.fc32.x86_64 gtk3-tests-3.24.18-1.fc32.x86_64 motif-devel.x86_64 giflib.x86_64 giflib-devel.x86_64 libtiff.x86_64 libtiff-devel.x86_64 libtiff-tools.x86_64 libtiff-static.x86_64 gnutls-devel.x86_64 gnutls.x86_64 gnutls-utils.x86_64 libXpm.x86_64 libXpm-devel.x86_64 ncurses.x86_64 ncurses-libs.x86_64 ncurses-devel.x86_64 ncurses-static.x86_64`
+```bash
+sudo dnf install gtk3-devel-docs-3.24.18-1.fc32.x86_64 gtk3-devel-3.24.18-1.fc32.x86_64 gtk3-immodules-3.24.18-1.fc32.x86_64 gtk3-tests-3.24.18-1.fc32.x86_64 motif-devel.x86_64 giflib.x86_64 giflib-devel.x86_64 libtiff.x86_64 libtiff-devel.x86_64 libtiff-tools.x86_64 libtiff-static.x86_64 gnutls-devel.x86_64 gnutls.x86_64 gnutls-utils.x86_64 libXpm.x86_64 libXpm-devel.x86_64 ncurses.x86_64 ncurses-libs.x86_64 ncurses-devel.x86_64 ncurses-static.x86_64
+```
 
 The `static`, `utils` and `doc` lib are most likely not necessary - I just always like adding the whole family ;).
 
@@ -87,7 +91,9 @@ It is NOT installed automatically with the steps above.
 You do not need to write the .desktop file by yourself. 
 The file already preexists in the source .tar.xz you've downloaded. Simply run:
 
-`sudo cp /opt/emacs-27.0.91/etc/emacs.desktop /usr/share/applications/`
+```bash
+sudo cp /opt/emacs-27.0.91/etc/emacs.desktop /usr/share/applications/
+```
 
 Now there should be a UI entry for Emacs.
 
@@ -97,7 +103,8 @@ The `lsp` layer does not include `lsp-dart` in Emacs 27+ because lsp-dart into a
 Therefore, when you first open a .dart file with your newly installed Emacs 27, you will face [this issue](https://github.com/emacs-lsp/lsp-mode/issues/1606).
 It should be solved when [this pull-request](https://github.com/syl20bnr/spacemacs/pull/13518) will be merged.
 As a work-around for now, simply add `lsp-dart` in your additional-packages in the `~/.spacemacs` file:
-```   dotspacemacs-additional-packages
+```elisp   
+dotspacemacs-additional-packages
    '(
      lsp-dart
      ;; lsp-java
