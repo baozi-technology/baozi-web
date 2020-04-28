@@ -38,7 +38,7 @@ Note that the official Emacs instructions that you can find at [INSTALL](https:/
                  tar -xf emacs-VERSION.tar.xz
 ```
 
-however `https://ftp.gnu.org/gnu/emacs` does not contain the development versions and thus does not contain Emacs 27+.
+however https://ftp.gnu.org/gnu/emacs does not contain the development versions and thus does not contain Emacs 27+.
 
 ### Prepare your tar ball
 
@@ -69,7 +69,7 @@ If you don't install them now, Emacs will whine at the `./configure` step. Just 
 
 ### Actually start the installation
 
-Simply read the `INSTALL` file. You have all the instructions there. But for the sake of being exhaustive I'll list here the steps quickly:
+Simply read the `INSTALL` file. It is a classic `GNU make` installation. You have all the instructions there. But for the sake of being exhaustive I'll list here the steps quickly:
 
 * `./configure`
 * check that everything went ok or else install dependencies
