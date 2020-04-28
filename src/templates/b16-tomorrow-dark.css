@@ -18,8 +18,8 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: #1d1f21;
-  color: #c5c8c6;
+  background: #eeeaea;
+  border-radius:10px; 
 }
 
 pre[class*="language-"]::-moz-selection,
