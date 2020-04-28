@@ -8,7 +8,7 @@ pre[class*="language-"] {
   line-height: 1.375;
   direction: ltr;
   text-align: left;
-  white-space: pre;
+  white-space: pre-wrap; /* https://github.com/PrismJS/prism/issues/1237#issuecomment-369846817 */
   word-spacing: normal;
   word-break: normal;
   -moz-tab-size: 4;
