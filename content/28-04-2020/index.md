@@ -97,7 +97,7 @@ sudo cp /opt/emacs-27.0.91/etc/emacs.desktop /usr/share/applications/
 
 Now there should be a UI entry for Emacs.
 
-## Modify you .spacemacs with lsp-dart in additional-packages
+## Add lsp-dart to additional-packages in .spacemacs
 
 The `lsp` layer does not include `lsp-dart` in Emacs 27+ because lsp-dart was move to a separate package.
 Therefore, when you first open a .dart file with your newly installed Emacs 27, you will face [this issue](https://github.com/emacs-lsp/lsp-mode/issues/1606).
