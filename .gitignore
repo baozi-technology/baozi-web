@@ -63,3 +63,4 @@ bundle-stats.json
 # Emacs
 *.out
 *.tern-port
+*.#*
