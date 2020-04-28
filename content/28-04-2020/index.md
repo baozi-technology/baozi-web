@@ -99,7 +99,7 @@ Now there should be a UI entry for Emacs.
 
 ## Modify you .spacemacs with lsp-dart in additional-packages
 
-The `lsp` layer does not include `lsp-dart` in Emacs 27+ because lsp-dart into a separate package.
+The `lsp` layer does not include `lsp-dart` in Emacs 27+ because lsp-dart was move to a separate package.
 Therefore, when you first open a .dart file with your newly installed Emacs 27, you will face [this issue](https://github.com/emacs-lsp/lsp-mode/issues/1606).
 It should be solved when [this pull-request](https://github.com/syl20bnr/spacemacs/pull/13518) will be merged.
 As a work-around for now, simply add `lsp-dart` in your additional-packages in the `~/.spacemacs` file:
