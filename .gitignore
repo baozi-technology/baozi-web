@@ -59,3 +59,7 @@ public/
 bundle-stats.json
 
 .idea/
+
+# Emacs
+*.out
+*.tern-port
