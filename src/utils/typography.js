@@ -1,5 +1,6 @@
 import Typography from "typography";
 import irving from "typography-theme-irving";
+
 irving.overrideThemeStyles = () => ({
   html: {
     overflowY: "initial",
