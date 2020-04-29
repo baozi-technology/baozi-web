@@ -13,7 +13,7 @@ tags:
 
 # Problem
 
-I am currently working on [the Dart client to connect to Kyrpton Authentification Server](https://github.com/krypton-org/krypton-flutter). 
+I am currently working on [the Dart client to connect to Krypton Authentification Server](https://github.com/krypton-org/krypton-flutter). 
 Spacemacs was literally randomly freezing when editing .dart files. 
 
 # Analysis
