@@ -59,12 +59,6 @@ const Footer = () => {
                   topics and may not reflect views from any entity I was, am now
                   or will be affiliated with.
                 </p>
-                <p className={styles.reduceParagraphGap}>
-                  I try my hardest to be kind, respectful, and transparent and
-                  ask the same respect from readers. For this reason, rude,
-                  offensive, or harmful comments will not be tolerated. You are
-                  welcome to disagree, but just do it respectfully!
-                </p>
               </div>
             </div>
             <div className={styles.coreElementContainer}>
