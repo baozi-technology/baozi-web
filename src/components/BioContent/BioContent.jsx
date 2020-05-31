@@ -41,7 +41,7 @@ const BioContent = (props) => {
   var bio = (
     <span>
       Hi! I’m Nicolas – fullstack software engineer based in France. My main
-      areas of expertise are desktop applications and concurrent backend
+      area of expertise is concurrent backend
       services dealing with various non-standard protocols. My passions are
       solving complex problems using technology and {baozi}.
     </span>
