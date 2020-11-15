@@ -64,3 +64,7 @@ bundle-stats.json
 *.out
 *.tern-port
 *.#*
+
+# Ruby
+vendor/
+.bundle/

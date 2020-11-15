@@ -62,6 +62,7 @@ class PostListing extends React.Component {
           </div>
           <div className={styles.coverContainer}>
             <Img
+              loading="eager"
               className={styles.cover}
               fluid={post.cover.childImageSharp.fluid}
             />

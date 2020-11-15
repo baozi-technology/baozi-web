@@ -36,7 +36,7 @@ const Footer = () => {
               <div>
                 <p className={styles.reduceParagraphGap}>
                   "BAOZI", "BAOZI TECHNOLOGY" and the logos are registered
-                  trademarks of Baozi Technology SAS.
+                  trademarks.
                 </p>
                 <p className={styles.reduceParagraphGap}>
                   Unless otherwise stated, all contents of this site except the

@@ -6,6 +6,8 @@ import { Link } from "gatsby";
 const BioContent = (props) => {
   const meEatingBaozi = "/avatars/me-eating-baozi-square-transparent.gif";
   const meNormal = "/avatars/nico_catch_yuting.jpg";
+  preLoadImage(meNormal);
+  preLoadImage(meEatingBaozi);
 
   // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
   useEffect(() => {
@@ -40,10 +42,9 @@ const BioContent = (props) => {
   const isLink = props.isLink;
   var bio = (
     <span>
-      Hi! I’m Nicolas – fullstack software engineer based in France. My main
-      area of expertise is concurrent backend
-      services dealing with various non-standard protocols. My passions are
-      solving complex problems using technology and {baozi}.
+      Hi! I’m Nicolas – full stack software engineer based in France. My main
+      areas of interest are developer tools and exploring the bridges between
+      programming languages. I also love maths and {baozi}.
     </span>
   );
   var content;

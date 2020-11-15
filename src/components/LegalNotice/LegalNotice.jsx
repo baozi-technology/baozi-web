@@ -14,8 +14,7 @@ export default () => (
         suivi :
       </p>
       <p>
-        <strong>Propriétaire</strong> : Baozi Technology – SAS 843.229.311.00017
-        – 280 Rue James Watt ZAE Tecnosud 66100 Perpignan
+        <strong>Propriétaire</strong> : Nicolas Gimenez
         <br />
         <strong>Créateur</strong> :{" "}
         <a href="https://baozi.technology">Nicolas Gimenez</a>
@@ -23,8 +22,7 @@ export default () => (
         <strong>Responsable publication</strong> : Nicolas Gimenez –
         nicolas.gimenez@baozi.technology
         <br />
-        Le responsable publication est une personne physique ou une personne
-        morale.
+        Le responsable publication est une personne physique.
         <br />
         <strong>Webmaster</strong> : Nicolas Gimenez –
         nicolas.gimenez@baozi.technology
@@ -58,7 +56,7 @@ export default () => (
       <p>
         Ce site est normalement accessible à tout moment aux utilisateurs. Une
         interruption pour raison de maintenance technique peut être toutefois
-        décidée par Baozi Technology, qui s’efforcera alors de communiquer
+        décidée par Nicolas Gimenez, qui s’efforcera alors de communiquer
         préalablement aux utilisateurs les dates et heures de l’intervention.
       </p>
       <p>
@@ -75,7 +73,7 @@ export default () => (
         la société.
       </p>
       <p>
-        Baozi Technology s’efforce de fournir sur le site{" "}
+        Nicolas Gimenez s’efforce de fournir sur le site{" "}
         <a href="http://baozi.technology/">baozi.technology</a> des informations
         aussi précises que possible. Toutefois, il ne pourra être tenue
         responsable des omissions, des inexactitudes et des carences dans la
@@ -101,7 +99,7 @@ export default () => (
       </p>
       <h3>5. Propriété intellectuelle et contrefaçons.</h3>
       <p>
-        Baozi Technology est propriétaire des droits de propriété intellectuelle
+        Nicolas Gimenez est propriétaire des droits de propriété intellectuelle
         ou détient les droits d’usage sur tous les éléments accessibles sur le
         site, notamment les textes, images, graphismes, logo, icônes, sons,
         logiciels.
@@ -110,7 +108,7 @@ export default () => (
         Toute reproduction, représentation, modification, publication,
         adaptation de tout ou partie des éléments du site, quel que soit le
         moyen ou le procédé utilisé, est interdite, sauf autorisation écrite
-        préalable de : Baozi Technology.
+        préalable de : Nicolas Gimenez.
       </p>
       <p>
         Toute exploitation non autorisée du site ou de l’un quelconque des
@@ -120,14 +118,14 @@ export default () => (
       </p>
       <h3>6. Limitations de responsabilité.</h3>
       <p>
-        Baozi Technology ne pourra être tenue responsable des dommages directs
-        et indirects causés au matériel de l’utilisateur, lors de l’accès au
-        site baozi.technology, et résultant soit de l’utilisation d’un matériel
-        ne répondant pas aux spécifications indiquées au point 4, soit de
+        Nicolas Gimenez ne pourra être tenue responsable des dommages directs et
+        indirects causés au matériel de l’utilisateur, lors de l’accès au site
+        baozi.technology, et résultant soit de l’utilisation d’un matériel ne
+        répondant pas aux spécifications indiquées au point 4, soit de
         l’apparition d’un bug ou d’une incompatibilité.
       </p>
       <p>
-        Baozi Technology ne pourra également être tenue responsable des dommages
+        Nicolas Gimenez ne pourra également être tenue responsable des dommages
         indirects (tels par exemple qu’une perte de marché ou perte d’une
         chance) consécutifs à l’utilisation du site{" "}
         <a href="http://baozi.technology/">baozi.technology</a>.
@@ -138,7 +136,7 @@ export default () => (
         Technology se réserve le droit de supprimer, sans mise en demeure
         préalable, tout contenu déposé dans cet espace qui contreviendrait à la
         législation applicable en France, en particulier aux dispositions
-        relatives à la protection des données. Le cas échéant, Baozi Technology
+        relatives à la protection des données. Le cas échéant, Nicolas Gimenez
         se réserve également la possibilité de mettre en cause la responsabilité
         civile et/ou pénale de l’utilisateur, notamment en cas de message à
         caractère raciste, injurieux, diffamant, ou pornographique, quel que
@@ -160,7 +158,7 @@ export default () => (
       </p>
       <p>
         {" "}
-        En tout état de cause Baozi Technology ne collecte des informations
+        En tout état de cause Nicolas Gimenez ne collecte des informations
         personnelles relatives à l'utilisateur que pour le besoin de certains
         services proposés par le site{" "}
         <a href="http://baozi.technology/">baozi.technology</a>. L'utilisateur
@@ -203,7 +201,7 @@ export default () => (
       <p>
         Le site <a href="http://baozi.technology/">baozi.technology</a> contient
         un certain nombre de liens hypertextes vers d’autres sites, mis en place
-        avec l’autorisation de Baozi Technology. Cependant, Baozi Technology n’a
+        avec l’autorisation de Nicolas Gimenez. Cependant, Nicolas Gimenez n’a
         pas la possibilité de vérifier le contenu des sites ainsi visités, et
         n’assumera en conséquence aucune responsabilité de ce fait.
       </p>

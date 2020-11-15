@@ -15,7 +15,7 @@ const ArticleContent = (props) => {
             <h2 className={styles.subTitle}>{subTitle}</h2>
           </div>
           <div className={styles.coverContainer}>
-            <Img className={styles.cover} fluid={cover} />
+            <Img loading="eager" className={styles.cover} fluid={cover} />
           </div>
         </div>
       );
@@ -33,7 +33,7 @@ const ArticleContent = (props) => {
       content = (
         <div>
           <div className={styles.coverContainer}>
-            <Img className={styles.cover} fluid={cover} />
+            <Img loading="eager" className={styles.cover} fluid={cover} />
           </div>
         </div>
       );
