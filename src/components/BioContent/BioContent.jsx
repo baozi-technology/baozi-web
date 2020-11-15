@@ -6,8 +6,6 @@ import { Link } from "gatsby";
 const BioContent = (props) => {
   const meEatingBaozi = "/avatars/me-eating-baozi-square-transparent.gif";
   const meNormal = "/avatars/nico_catch_yuting.jpg";
-  preLoadImage(meNormal);
-  preLoadImage(meEatingBaozi);
 
   // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
   useEffect(() => {
