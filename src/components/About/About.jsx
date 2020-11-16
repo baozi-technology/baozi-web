@@ -57,7 +57,7 @@ class About extends Component {
           <h2>I can help</h2>
           <p>
             Interested in working with me? I am available remotely or in Paris
-            for any exciting open-source work written in a functional language.{" "}
+            for any exciting open-source work.{" "}
             <a
               title="nicolas.gimenez@baozi.technology"
               href="mailto:nicolas.gimenez@baozi.technology"

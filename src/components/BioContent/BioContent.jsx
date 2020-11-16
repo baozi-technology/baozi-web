@@ -6,26 +6,40 @@ import { Link } from "gatsby";
 const BioContent = (props) => {
   const meEatingBaozi = "/avatars/me-eating-baozi-square-transparent.gif";
   const meNormal = "/avatars/nico_catch_yuting.jpg";
+  const IMAGES = [meEatingBaozi, meNormal];
 
-  // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
-  useEffect(() => {
-    // https://fr.reactjs.org/docs/hooks-effect.html
-    preLoadImage(meEatingBaozi);
-    preLoadImage(meNormal);
-  });
-
-  function preLoadImage(imgFileName) {
-    const img = new Image();
-    img.src = imgFileName;
-  }
-
+  const [imgsLoaded, setImgsLoaded] = useState(false);
   const [click, setClick] = useState(false);
 
-  const baozi = (
-    <button className={styles.baozi} onClick={handleBaoziClick}>
-      eating baozi
-    </button>
-  );
+  function preLoadImage(imgFileName, resolve, reject) {
+    const img = new Image();
+    img.src = imgFileName;
+    img.onload = () => resolve(img.url);
+    img.onerror = (err) => reject(err);
+  }
+
+  // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
+  // https://codesandbox.io/s/react-image-preload-ptosn?file=/src/App.js:157-211
+  useEffect(() => {
+    // https://fr.reactjs.org/docs/hooks-effect.html
+    const loadImage = (image) => {
+      return new Promise((resolve, reject) => {
+        preLoadImage(meEatingBaozi, resolve, reject);
+      });
+    };
+    Promise.all(IMAGES.map((image) => loadImage(image)))
+      .then(() => setImgsLoaded(true))
+      .catch((err) => console.log("Failed to load images", err));
+  }, []);
+
+  let baozi = "eating baozi";
+  if (imgsLoaded) {
+    baozi = (
+      <button className={styles.baozi} onClick={handleBaoziClick}>
+        eating baozi
+      </button>
+    );
+  }
 
   function handleBaoziClick() {
     if (!click) {
