@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styles from "./About.module.scss";
 import { Link } from "gatsby";
+const siteConfig = require("../../../data/SiteConfig");
 
 class About extends Component {
   render() {
@@ -24,7 +25,7 @@ class About extends Component {
           <p>
             {" "}
             I recently started{" "}
-            <Link to="/ranch-under-the-hood">
+            <Link to={siteConfig.userGitHub}>
               getting involved in open-source projects
             </Link>
             . I love tweaking my{" "}
