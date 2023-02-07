@@ -18,7 +18,7 @@ class About extends Component {
 					<p>
 						I always try to code in the language the most suitable for each
 						project, regardless of my current knowledge and preferences. I am
-						currently most experienced in Java, Kotlin, Go and Python.
+						currently most experienced in Java, Kotlin, Typescript, Go and Python.
 					</p>
 					<p>
 						{" "}
