@@ -31,7 +31,7 @@ class About extends Component {
 							neovim config
 						</Link>
 						, and I spend lots of my time learning about the new technology and
-						business trends.
+						business trends. I recently started maintaining a <Link to="https://github.com/nicobao/personal-notebook">personal notebook</Link>.
 					</p>
 				</div>
 				<div className={[styles.myValuesContainer, styles.maxWidth].join(" ")}>
