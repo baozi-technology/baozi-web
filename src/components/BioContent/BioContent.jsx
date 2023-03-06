@@ -55,7 +55,7 @@ const BioContent = (props) => {
 	var bio = (
 		<span>
 			Hi! I’m Nicolas – full stack software engineer based in France. My main
-			areas of interest are developer tools, privacy tech, semantic web, decentralized identity and decentralized finance. I also love maths and {baozi}.
+			areas of interest are developer tools, privacy tech, applied cryptograhy, decentralized identity and distributed systems. I also love {baozi}.
 		</span>
 	);
 	var content;
