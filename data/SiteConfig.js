@@ -12,7 +12,7 @@ const config = {
   dateFromFormat: "DD-MM-YYYY", // Date format used in the frontmatter.
   dateFormat: "fr-FR", // Date format for display.
   userName: "Nicolas Gimenez", // Username to display in the author segment.
-  userEmail: "nicolas.gimenez@baozi.technology", // Email used for RSS feed's author segment
+  userEmail: "", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
   userGitHub: "https://github.com/nicobao",
   userLinkedIn: "https://www.linkedin.com/in/nicolas-gimenez-5155aba1/",

@@ -19,14 +19,10 @@ export default () => (
         <strong>Créateur</strong> :{" "}
         <a href="https://baozi.technology">Nicolas Gimenez</a>
         <br />
-        <strong>Responsable publication</strong> : Nicolas Gimenez –
-        nicolas.gimenez@baozi.technology
-        <br />
+        <strong>Responsable publication</strong> : Nicolas Gimenez<br />
         Le responsable publication est une personne physique.
         <br />
-        <strong>Webmaster</strong> : Nicolas Gimenez –
-        nicolas.gimenez@baozi.technology
-        <br />
+        <strong>Webmaster</strong> : Nicolas Gimenez<br />
         <strong>Hébergeur</strong> : Netlify, Inc – 2325 3rd St #215, San
         Francisco, USA
         <br />
